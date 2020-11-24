@@ -1,8 +1,8 @@
 ---
-date: 2020-11-24T21:04:00-04:00
+date: 2020-11-24
 description: "The First class"
-featured_image: "/images/Pope-Edouard-de-Beaumont-1844.jpg"
-tags: ["scene"]
+featured_image: "/images/L1.png"
+tags: ["Lecture"]
 title: "Class I: Introduction and History of Virtual Reality"
 ---
 
