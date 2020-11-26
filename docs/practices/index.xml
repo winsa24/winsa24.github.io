@@ -15,7 +15,8 @@
       <guid>https://winsa24.github.io/practices/p1/</guid>
       <description>Successfully set my first Hugo blog, by following https://gohugo.io/hosting-and-deployment/hosting-on-github/
 Link to my blog https://winsa24.github.io/
-Notes: Ways to update the pages: Git command as follow: rm -rf docs Hugo git add . git commit -m “test3&amp;quot; git push origin master</description>
+Need to learn Markdown grammar   Notes: Ways to update the pages: Git command as follow: rm -rf docs (optional) Hugo git add . git commit -m “something&amp;quot; git push origin master
+ </description>
     </item>
     
   </channel>
