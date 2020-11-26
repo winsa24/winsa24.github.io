@@ -8,21 +8,28 @@
     <language>en-us</language>
     <lastBuildDate>Tue, 24 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://winsa24.github.io/tags/lecture/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Class I: Introduction and History of Virtual Reality</title>
-      <link>https://winsa24.github.io/lectures/l1/</link>
-      <pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://winsa24.github.io/lectures/l1/</guid>
-      <description>This is the first class.</description>
-    </item>
-    
-    <item>
-      <title>Class I: Introduction and History of Virtual Reality</title>
+      <title>Lab I: Setup Blog</title>
       <link>https://winsa24.github.io/practices/p1/</link>
       <pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>https://winsa24.github.io/practices/p1/</guid>
-      <description>This is the first class.</description>
+      <description>Successfully set my first Hugo blog, by following https://gohugo.io/hosting-and-deployment/hosting-on-github/
+Link to my blog https://winsa24.github.io/
+Notes: Ways to update the pages: Git command as follow: rm -rf docs Hugo git add . git commit -m “test3&amp;quot; git push origin master</description>
+    </item>
+    
+    <item>
+      <title>Lecture I: Introduction and History of Virtual Reality</title>
+      <link>https://winsa24.github.io/lectures/l1/</link>
+      <pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/lectures/l1/</guid>
+      <description>###HCI: Moore’s Law : Ex. Microwave
+No intuitive design, but have good design : intelligently leverages cognitive and perceptual abilities
+Ex. Tap ###Definition: ###History: VR : rise and fall and rise ###Homework #1 Two scenario describe that MR could cause problems for users. Based on VIDEO Hyper - Reality : https://www.youtube.com/watch?v=YJg02ivYzSs
+Answer1:
+#2 Where to put Ultimate Display in the continuum? Based on PAPER http://citeseer.ist.psu.edu/viewdoc/summary?doi=10.1.1.136.3720
+Answer2: It bends the continuum. The Ultimate Display make the virtual into reality.</description>
     </item>
     
   </channel>

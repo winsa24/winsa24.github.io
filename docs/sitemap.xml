@@ -24,13 +24,6 @@
   </url>
   
   <url>
-    <loc>https://winsa24.github.io/lectures/l1/</loc>
-    <lastmod>2020-11-24T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://winsa24.github.io/practices/p1/</loc>
     <lastmod>2020-11-24T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -39,6 +32,13 @@
   
   <url>
     <loc>https://winsa24.github.io/tags/lecture/</loc>
+    <lastmod>2020-11-24T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://winsa24.github.io/lectures/l1/</loc>
     <lastmod>2020-11-24T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
