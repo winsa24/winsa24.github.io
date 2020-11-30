@@ -6,7 +6,18 @@
     <description>Recent content in Wei Xiang on Xiang&#39;s First Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 25 Nov 2020 12:00:00 -0500</lastBuildDate><atom:link href="https://winsa24.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 30 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://winsa24.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lab 2: Roll-A-Ball</title>
+      <link>https://winsa24.github.io/practices/p2/</link>
+      <pubDate>Mon, 30 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/practices/p2/</guid>
+      <description>New knowledge:  Change to Script Editor:   Unity Lifecycle: Start ( ) / FixedUpdate( ) / Update( )   Skipped step: transform Empty GO   Import TMP: Unshown steps in the tutorial
+Steps order
+  Tried to start game, but can&amp;rsquo;t control the the player. Have no reaction when kicking the keyboard. Find an error when create the Input Actions in the Assest folder. Tried to create the Input Actions in Inspector.</description>
+    </item>
+    
     <item>
       <title>Lab I: Setup Blog</title>
       <link>https://winsa24.github.io/practices/p1/</link>
@@ -14,9 +25,9 @@
       
       <guid>https://winsa24.github.io/practices/p1/</guid>
       <description>Successfully set my first Hugo blog, by following https://gohugo.io/hosting-and-deployment/hosting-on-github/
-Link to my blog https://winsa24.github.io/
-Need to learn Markdown grammar   Notes: Ways to update the pages: Git command as follow: rm -rf docs (optional) Hugo git add . git commit -m “something&amp;quot; git push origin master
- </description>
+ One thing need to be careful: DON&amp;rsquo;T forget to modify the settings in GitHub settings   Also remind to read the theme&amp;rsquo;s readme If I want to modify the theme, go to https://themes.gohugo.io/
+ Link to my blog https://winsa24.github.io/
+Need to learn Markdown grammar   Notes: Ways to update the pages: Git command as follow: rm -rf docs (optional) Hugo git add .</description>
     </item>
     
     <item>
@@ -37,12 +48,11 @@ Waiting for the course slide&amp;hellip;</description>
       <pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>https://winsa24.github.io/lectures/l1/</guid>
-      <description>###HCI: Moore’s Law : Ex. Microwave
+      <description>HCI: Moore’s Law : Ex. Microwave
 No intuitive design, but have good design : intelligently leverages cognitive and perceptual abilities
-Ex. Tap ###Definition: ###History: VR : rise and fall and rise ###Homework #1 Two scenario describe that MR could cause problems for users. Based on VIDEO Hyper - Reality : https://www.youtube.com/watch?v=YJg02ivYzSs
-Answer1:
-#2 Where to put Ultimate Display in the continuum? Based on PAPER http://citeseer.ist.psu.edu/viewdoc/summary?doi=10.1.1.136.3720
-Answer2: It bends the continuum. The Ultimate Display make the virtual into reality.</description>
+Ex. Tap Definition: History: VR : rise and fall and rise Homework 1 Two scenario describe that MR could cause problems for users. Based on VIDEO Hyper - Reality : https://www.youtube.com/watch?v=YJg02ivYzSs
+Scenario 1:
+The adopted pet in the supermarket might bit the user if he doesn’t get what he want. And the user may have hurt feeling.</description>
     </item>
     
     <item>

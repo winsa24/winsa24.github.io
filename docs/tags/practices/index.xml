@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>practices on Xiang&#39;s First Blog</title>
+    <link>https://winsa24.github.io/tags/practices/</link>
+    <description>Recent content in practices on Xiang&#39;s First Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 30 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://winsa24.github.io/tags/practices/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lab 2: Roll-A-Ball</title>
+      <link>https://winsa24.github.io/practices/p2/</link>
+      <pubDate>Mon, 30 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/practices/p2/</guid>
+      <description>New knowledge:  Change to Script Editor:   Unity Lifecycle: Start ( ) / FixedUpdate( ) / Update( )   Skipped step: transform Empty GO   Import TMP: Unshown steps in the tutorial
+Steps order
+  Tried to start game, but can&amp;rsquo;t control the the player. Have no reaction when kicking the keyboard. Find an error when create the Input Actions in the Assest folder. Tried to create the Input Actions in Inspector.</description>
+    </item>
+    
+  </channel>
+</rss>
