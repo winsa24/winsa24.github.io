@@ -14,8 +14,8 @@
       
       <guid>https://winsa24.github.io/practices/p2/</guid>
       <description>New knowledge:  Change to Script Editor:   Unity Lifecycle: Start ( ) / FixedUpdate( ) / Update( )   Skipped step: transform Empty GO   Import TMP: Unshown steps in the tutorial
-Steps order
-  Tried to start game, but can&amp;rsquo;t control the the player. Have no reaction when kicking the keyboard. Find an error when create the Input Actions in the Assest folder. Tried to create the Input Actions in Inspector.</description>
+  Steps order *
+   Tried to start game, but can&amp;rsquo;t control the the player. Have no reaction when kicking the keyboard. Find an error when create the Input Actions in the Assest folder.</description>
     </item>
     
   </channel>
