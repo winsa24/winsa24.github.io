@@ -6,7 +6,16 @@
     <description>Recent content in Lecture on Xiang&#39;s First Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://winsa24.github.io/tags/lecture/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 08 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://winsa24.github.io/tags/lecture/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lecture 4: VR Technology and Perception</title>
+      <link>https://winsa24.github.io/lectures/l4/</link>
+      <pubDate>Tue, 08 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/lectures/l4/</guid>
+      <description> Sensation developed other than hand   two types of haptic Ungrounded vs Grounded ad: flexiblity easier to control dis: limited force on human can&amp;rsquo;t adapat to all situation  </description>
+    </item>
+    
     <item>
       <title>Lecture 3: VR Technology and Perception</title>
       <link>https://winsa24.github.io/lectures/l3/</link>
@@ -18,7 +27,7 @@
     </item>
     
     <item>
-      <title>Lab I: Setup Blog</title>
+      <title>Lab 1: Setup Blog</title>
       <link>https://winsa24.github.io/practices/p1/</link>
       <pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate>
       
