@@ -35,7 +35,9 @@
       <description>Successfully set my first Hugo blog, by following https://gohugo.io/hosting-and-deployment/hosting-on-github/
  One thing need to be careful: DON&amp;rsquo;T forget to modify the settings in GitHub settings   Also remind to read the theme&amp;rsquo;s readme If I want to modify the theme, go to https://themes.gohugo.io/
  Link to my blog https://winsa24.github.io/
-Need to learn Markdown grammar   Notes: Ways to update the pages: Git command as follow: rm -rf docs (optional) Hugo git add .</description>
+Need to learn Markdown grammar   Notes: Ways to update the pages:
+Git command as follow:
+rm -rf docs (optional)</description>
     </item>
     
     <item>

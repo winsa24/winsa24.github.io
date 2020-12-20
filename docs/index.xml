@@ -6,7 +6,17 @@
     <description>Recent content in Wei Xiang on Xiang&#39;s First Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 10 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://winsa24.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 18 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://winsa24.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Explore</title>
+      <link>https://winsa24.github.io/vrexplore/1218/</link>
+      <pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/vrexplore/1218/</guid>
+      <description>Nicely video drive me back to the past Even drive me to some impossible angle or unseen area   Figure out how to screenshot and export them ^^ export:
+  Go to SideQuest Click the File icon on the top tool bar Clike the Oculus icon below Then you will see the screenshots you took and click save icon, find a place on your computer:)     Notes: Ways to update the pages:</description>
+    </item>
+    
     <item>
       <title>Lab 4: Parkour</title>
       <link>https://winsa24.github.io/practices/p4/</link>
@@ -84,7 +94,9 @@ https://www.youtube.com/watch?v=zPFU30tbyKs
       <description>Successfully set my first Hugo blog, by following https://gohugo.io/hosting-and-deployment/hosting-on-github/
  One thing need to be careful: DON&amp;rsquo;T forget to modify the settings in GitHub settings   Also remind to read the theme&amp;rsquo;s readme If I want to modify the theme, go to https://themes.gohugo.io/
  Link to my blog https://winsa24.github.io/
-Need to learn Markdown grammar   Notes: Ways to update the pages: Git command as follow: rm -rf docs (optional) Hugo git add .</description>
+Need to learn Markdown grammar   Notes: Ways to update the pages:
+Git command as follow:
+rm -rf docs (optional)</description>
     </item>
     
     <item>
