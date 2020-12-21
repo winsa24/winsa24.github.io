@@ -1,58 +1,68 @@
-title = "Xiang's First Blog"
-publishDir = "docs"
 baseURL = "https://winsa24.github.io"
-languageCode = "en-us"
-theme = "dream"
+languageCode = "en"
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
+enableEmoji = true
+# pagination = 10
 
+title = "Hugo"
+author = "Xiang WEI"
+copyright = "[Home](/) &#183; Theme [Simpleness](https://github.com/winsa24/simpleness) Powered by [Hugo](https://gohugo.io/)"
+
+theme = "simpleness"
+googleAnalytics = ""
 
 [params]
-  # background = "black"
-  backgroundImage = "/static/images/ipp.jpg"
-  linkColor = "seagreen"
+  lazyImage = true
+  enableMathJax = false # enable it in Front Matter
+  enableReadingTime = true
+  favicon = "favicon.ico"
+  startyear = "2019"
+  showmonth = true
+  slogan = "always make it happen"
+  description = "A simple and concise hugo theme."
+  disqus = ""
 
-  author = "Xiang WEI"
-  # description = ""
-  avatar = "/img/avatar.jpg"
-  motto = "Vouloir, c'est pouvoir"
-  # categoriesLimitInHeader = 6
-  # headerBottomText = ""
+[params.valine]
+  enable = false
+  lang = 'en' # zh-CN
+  appId = ''
+  appKey = ''
+  placeholder = 'Say Something......'
+  requiredFields = ['nick', 'mail']
+  avatar = 'robohash'
+  visitor = true
+  enableHeaderVisitor = true
+  debug = true
 
-  # rss = true
+[menu]
+  [[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+  [[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 2
 
-  # utterancesRepo = ""
+[social]
+  github = "https://github.com/winsa24"
+  rss = "index.xml"
 
-  # valine = true
-  # LEANCLOUD_APP_ID = ""
-  # LEANCLOUD_APP_KEY = ""
-  
-  email = "xiang.wei@telecom-paris.fr"
-  # twitter = ""
-  # facebook = ""
-  # instagram = ""
-  # mastodon = ""
-  # linkedin = ""
-  # github = ""
-  # stackoverflow = ""
-  # codepen = ""
+[taxonomies]
+category = "categories"
+tag = "tags"
 
-  siteStartYear = 2020
-
-  # favicon = "/favicon.ico"
-
-  # highlightjs = true
-  # highlightjsCDN = "https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/highlight.min.js"
-  # highlightjsExtraLanguages = ["ocaml"]
-  # highlightjsTheme = "gruvbox-light"
-  # highlightjsThemeDark = "gruvbox-dark"
-
-  # search
-  # enableSearch = true
-
-  # options
-  # showSummaryCoverInPost = true
-  # hasTwitterEmbed = true
-
-  # dark mode
-  darkLinkColor = "darkseagreen"
-  darkNav = true 
-  dark404 = true
+# doc: https://gohugo.io/getting-started/configuration-markup#highlight
+# syntax style: https://xyproto.github.io/splash/docs/longer/all.html
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = "monokai" # github, dracula, vim, monokai
+    tabWidth = 4

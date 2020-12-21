@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="generator" content="Hugo 0.78.2" />
+
+  <title> Lab 2: Roll-A-Ball |  Hugo</title>
+  <meta name="description" content="Roll-A-Ball">
+  <link rel="stylesheet" href="https://winsa24.github.iocss/simpleness.css">
+  <link rel="canonical" href="https://winsa24.github.io/practices/p2/">
+  <link rel="alternate" type="application/rss+xml" href="" title="Hugo">
+  
+  
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <header class="menus">
+  
+
+  <nav >
+    
+    <a href="/"> Home</a>
+    
+    <a href="/about/"> About</a>
+    
+  </nav>
+
+  <nav class="fontawesome">
+    
+    <a href="https://github.com/winsa24" target="_blank">
+        <i title="GitHub" class="fab fa-github"></i>
+    </a>
+    
+    
+    <a href="https://winsa24.github.io/index.xml" target="_blank">
+        <i title="RSS" class="fas fa-rss"></i>
+    </a>
+    
+  </nav>
+  
+  
+  <div class="hidden description">A simple and concise hugo theme.</div>
+  
+</header>
+
+<article class="article">
+  <header>
+    <h1 style="text-align: center;" >Lab 2: Roll-A-Ball</h1>
+
+    <div class="post-meta">
+    
+      <time datetime="2020-11-30T00:00:00Z">November 30, 2020</time> &nbsp; 
+    
+
+     &nbsp;
+
+    
+    
+    
+
+    
+      <i class="far fa-clock"></i>
+      
+      
+      
+
+      
+      45 s
+      &nbsp;
+    
+
+    
+    </div>
+  </header>
+
+   
+
+  <div class="text">
+    <h2 id="new-knowledge">New knowledge:</h2>
+<blockquote>
+<p>Change to Script Editor:
+<img src="/images/P2/vs.png" alt="avatar"></p>
+</blockquote>
+<blockquote>
+<p>Unity Lifecycle:
+Start ( ) / FixedUpdate( ) / Update( )
+<img src="/images/P2/lc.png" alt="avatar"></p>
+</blockquote>
+<blockquote>
+<p>Skipped step:
+transform Empty GO
+<img src="/images/P2/skip.png" alt="avatar"></p>
+</blockquote>
+<blockquote>
+<p>Import TMP:
+Unshown steps in the tutorial<br>
+<img src="/images/P2/TMP.png" alt="avatar"></p>
+</blockquote>
+<ul>
+<li>Steps order *<br>
+<img src="/images/P2/TMP1.png" alt="avatar"><br>
+<img src="/images/P2/TMP2.png" alt="avatar"></li>
+</ul>
+<blockquote>
+<p>Tried to start game, but can&rsquo;t control the the player. Have no reaction when kicking the keyboard.
+Find an error when create the Input Actions in the Assest folder.
+<img src="/images/P2/Input.png" alt="avatar">
+<img src="/images/P2/Input1.png" alt="avatar"> <br>
+Tried to create the Input Actions in Inspector.
+<img src="/images/P2/inputAsset.png" alt="avatar"><br>
+Installed Input version<br>
+<img src="/images/P2/inputVersion.png" alt="avatar"></p>
+</blockquote>
+<blockquote>
+<p>Error1: Input version error
+<img src="/images/P2/error1.png" alt="avatar"></p>
+</blockquote>
+<blockquote>
+<p>Error2: still edition?
+<img src="/images/P2/error2.png" alt="avatar"><br>
+<img src="/images/P2/solution2.png" alt="avatar"></p>
+</blockquote>
+<blockquote>
+<p>Result
+<img src="/images/P2/Rimmovable.png" alt="avatar"></p>
+</blockquote>
+<blockquote>
+<p>Solutions
+Create InputActions in Inspector.
+<a href="https://docs.unity3d.com/Packages/com.unity.inputsystem@1.0/manual/QuickStartGuide.html#getting-input-indirectly-through-an-input-action">https://docs.unity3d.com/Packages/com.unity.inputsystem@1.0/manual/QuickStartGuide.html#getting-input-indirectly-through-an-input-action</a>
+Message sent:
+<img src="/images/P2/onmove1.png" alt="avatar"><br>
+C# scripts:
+<img src="/images/P2/onmove2.png" alt="avatar"><br>
+<strong>Solved</strong></p>
+</blockquote>
+<blockquote>
+<p>Testing collide
+In our program, we detect the collide with the layers. But we couldn&rsquo;t set the tags for a father Empty Object and apply to all.
+<img src="/images/P2/tags.png" alt="avatar"><br>
+Solution: Individually set tags</p>
+</blockquote>
+<h3 id="final-result">Final result:</h3>
+<p><img src="/images/P2/result.png" alt="avatar"></p>
+<p>=========</p>
+<blockquote>
+<p>Notes:
+Ways to update the pages:
+Git command as follow:
+rm -rf docs (optional)
+Hugo
+git add .
+git commit -m “something&quot;
+git push origin master</p>
+</blockquote>
+
+  </div>
+
+  <footer>
+    <hr class="end-line">
+
+    
+
+    
+    <div class="post-tags">
+      <i class="fas fa-tags"></i>
+      
+        <a href="/tags/practices">practices</a>
+        &nbsp;
+      
+    </div>
+    
+
+    
+    
+  </footer>
+
+  <div class="comments">
+
+
+
+</div>
+
+</article>
+
+
+</body>
+<div class="foot">
+  
+  
+    &copy; 2019 - 2020 &#183; 
+    <a href="/">Home</a> · Theme <a href="https://github.com/winsa24/simpleness">Simpleness</a> Powered by <a href="https://gohugo.io/">Hugo</a> &#183;
+    <a href="#"><i class="fas fa-chevron-up"></i></a>
+  
+
+  
+</div>
+
+<script src="/js/lazyload.min.js"></script>
+<script>
+  var lazyImage = new LazyLoad({
+    container: document.getElementById('article')
+  });
+</script>
+
+
+</html>
