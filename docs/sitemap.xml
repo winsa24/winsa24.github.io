@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://winsa24.github.io/about/</loc>
+    <lastmod>2020-12-21T10:37:58+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>https://winsa24.github.io/vrexplore/1218/</loc>
     <lastmod>2020-12-18T00:00:00+00:00</lastmod>
   </url>
@@ -88,11 +93,6 @@
   </url>
   
   <url>
-    <loc>https://winsa24.github.io/about/</loc>
-    <lastmod>2020-09-22T10:37:58+05:30</lastmod>
-  </url>
-  
-  <url>
     <loc>https://winsa24.github.io/categories/</loc>
     <lastmod>2020-10-09T10:13:38+08:00</lastmod>
   </url>
@@ -130,6 +130,26 @@
   <url>
     <loc>https://winsa24.github.io/categories/shortcodes/</loc>
     <lastmod>2020-10-09T10:13:38+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://winsa24.github.io/tags/bjut/</loc>
+    <lastmod>2019-04-01T02:01:58+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://winsa24.github.io/posts/post-1/</loc>
+    <lastmod>2019-04-01T02:01:58+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://winsa24.github.io/tags/wechat/</loc>
+    <lastmod>2019-04-01T02:01:58+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://winsa24.github.io/categories/wechat-develop/</loc>
+    <lastmod>2019-04-01T02:01:58+05:30</lastmod>
   </url>
   
   <url>
@@ -174,16 +194,6 @@
   
   <url>
     <loc>https://winsa24.github.io/posts/post-2/</loc>
-    <lastmod>2020-10-09T10:13:38+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://winsa24.github.io/tags/emoji/</loc>
-    <lastmod>2020-10-09T10:13:38+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://winsa24.github.io/posts/post-1/</loc>
     <lastmod>2020-10-09T10:13:38+08:00</lastmod>
   </url>
   

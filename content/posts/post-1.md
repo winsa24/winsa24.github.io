@@ -1,30 +1,22 @@
 ---
-title: Emoji Support
-date: 2017-01-18T02:01:58+05:30
-lastmod: 2020-10-09T10:13:38+08:00
-author: Rainer Chiang
+title: Course Design of Software Engineering
+date: 2019-04-01T02:01:58+05:30
+#lastmod: 2020-10-09T10:13:38+08:00
+#author: Rainer Chiang
 
-description: You have a to-do list that scrolls on for days. You are managing multiple projects, getting lots of email and messages on different messaging systems, managing finances and personal health habits and so much more.
-categories: [Hugo]
-tags: [emoji, test]
+description: Studied the development of WeChat applet, built “Smart Home” applet in group, in charged of front-end logic writing and front and aft link, maintained version update and administrated intra-group cooperation by Git
+categories: [WeChat Develop]
+tags: [WeChat, BJUT]
 
 draft: false
 enableDisqus : true
 enableMathJax: false
 disableToC: false
 disableAutoCollapse: true
+
 ---
 
-Emoji can be enabled in a Hugo project in a number of ways. 
 
-The [`emojify`](https://gohugo.io/functions/emojify/) function can be called directly in templates or [Inline Shortcodes](https://gohugo.io/templates/shortcode-templates/#inline-shortcodes). 
-
-To enable emoji globally, set `enableEmoji` to `true` in your site's [configuration](https://gohugo.io/getting-started/configuration/) and then you can type emoji shorthand codes directly in content files; e.g.
-
-<p><span class="nowrap"><span class="emojify">🙈</span> <code>:see_no_evil:</code></span>  <span class="nowrap"><span class="emojify">🙉</span> <code>:hear_no_evil:</code></span>  <span class="nowrap"><span class="emojify">🙊</span> <code>:speak_no_evil:</code></span></p>
-<br>
-
-The [Emoji cheat sheet](http://www.emoji-cheat-sheet.com/) is a useful reference for emoji shorthand codes.
 
 ***
 

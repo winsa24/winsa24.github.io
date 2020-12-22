@@ -1,8 +1,8 @@
 ---
 title: About
-date: 2020-09-22T10:37:58+05:30
+date: 2020-12-21T10:37:58+05:30
 lastmod: 
-author: Rainer Chiang
+author: Xiang WEI
 
 description: 
 categories: []
@@ -13,11 +13,13 @@ enableDisqus : true
 enableMathJax: false
 disableToC: false
 disableAutoCollapse: true
+
 ---
 
 ## About Yourself
 
-This is some static page where you can write about yourself.
+## Xiang WEI
+>This is some static page where you can write about yourself.
 
 ## hugo theme [simpleness](https://github.com/RainerChiang/simpleness)
 

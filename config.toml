@@ -48,7 +48,7 @@ googleAnalytics = ""
 
 [social]
   github = "https://github.com/winsa24"
-  rss = "index.xml"
+  #rss = "index.xml"
 
 [taxonomies]
 category = "categories"
