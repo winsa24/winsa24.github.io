@@ -1,8 +1,8 @@
 ---
 title: About
-date: 2020-12-21T10:37:58+05:30
-lastmod: 
-author: Xiang WEI
+#date: 2020-12-21T10:37:58+05:30
+#lastmod: 
+#author: Xiang WEI
 
 description: 
 categories: []
@@ -16,16 +16,24 @@ disableAutoCollapse: true
 
 ---
 
-## About Yourself
-
 ## Xiang WEI
->I'm a master student current majors in [M1-IGD](https://perso.telecom-paristech.fr/elc/igd/index.html)at [Institut Polytechnique de Paris (IP Paris)](https://www.ip-paris.fr/).
-{{<figure src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.telecom-paris.fr%2Finstitut-polytechnique-paris-officially-established&psig=AOvVaw0nPnHSmiL2SN6Y1-FUvT-C&ust=1609407255709000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMCo4bCz9e0CFQAAAAAdAAAAABAD" title="IP Paris">}}
-I finished my undergraduate study in **computer science** at [Beijing University of Technology (BJUT)](http://english.bjut.edu.cn/).
-I found my interest in game and front-end develop. I did serveral related project and am willing to explore this field further.
+![avatar](/images/about.jpeg)
+contact: email: xiang.wei@ip-paris.fr
 
-## Images
+### EDUCATION
+>On going: MSc Computer Science (Interaction, Graphic and Design) at [Institut Polytechnique de Paris (IP Paris)](https://www.ip-paris.fr/). (Expected 2020-2022)
+>Exchange at [EFREI Paris](https://www.efrei.fr/) (2020)
+>BSc Computer Science from [Beijing University of Technology (BJUT)](http://english.bjut.edu.cn/). (2016-2020)
 
-{{< figure src="https://images.unsplash.com/photo-1560032779-0a8809186efd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" title="Dave Herring" >}}
 
-{{< figure src="https://images.unsplash.com/photo-1560032779-0a8809186efd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80" title="Dave Herring" >}}
+### EXTRACURRICULAR ACTIVITIES
+>Vice minister of the Department of Social Practice in the Communist Youth League in Beijing University of Technology. 
+Organized and managed volunteer activities, recruitment and other activities; communicated and collaborated with different departments; applied for activity funds and held social practice results report meeting
+>Assistant English teacher volunteer at Association Carcajada De Villena, Spain.
+Introduced Chinese culture and helped the teachers to organize activities and communicated with other volunteers from different countries.
+
+### RESEARCH INTERESTS
+Game Develop
+VR & AR Develop
+Front-end Develop
+

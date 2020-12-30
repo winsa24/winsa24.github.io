@@ -3,11 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://winsa24.github.io/about/</loc>
-    <lastmod>2020-12-21T10:37:58+05:30</lastmod>
-  </url>
-  
-  <url>
     <loc>https://winsa24.github.io/vrexplore/1218/</loc>
     <lastmod>2020-12-18T00:00:00+00:00</lastmod>
   </url>
@@ -225,6 +220,10 @@
   <url>
     <loc>https://winsa24.github.io/tags/test/</loc>
     <lastmod>2020-10-09T10:13:38+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://winsa24.github.io/about/</loc>
   </url>
   
 </urlset>

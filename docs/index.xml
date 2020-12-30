@@ -9,16 +9,6 @@
     <copyright>[Home](/) &amp;#183; Theme [Simpleness](https://github.com/winsa24/simpleness) Powered by [Hugo](https://gohugo.io/)</copyright>
     <lastBuildDate>Fri, 18 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://winsa24.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>About</title>
-      <link>https://winsa24.github.io/about/</link>
-      <pubDate>Mon, 21 Dec 2020 10:37:58 +0530</pubDate>
-      
-      <guid>https://winsa24.github.io/about/</guid>
-      <description>About Yourself Xiang WEI  I&amp;rsquo;m a master student current majors in M1-IGDat Institut Polytechnique de Paris (IP Paris).   IP Paris   I finished my undergraduate study in computer science at Beijing University of Technology (BJUT). I found my interest in game and front-end develop. I did serveral related project and am willing to explore this field further.
- Images   Dave Herring     Dave Herring   </description>
-    </item>
-    
-    <item>
       <title>Explore</title>
       <link>https://winsa24.github.io/vrexplore/1218/</link>
       <pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate>
@@ -215,6 +205,17 @@ The website is built based on HTML+CSS+JAVASCRIPT+MYSQL, and the displayed visua
       
       <guid>https://winsa24.github.io/posts/markdown/</guid>
       <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://winsa24.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/about/</guid>
+      <description>Xiang WEI contact: email: xiang.wei@ip-paris.fr
+EDUCATION  On going: MSc Computer Science (Interaction, Graphic and Design) at Institut Polytechnique de Paris (IP Paris). (Expected 2020-2022) Exchange at EFREI Paris (2020) BSc Computer Science from Beijing University of Technology (BJUT). (2016-2020)
+ EXTRACURRICULAR ACTIVITIES  Vice minister of the Department of Social Practice in the Communist Youth League in Beijing University of Technology. Organized and managed volunteer activities, recruitment and other activities; communicated and collaborated with different departments; applied for activity funds and held social practice results report meeting Assistant English teacher volunteer at Association Carcajada De Villena, Spain.</description>
     </item>
     
   </channel>
