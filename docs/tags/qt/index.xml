@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>QT on Hugo</title>
+    <link>https://winsa24.github.io/tags/qt/</link>
+    <description>Recent content in QT on Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>[Home](/) &amp;#183; Theme [Simpleness](https://github.com/winsa24/simpleness) Powered by [Hugo](https://gohugo.io/)</copyright>
+    <lastBuildDate>Tue, 15 Sep 2020 02:01:58 +0530</lastBuildDate><atom:link href="https://winsa24.github.io/tags/qt/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Drawing Tool</title>
+      <link>https://winsa24.github.io/posts/qt2/</link>
+      <pubDate>Tue, 15 Sep 2020 02:01:58 +0530</pubDate>
+      
+      <guid>https://winsa24.github.io/posts/qt2/</guid>
+      <description>Created a simple drawing application based on Qt toolkit (which I’ve tried to use in the Course Design of Data Structures in my undergraduate study). The application has an interactive interface which allows users to draw multiple shapes in different colors, line styles and thickness, by clicking buttons or dragging sliders. Users can also select an existing shape and move, resize or change attributes of it. It also allows users to read or save the images.</description>
+    </item>
+    
+    <item>
+      <title>Course Design of Data Structure</title>
+      <link>https://winsa24.github.io/posts/qt1/</link>
+      <pubDate>Mon, 01 Oct 2018 02:01:58 +0530</pubDate>
+      
+      <guid>https://winsa24.github.io/posts/qt1/</guid>
+      <description>Wrote “2018 World Cup inquiring system” by VS and QT independently, studied knowledge of front-end and back-end development, realized the function of inquiring information of games in a specific date selected by dragging roller and showing all kinds of real-time statistical results</description>
+    </item>
+    
+  </channel>
+</rss>

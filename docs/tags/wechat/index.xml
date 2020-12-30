@@ -10,12 +10,11 @@
     <lastBuildDate>Mon, 01 Apr 2019 02:01:58 +0530</lastBuildDate><atom:link href="https://winsa24.github.io/tags/wechat/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Course Design of Software Engineering</title>
-      <link>https://winsa24.github.io/posts/post-1/</link>
+      <link>https://winsa24.github.io/posts/software/</link>
       <pubDate>Mon, 01 Apr 2019 02:01:58 +0530</pubDate>
       
-      <guid>https://winsa24.github.io/posts/post-1/</guid>
-      <description>N.B. The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform. To style the emoji you can either use a third party emoji font or a font stack; e.g.
-.emoji { font-family: Apple Color Emoji, Segoe UI Emoji, NotoColorEmoji, Segoe UI Symbol, Android Emoji, EmojiSymbols; }  .emojify { font-family: Apple Color Emoji, Segoe UI Emoji, NotoColorEmoji, Segoe UI Symbol, Android Emoji, EmojiSymbols; font-size: 2rem; vertical-align: middle; } @media screen and (max-width:650px) { .</description>
+      <guid>https://winsa24.github.io/posts/software/</guid>
+      <description>Studied the development of WeChat applet, built “Smart Home” applet in group, in charged of front-end logic writing and front and aft link, maintained version update and administrated intra-group cooperation by Git</description>
     </item>
     
   </channel>

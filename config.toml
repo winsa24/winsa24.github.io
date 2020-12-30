@@ -21,7 +21,7 @@ googleAnalytics = ""
   startyear = "2019"
   showmonth = true
   slogan = "always make it happen"
-  description = "A simple and concise hugo theme."
+  description = "WEI Xiang's Homepage"
   disqus = ""
 
 [params.valine]

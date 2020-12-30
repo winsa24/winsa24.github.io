@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Android Develop on Hugo</title>
+    <link>https://winsa24.github.io/categories/android-develop/</link>
+    <description>Recent content in Android Develop on Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>[Home](/) &amp;#183; Theme [Simpleness](https://github.com/winsa24/simpleness) Powered by [Hugo](https://gohugo.io/)</copyright>
+    <lastBuildDate>Thu, 01 Oct 2020 02:01:58 +0530</lastBuildDate><atom:link href="https://winsa24.github.io/categories/android-develop/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Currency-Converter</title>
+      <link>https://winsa24.github.io/posts/android2/</link>
+      <pubDate>Thu, 01 Oct 2020 02:01:58 +0530</pubDate>
+      
+      <guid>https://winsa24.github.io/posts/android2/</guid>
+      <description>Created a currency-converter based on Android Studio. The users can enter different amount and select types of convert. The app will automatically read the rate from a given URL, and update the result on the interface immediately.</description>
+    </item>
+    
+    <item>
+      <title>Course Design of Computer Hardware</title>
+      <link>https://winsa24.github.io/posts/hardware/</link>
+      <pubDate>Fri, 01 Mar 2019 02:01:58 +0530</pubDate>
+      
+      <guid>https://winsa24.github.io/posts/hardware/</guid>
+      <description>Engaged in the project of ‘Intelligent home system’, learnt Android development and knowledge about IP, been responsible for the encapsulation of IP and whole construction of the showing App</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -15,16 +15,15 @@
       
       <guid>https://winsa24.github.io/practices/p4/</guid>
       <description>How to open a folder as a Unity Project Double-clicking Scene file opens the project in unity. (It might cause crash of Unity). Then restart hub and select a unity version for it.
-=========
- Notes:
+ 12.22 Try to apply joystick but all operation are mirrorred. =========
+  Notes:
 Ways to update the pages:
 Git command as follow:
 rm -rf docs (optional)
 Hugo
 git add .
 git commit -m “something&amp;quot;
-git push origin master
- </description>
+git push origin master</description>
     </item>
     
     <item>
