@@ -10,10 +10,10 @@
     <lastBuildDate>Mon, 01 Apr 2019 02:01:58 +0530</lastBuildDate><atom:link href="https://winsa24.github.io/tags/wechat/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Course Design of Software Engineering</title>
-      <link>https://winsa24.github.io/posts/software/</link>
+      <link>https://winsa24.github.io/projects/software/</link>
       <pubDate>Mon, 01 Apr 2019 02:01:58 +0530</pubDate>
       
-      <guid>https://winsa24.github.io/posts/software/</guid>
+      <guid>https://winsa24.github.io/projects/software/</guid>
       <description>Studied the development of WeChat applet, built “Smart Home” applet in group, in charged of front-end logic writing and front and aft link, maintained version update and administrated intra-group cooperation by Git</description>
     </item>
     

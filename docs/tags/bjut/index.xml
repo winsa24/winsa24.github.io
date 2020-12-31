@@ -10,38 +10,38 @@
     <lastBuildDate>Thu, 15 Aug 2019 02:01:58 +0530</lastBuildDate><atom:link href="https://winsa24.github.io/tags/bjut/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Visualization Recommendation System</title>
-      <link>https://winsa24.github.io/posts/web1/</link>
+      <link>https://winsa24.github.io/projects/web1/</link>
       <pubDate>Thu, 15 Aug 2019 02:01:58 +0530</pubDate>
       
-      <guid>https://winsa24.github.io/posts/web1/</guid>
+      <guid>https://winsa24.github.io/projects/web1/</guid>
       <description>Independently develop and build a visualization program to generate a website. Through simple and efficient interaction with users, the website generates a series of visualization solutions based on user data to help users perform data analysis;
 The website is built based on HTML+CSS+JAVASCRIPT+MYSQL, and the displayed visualization scheme is based on ECHARTS. Video Here</description>
     </item>
     
     <item>
       <title>Course Design of Software Engineering</title>
-      <link>https://winsa24.github.io/posts/software/</link>
+      <link>https://winsa24.github.io/projects/software/</link>
       <pubDate>Mon, 01 Apr 2019 02:01:58 +0530</pubDate>
       
-      <guid>https://winsa24.github.io/posts/software/</guid>
+      <guid>https://winsa24.github.io/projects/software/</guid>
       <description>Studied the development of WeChat applet, built “Smart Home” applet in group, in charged of front-end logic writing and front and aft link, maintained version update and administrated intra-group cooperation by Git</description>
     </item>
     
     <item>
       <title>Course Design of Computer Hardware</title>
-      <link>https://winsa24.github.io/posts/hardware/</link>
+      <link>https://winsa24.github.io/projects/hardware/</link>
       <pubDate>Fri, 01 Mar 2019 02:01:58 +0530</pubDate>
       
-      <guid>https://winsa24.github.io/posts/hardware/</guid>
+      <guid>https://winsa24.github.io/projects/hardware/</guid>
       <description>Engaged in the project of ‘Intelligent home system’, learnt Android development and knowledge about IP, been responsible for the encapsulation of IP and whole construction of the showing App</description>
     </item>
     
     <item>
       <title>Course Design of Data Structure</title>
-      <link>https://winsa24.github.io/posts/qt1/</link>
+      <link>https://winsa24.github.io/projects/qt1/</link>
       <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://winsa24.github.io/posts/qt1/</guid>
+      <guid>https://winsa24.github.io/projects/qt1/</guid>
       <description>Wrote “2018 World Cup inquiring system” by VS and QT independently, studied knowledge of front-end and back-end development, realized the function of inquiring information of games in a specific date selected by dragging roller and showing all kinds of real-time statistical results</description>
     </item>
     

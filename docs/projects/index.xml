@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Eureka Demo</title>
+    <link>https://winsa24.github.io/projects/</link>
+    <description>Recent content in Projects on Eureka Demo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; 2020 &lt;a href=&#34;https://www.wangchucheng.com/&#34;&gt;C. Wang&lt;/a&gt; and &lt;a href=&#34;https://www.ruiqima.com/&#34;&gt;R. Ma&lt;/a&gt;</copyright>
+    <lastBuildDate>Sun, 15 Nov 2020 02:01:58 +0530</lastBuildDate><atom:link href="https://winsa24.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Xperience of Virtual Plants (XVP)</title>
+      <link>https://winsa24.github.io/projects/ar/</link>
+      <pubDate>Sun, 15 Nov 2020 02:01:58 +0530</pubDate>
+      
+      <guid>https://winsa24.github.io/projects/ar/</guid>
+      <description>Based on Unity + Vuforia, created a AR plants guide book to help users learn rare plants. The users can scan a target image and he will see a 3D models. He could also interact with the model by clicking either the virtual buttons or screen buttons. Check the video to better learn our project.</description>
+    </item>
+    
+    <item>
+      <title>Web Develop Practice</title>
+      <link>https://winsa24.github.io/projects/web2/</link>
+      <pubDate>Thu, 15 Oct 2020 02:01:58 +0530</pubDate>
+      
+      <guid>https://winsa24.github.io/projects/web2/</guid>
+      <description> Created a currency converter which allows users can get the product of two entered number. Created a searching engine which allows users to filter the list with student name or module name. Created a space shooting game based on the animations and functions.
+ </description>
+    </item>
+    
+    <item>
+      <title>Currency-Converter</title>
+      <link>https://winsa24.github.io/projects/android2/</link>
+      <pubDate>Thu, 01 Oct 2020 02:01:58 +0530</pubDate>
+      
+      <guid>https://winsa24.github.io/projects/android2/</guid>
+      <description>Created a currency-converter based on Android Studio. The users can enter different amount and select types of convert. The app will automatically read the rate from a given URL, and update the result on the interface immediately.</description>
+    </item>
+    
+    <item>
+      <title>Drawing Tool</title>
+      <link>https://winsa24.github.io/projects/qt2/</link>
+      <pubDate>Tue, 15 Sep 2020 02:01:58 +0530</pubDate>
+      
+      <guid>https://winsa24.github.io/projects/qt2/</guid>
+      <description>Created a simple drawing application based on Qt toolkit (which I’ve tried to use in the Course Design of Data Structures in my undergraduate study). The application has an interactive interface which allows users to draw multiple shapes in different colors, line styles and thickness, by clicking buttons or dragging sliders. Users can also select an existing shape and move, resize or change attributes of it. It also allows users to read or save the images.</description>
+    </item>
+    
+    <item>
+      <title>Visualization Recommendation System</title>
+      <link>https://winsa24.github.io/projects/web1/</link>
+      <pubDate>Thu, 15 Aug 2019 02:01:58 +0530</pubDate>
+      
+      <guid>https://winsa24.github.io/projects/web1/</guid>
+      <description>Independently develop and build a visualization program to generate a website. Through simple and efficient interaction with users, the website generates a series of visualization solutions based on user data to help users perform data analysis;
+The website is built based on HTML+CSS+JAVASCRIPT+MYSQL, and the displayed visualization scheme is based on ECHARTS. Video Here</description>
+    </item>
+    
+    <item>
+      <title>Course Design of Software Engineering</title>
+      <link>https://winsa24.github.io/projects/software/</link>
+      <pubDate>Mon, 01 Apr 2019 02:01:58 +0530</pubDate>
+      
+      <guid>https://winsa24.github.io/projects/software/</guid>
+      <description>Studied the development of WeChat applet, built “Smart Home” applet in group, in charged of front-end logic writing and front and aft link, maintained version update and administrated intra-group cooperation by Git</description>
+    </item>
+    
+    <item>
+      <title>Markdown Syntax Guide</title>
+      <link>https://winsa24.github.io/projects/markdown-syntax/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/projects/markdown-syntax/</guid>
+      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Course Design of Computer Hardware</title>
+      <link>https://winsa24.github.io/projects/hardware/</link>
+      <pubDate>Fri, 01 Mar 2019 02:01:58 +0530</pubDate>
+      
+      <guid>https://winsa24.github.io/projects/hardware/</guid>
+      <description>Engaged in the project of ‘Intelligent home system’, learnt Android development and knowledge about IP, been responsible for the encapsulation of IP and whole construction of the showing App</description>
+    </item>
+    
+    <item>
+      <title>Course Design of Data Structure</title>
+      <link>https://winsa24.github.io/projects/qt1/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/projects/qt1/</guid>
+      <description>Wrote “2018 World Cup inquiring system” by VS and QT independently, studied knowledge of front-end and back-end development, realized the function of inquiring information of games in a specific date selected by dragging roller and showing all kinds of real-time statistical results</description>
+    </item>
+    
+    <item>
+      <title>Markdown Syntax Guide</title>
+      <link>https://winsa24.github.io/projects/markdown/</link>
+      <pubDate>Thu, 18 May 2017 12:13:30 +0530</pubDate>
+      
+      <guid>https://winsa24.github.io/projects/markdown/</guid>
+      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -10,19 +10,19 @@
     <lastBuildDate>Thu, 01 Oct 2020 02:01:58 +0530</lastBuildDate><atom:link href="https://winsa24.github.io/tags/android/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Currency-Converter</title>
-      <link>https://winsa24.github.io/posts/android2/</link>
+      <link>https://winsa24.github.io/projects/android2/</link>
       <pubDate>Thu, 01 Oct 2020 02:01:58 +0530</pubDate>
       
-      <guid>https://winsa24.github.io/posts/android2/</guid>
+      <guid>https://winsa24.github.io/projects/android2/</guid>
       <description>Created a currency-converter based on Android Studio. The users can enter different amount and select types of convert. The app will automatically read the rate from a given URL, and update the result on the interface immediately.</description>
     </item>
     
     <item>
       <title>Course Design of Computer Hardware</title>
-      <link>https://winsa24.github.io/posts/hardware/</link>
+      <link>https://winsa24.github.io/projects/hardware/</link>
       <pubDate>Fri, 01 Mar 2019 02:01:58 +0530</pubDate>
       
-      <guid>https://winsa24.github.io/posts/hardware/</guid>
+      <guid>https://winsa24.github.io/projects/hardware/</guid>
       <description>Engaged in the project of ‘Intelligent home system’, learnt Android development and knowledge about IP, been responsible for the encapsulation of IP and whole construction of the showing App</description>
     </item>
     

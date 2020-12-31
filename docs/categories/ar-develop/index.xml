@@ -10,10 +10,10 @@
     <lastBuildDate>Sun, 15 Nov 2020 02:01:58 +0530</lastBuildDate><atom:link href="https://winsa24.github.io/categories/ar-develop/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Xperience of Virtual Plants (XVP)</title>
-      <link>https://winsa24.github.io/posts/ar/</link>
+      <link>https://winsa24.github.io/projects/ar/</link>
       <pubDate>Sun, 15 Nov 2020 02:01:58 +0530</pubDate>
       
-      <guid>https://winsa24.github.io/posts/ar/</guid>
+      <guid>https://winsa24.github.io/projects/ar/</guid>
       <description>Based on Unity + Vuforia, created a AR plants guide book to help users learn rare plants. The users can scan a target image and he will see a 3D models. He could also interact with the model by clicking either the virtual buttons or screen buttons. Check the video to better learn our project.</description>
     </item>
     

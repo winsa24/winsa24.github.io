@@ -10,38 +10,38 @@
     <lastBuildDate>Sun, 15 Nov 2020 02:01:58 +0530</lastBuildDate><atom:link href="https://winsa24.github.io/tags/ip-paris/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Xperience of Virtual Plants (XVP)</title>
-      <link>https://winsa24.github.io/posts/ar/</link>
+      <link>https://winsa24.github.io/projects/ar/</link>
       <pubDate>Sun, 15 Nov 2020 02:01:58 +0530</pubDate>
       
-      <guid>https://winsa24.github.io/posts/ar/</guid>
+      <guid>https://winsa24.github.io/projects/ar/</guid>
       <description>Based on Unity + Vuforia, created a AR plants guide book to help users learn rare plants. The users can scan a target image and he will see a 3D models. He could also interact with the model by clicking either the virtual buttons or screen buttons. Check the video to better learn our project.</description>
     </item>
     
     <item>
       <title>Web Develop Practice</title>
-      <link>https://winsa24.github.io/posts/web2/</link>
+      <link>https://winsa24.github.io/projects/web2/</link>
       <pubDate>Thu, 15 Oct 2020 02:01:58 +0530</pubDate>
       
-      <guid>https://winsa24.github.io/posts/web2/</guid>
+      <guid>https://winsa24.github.io/projects/web2/</guid>
       <description> Created a currency converter which allows users can get the product of two entered number. Created a searching engine which allows users to filter the list with student name or module name. Created a space shooting game based on the animations and functions.
  </description>
     </item>
     
     <item>
       <title>Currency-Converter</title>
-      <link>https://winsa24.github.io/posts/android2/</link>
+      <link>https://winsa24.github.io/projects/android2/</link>
       <pubDate>Thu, 01 Oct 2020 02:01:58 +0530</pubDate>
       
-      <guid>https://winsa24.github.io/posts/android2/</guid>
+      <guid>https://winsa24.github.io/projects/android2/</guid>
       <description>Created a currency-converter based on Android Studio. The users can enter different amount and select types of convert. The app will automatically read the rate from a given URL, and update the result on the interface immediately.</description>
     </item>
     
     <item>
       <title>Drawing Tool</title>
-      <link>https://winsa24.github.io/posts/qt2/</link>
+      <link>https://winsa24.github.io/projects/qt2/</link>
       <pubDate>Tue, 15 Sep 2020 02:01:58 +0530</pubDate>
       
-      <guid>https://winsa24.github.io/posts/qt2/</guid>
+      <guid>https://winsa24.github.io/projects/qt2/</guid>
       <description>Created a simple drawing application based on Qt toolkit (which I’ve tried to use in the Course Design of Data Structures in my undergraduate study). The application has an interactive interface which allows users to draw multiple shapes in different colors, line styles and thickness, by clicking buttons or dragging sliders. Users can also select an existing shape and move, resize or change attributes of it. It also allows users to read or save the images.</description>
     </item>
     

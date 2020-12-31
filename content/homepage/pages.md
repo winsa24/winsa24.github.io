@@ -4,7 +4,7 @@ weight = 2
 draft = false
 
 # Section you want to display
-section = "posts"
+section = "Projects"
 # Pages count
 count = 5
 # Options: card, plain and masonry.

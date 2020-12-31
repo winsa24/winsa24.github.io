@@ -123,7 +123,7 @@
   </url>
   
   <url>
-    <loc>https://winsa24.github.io/posts/</loc>
+    <loc>https://winsa24.github.io/projects/</loc>
     <lastmod>2020-11-15T02:01:58+05:30</lastmod>
   </url>
   
@@ -133,7 +133,7 @@
   </url>
   
   <url>
-    <loc>https://winsa24.github.io/posts/ar/</loc>
+    <loc>https://winsa24.github.io/projects/ar/</loc>
     <lastmod>2020-11-15T02:01:58+05:30</lastmod>
   </url>
   
@@ -168,7 +168,7 @@
   </url>
   
   <url>
-    <loc>https://winsa24.github.io/posts/web2/</loc>
+    <loc>https://winsa24.github.io/projects/web2/</loc>
     <lastmod>2020-10-15T02:01:58+05:30</lastmod>
   </url>
   
@@ -183,12 +183,12 @@
   </url>
   
   <url>
-    <loc>https://winsa24.github.io/posts/android2/</loc>
+    <loc>https://winsa24.github.io/projects/android2/</loc>
     <lastmod>2020-10-01T02:01:58+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://winsa24.github.io/posts/qt2/</loc>
+    <loc>https://winsa24.github.io/projects/qt2/</loc>
     <lastmod>2020-09-15T02:01:58+05:30</lastmod>
   </url>
   
@@ -208,12 +208,12 @@
   </url>
   
   <url>
-    <loc>https://winsa24.github.io/posts/web1/</loc>
+    <loc>https://winsa24.github.io/projects/web1/</loc>
     <lastmod>2019-08-15T02:01:58+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://winsa24.github.io/posts/software/</loc>
+    <loc>https://winsa24.github.io/projects/software/</loc>
     <lastmod>2019-04-01T02:01:58+05:30</lastmod>
   </url>
   
@@ -253,7 +253,7 @@
   </url>
   
   <url>
-    <loc>https://winsa24.github.io/posts/markdown-syntax/</loc>
+    <loc>https://winsa24.github.io/projects/markdown-syntax/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url>
   
@@ -283,12 +283,12 @@
   </url>
   
   <url>
-    <loc>https://winsa24.github.io/posts/hardware/</loc>
+    <loc>https://winsa24.github.io/projects/hardware/</loc>
     <lastmod>2019-03-01T02:01:58+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://winsa24.github.io/posts/qt1/</loc>
+    <loc>https://winsa24.github.io/projects/qt1/</loc>
     <lastmod>2018-10-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -303,17 +303,13 @@
   </url>
   
   <url>
-    <loc>https://winsa24.github.io/posts/markdown/</loc>
+    <loc>https://winsa24.github.io/projects/markdown/</loc>
     <lastmod>2020-10-09T10:13:38+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://winsa24.github.io/tags/test/</loc>
     <lastmod>2020-10-09T10:13:38+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://winsa24.github.io/about/</loc>
   </url>
   
 </urlset>

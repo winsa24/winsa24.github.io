@@ -10,19 +10,19 @@
     <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://winsa24.github.io/series/themes-guide/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Markdown Syntax Guide</title>
-      <link>https://winsa24.github.io/posts/markdown-syntax/</link>
+      <link>https://winsa24.github.io/projects/markdown-syntax/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://winsa24.github.io/posts/markdown-syntax/</guid>
+      <guid>https://winsa24.github.io/projects/markdown-syntax/</guid>
       <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Course Design of Data Structure</title>
-      <link>https://winsa24.github.io/posts/qt1/</link>
+      <link>https://winsa24.github.io/projects/qt1/</link>
       <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://winsa24.github.io/posts/qt1/</guid>
+      <guid>https://winsa24.github.io/projects/qt1/</guid>
       <description>Wrote “2018 World Cup inquiring system” by VS and QT independently, studied knowledge of front-end and back-end development, realized the function of inquiring information of games in a specific date selected by dragging roller and showing all kinds of real-time statistical results</description>
     </item>
     
