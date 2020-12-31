@@ -3,28 +3,28 @@ title = "Xiang WEI"
 weight = 1
 draft = false
 
-role = "Example Role"
-bio = "Aenean vel bibendum quam. Aliquam at mollis quam. Proin efficitur."
-avatar = "images/icon.png"
+role = "Master Student"
+bio = "First year master student major in Interaction, Graphic and Design (M1-IGD)."
+avatar = "images/about.jpeg"
 
 [organization]
-  name = "Example Organization"
-  url = "https://example.com/"
+  name = "Institut Polytechnique de Paris"
+  url = "https://www.ip-paris.fr/"
 
 [[social]]
   icon = "envelope"
   iconPack = "fas"
-  url = "mailto:example@example.com"
+  url = "xiang.wei@ip-paris.fr"
 
 [[social]]
-  icon = "twitter"
+  icon = "linkedin"
   iconPack = "fab"
-  url = "https://example.com/"
+  url = "https://www.linkedin.com/in/xiang-wei-3313aa1a0/?locale=en_US"
 
 [[social]]
   icon = "github"
   iconPack = "fab"
-  url = "https://example.com/"
+  url = "https://github.com/winsa24/"
 
 [widget]
   handler = "about"
@@ -51,9 +51,6 @@ avatar = "images/icon.png"
     # Options: fixed, local, scroll.
     attachment = ""
 +++
-## Xiang WEI
-![avatar](/images/about.jpeg)
-contact: email: xiang.wei@ip-paris.fr
 
 ### EDUCATION
 
@@ -71,8 +68,8 @@ Introduced Chinese culture and helped the teachers to organize activities and co
 
 ### RESEARCH INTERESTS
 
-Game Develop
-VR & AR Develop
-Front-end Develop
+- Game Develop
+- VR & AR Develop
+- Front-end Develop
 
 

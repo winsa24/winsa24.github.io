@@ -45,15 +45,6 @@
     </item>
     
     <item>
-      <title>themes</title>
-      <link>https://winsa24.github.io/categories/themes/</link>
-      <pubDate>Tue, 26 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://winsa24.github.io/categories/themes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>WeChat Develop</title>
       <link>https://winsa24.github.io/categories/wechat-develop/</link>
       <pubDate>Mon, 01 Apr 2019 02:01:58 +0530</pubDate>
@@ -68,6 +59,15 @@
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://winsa24.github.io/categories/syntax/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>themes</title>
+      <link>https://winsa24.github.io/categories/themes/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/categories/themes/</guid>
       <description></description>
     </item>
     

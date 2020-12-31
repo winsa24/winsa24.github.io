@@ -1,22 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Eureka Demo</title>
+    <title>Projects on Eureka Demo</title>
     <link>https://winsa24.github.io/posts/</link>
-    <description>Recent content in Posts on Eureka Demo</description>
+    <description>Recent content in Projects on Eureka Demo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2020 &lt;a href=&#34;https://www.wangchucheng.com/&#34;&gt;C. Wang&lt;/a&gt; and &lt;a href=&#34;https://www.ruiqima.com/&#34;&gt;R. Ma&lt;/a&gt;</copyright>
-    <lastBuildDate>Fri, 20 Nov 2020 22:52:56 +0800</lastBuildDate><atom:link href="https://winsa24.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Math Support</title>
-      <link>https://winsa24.github.io/posts/math-support/</link>
-      <pubDate>Fri, 20 Nov 2020 22:52:56 +0800</pubDate>
-      
-      <guid>https://winsa24.github.io/posts/math-support/</guid>
-      <description>&lt;p&gt;Eureka supports the rendering of mathematical formulas by using KaTeX.&lt;/p&gt;</description>
-    </item>
-    
+    <lastBuildDate>Sun, 15 Nov 2020 02:01:58 +0530</lastBuildDate><atom:link href="https://winsa24.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Xperience of Virtual Plants (XVP)</title>
       <link>https://winsa24.github.io/posts/ar/</link>
@@ -55,15 +46,6 @@
     </item>
     
     <item>
-      <title>Featured Image</title>
-      <link>https://winsa24.github.io/posts/featured-image/</link>
-      <pubDate>Tue, 26 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://winsa24.github.io/posts/featured-image/</guid>
-      <description>&lt;p&gt;Maecenas maximus, elit in ornare porttitor, nisi eros hendrerit nisl, sed fermentum nulla urna blandit tellus.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
       <title>Visualization Recommendation System</title>
       <link>https://winsa24.github.io/posts/web1/</link>
       <pubDate>Thu, 15 Aug 2019 02:01:58 +0530</pubDate>
@@ -92,24 +74,6 @@ The website is built based on HTML+CSS+JAVASCRIPT+MYSQL, and the displayed visua
     </item>
     
     <item>
-      <title>Placeholder Text</title>
-      <link>https://winsa24.github.io/posts/placeholder-text/</link>
-      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://winsa24.github.io/posts/placeholder-text/</guid>
-      <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Emoji Support</title>
-      <link>https://winsa24.github.io/posts/emoji-support/</link>
-      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://winsa24.github.io/posts/emoji-support/</guid>
-      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
       <title>Course Design of Computer Hardware</title>
       <link>https://winsa24.github.io/posts/hardware/</link>
       <pubDate>Fri, 01 Mar 2019 02:01:58 +0530</pubDate>
@@ -121,7 +85,7 @@ The website is built based on HTML+CSS+JAVASCRIPT+MYSQL, and the displayed visua
     <item>
       <title>Course Design of Data Structure</title>
       <link>https://winsa24.github.io/posts/qt1/</link>
-      <pubDate>Mon, 01 Oct 2018 02:01:58 +0530</pubDate>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>https://winsa24.github.io/posts/qt1/</guid>
       <description>Wrote “2018 World Cup inquiring system” by VS and QT independently, studied knowledge of front-end and back-end development, realized the function of inquiring information of games in a specific date selected by dragging roller and showing all kinds of real-time statistical results</description>

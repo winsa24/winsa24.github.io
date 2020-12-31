@@ -1,37 +1,53 @@
 +++
-title = "Chapter 1"
-description = "Chapter 1 of nested chapter"
+title = "Lecture 1"
+description = "Lecture 1: Introduction and History of Virtual Reality"
 summary = ""
 toc = true
 authors = []
 tags = []
 categories = []
 series = []
-date =  "2020-10-16"
-lastmod = "2020-10-16"
+date =  "2020-11-24"
+#lastmod = "2020-10-16"
 draft = false
 +++
 
-This is chapter 1 of nested chapter.
+## HCI:
+Moore’s Law : Ex. Microwave 
 
-<!--more-->
+No intuitive design, but have good design : intelligently leverages cognitive and perceptual abilities  
+Ex. Tap
+![avatar](/images/L1/hci.png)
 
-## Ut aliquam dui convallis purus interdum
+## Definition:
+![avatar](/images/L1/continuum.png)
 
-In nec aliquet nisi. Vestibulum varius dui eu ante tempor maximus. Pellentesque at ipsum libero. Sed non augue enim. Sed accumsan arcu sed aliquam maximus. Donec fringilla sem at cursus placerat. Nulla commodo enim nunc, at luctus libero facilisis ut. Quisque id leo at velit pharetra imperdiet vel et felis. Nunc eu tincidunt nulla. Nunc consectetur ligula ut hendrerit malesuada. Sed commodo aliquam elit, at dapibus tellus pellentesque non. Sed vel massa pulvinar, sollicitudin justo sit amet, porta lacus. Quisque eleifend placerat placerat. Phasellus nisl eros, consectetur sit amet mi eget, fringilla luctus purus.
+## History: 
+![avatar](/images/L1/History.png)
+VR : rise and fall and rise
+![avatar](/images/L1/Current.png)
 
-### Morbi eu mi convallis
+## Homework
+### 1 Two scenario describe that MR could cause problems for users.  
+Based on VIDEO Hyper - Reality : https://www.youtube.com/watch?v=YJg02ivYzSs
 
-Sed sed est nulla. Etiam fermentum sed lectus ac molestie. Vestibulum elementum lectus quis interdum semper. Nam id tempus nisl. Nullam in tempor sapien. Integer volutpat nibh vel libero ornare hendrerit. Vestibulum non condimentum nulla. Nulla vel finibus mi. Cras consequat ligula augue, ac vulputate est tincidunt eu. Maecenas nec nibh consequat, egestas nisl non, iaculis nunc. Maecenas eu dolor tortor. Cras in bibendum diam. Vivamus mattis ultricies diam, in dignissim ante scelerisque vel. In euismod dictum ligula, sed scelerisque ipsum volutpat at. Nam lacus elit, porttitor et orci quis, malesuada sagittis risus.
+Scenario 1:  
+The adopted pet in the supermarket might bit the user if he doesn’t get what he want. And the user may have hurt feeling. So when he come back to reality, he might be afraid of dog.
 
-## Aenean sit amet lorem sit amet
+![avatar](/images/P1/dog.png)   
+![avatar](/images/P1/dog1.png)  
 
-Sed eget erat faucibus, malesuada risus at, mollis est. Suspendisse et fringilla nisl, vel placerat ipsum. Proin ut est ornare, molestie ligula et, pretium orci. Aliquam id justo in eros vulputate volutpat. Vivamus sed tellus id quam laoreet fermentum nec ut dui. Ut neque nibh, facilisis dapibus tempor at, egestas non urna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In maximus, mauris id tempor dapibus, ligula velit pharetra justo, vel molestie sem mauris nec nulla. Suspendisse purus magna, pretium sodales pretium id, consectetur et arcu. Fusce commodo vel nibh quis efficitur. Duis feugiat felis ac mi semper, at sollicitudin tellus ullamcorper. Morbi eget efficitur dui. Nam erat diam, ultrices non mollis in, vestibulum ut lectus. Nunc at dui sed metus vestibulum fringilla. Curabitur vitae mauris vitae neque efficitur molestie eget at nisi. Morbi vel vehicula libero, nec tincidunt augue.
+Scenario 2:   
+Maybe some people can't afford this kind of virtual reality, and then he doesn't know what is happening around him, and is being cut off from the whole society.
 
-### Maecenas faucibus est ac orci fermentum cursus
+![avatar](/images/P1/affordance.JPG)  
 
-Proin vestibulum pellentesque ipsum, non lobortis arcu volutpat at. Integer neque diam, luctus a turpis non, posuere elementum ex. Donec eget sagittis purus. Maecenas non laoreet quam. Quisque luctus porta pellentesque. Vestibulum auctor commodo tortor non imperdiet. Fusce sed tincidunt nunc. Aenean diam diam, mattis a enim nec, suscipit dignissim neque. Quisque at est quis tortor lobortis vehicula vitae vitae quam. Nam maximus rutrum felis, non feugiat nisl vestibulum quis.
 
-### Suspendisse suscipit tellus at nibh tincidunt
+### 2 Where to put Ultimate Display in the continuum? 
+Based on PAPER http://citeseer.ist.psu.edu/viewdoc/summary?doi=10.1.1.136.3720
 
-Nulla pellentesque, leo eget interdum interdum, sem felis consequat massa, id aliquet eros leo sit amet urna. Phasellus quis odio ut odio porttitor consequat quis a velit. Quisque purus velit, faucibus vel efficitur in, sagittis quis neque. Morbi pretium suscipit odio, vel tincidunt nunc dictum aliquam. Quisque non arcu at urna scelerisque semper ac et tortor. Aliquam a dapibus justo. Vestibulum tempus nunc eu condimentum ultrices. Aenean nec egestas nulla, ut congue libero. Aliquam ut mattis urna, in sollicitudin odio. Aenean ac tristique felis, a consequat erat. Aliquam luctus eros ut porttitor efficitur. Nam cursus elit id arcu semper, at sodales velit vulputate. Suspendisse potenti.
+Answer2:
+It bends the continuum. The Ultimate Display make the virtual into reality.
+![avatar](/images/L1/UD.png)
+
+
