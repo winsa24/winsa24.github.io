@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Wei Xiang on Hugo</title>
+    <title>Wei Xiang on Eureka Demo</title>
     <link>https://winsa24.github.io/</link>
-    <description>Recent content in Wei Xiang on Hugo</description>
+    <description>Recent content in Wei Xiang on Eureka Demo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>[Home](/) &amp;#183; Theme [Simpleness](https://github.com/winsa24/simpleness) Powered by [Hugo](https://gohugo.io/)</copyright>
+    <copyright>&amp;copy; 2020 &lt;a href=&#34;https://www.wangchucheng.com/&#34;&gt;C. Wang&lt;/a&gt; and &lt;a href=&#34;https://www.ruiqima.com/&#34;&gt;R. Ma&lt;/a&gt;</copyright>
     <lastBuildDate>Fri, 18 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://winsa24.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Explore</title>
@@ -33,7 +33,8 @@ rm -rf docs (optional)
 Hugo
 git add .
 git commit -m “something&amp;quot;
-git push origin master</description>
+git push origin master
+ </description>
     </item>
     
     <item>
@@ -61,7 +62,7 @@ https://www.youtube.com/c/DilmerValecillos/videos
 https://sidequestvr.com/app/578/handspace
 https://www.youtube.com/watch?v=A0gpaQGu_H0
 https://www.youtube.com/watch?v=zPFU30tbyKs
- Test on Oculus  try to use the build and run directly from Unity but fail.</description>
+ Test on Oculus  try to use the build and run directly from Unity but fail.   try to review all the undo step.</description>
     </item>
     
     <item>
@@ -82,7 +83,7 @@ https://www.youtube.com/watch?v=zPFU30tbyKs
       <guid>https://winsa24.github.io/practices/p2/</guid>
       <description>New knowledge:  Change to Script Editor:   Unity Lifecycle: Start ( ) / FixedUpdate( ) / Update( )   Skipped step: transform Empty GO   Import TMP: Unshown steps in the tutorial
   Steps order *
-   Tried to start game, but can&amp;rsquo;t control the the player. Have no reaction when kicking the keyboard. Find an error when create the Input Actions in the Assest folder.</description>
+   Tried to start game, but can&amp;rsquo;t control the the player. Have no reaction when kicking the keyboard. Find an error when create the Input Actions in the Assest folder. Tried to create the Input Actions in Inspector.</description>
     </item>
     
     <item>
@@ -96,7 +97,9 @@ https://www.youtube.com/watch?v=zPFU30tbyKs
  Link to my blog https://winsa24.github.io/
 Need to learn Markdown grammar   Notes: Ways to update the pages:
 Git command as follow:
-rm -rf docs (optional)</description>
+rm -rf docs (optional)
+Hugo
+git add .</description>
     </item>
     
     <item>
@@ -125,12 +128,57 @@ The adopted pet in the supermarket might bit the user if he doesn’t get what h
     </item>
     
     <item>
+      <title>Math Support</title>
+      <link>https://winsa24.github.io/posts/math-support/</link>
+      <pubDate>Fri, 20 Nov 2020 22:52:56 +0800</pubDate>
+      
+      <guid>https://winsa24.github.io/posts/math-support/</guid>
+      <description>&lt;p&gt;Eureka supports the rendering of mathematical formulas by using KaTeX.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Xperience of Virtual Plants (XVP)</title>
       <link>https://winsa24.github.io/posts/ar/</link>
       <pubDate>Sun, 15 Nov 2020 02:01:58 +0530</pubDate>
       
       <guid>https://winsa24.github.io/posts/ar/</guid>
       <description>Based on Unity + Vuforia, created a AR plants guide book to help users learn rare plants. The users can scan a target image and he will see a 3D models. He could also interact with the model by clicking either the virtual buttons or screen buttons. Check the video to better learn our project.</description>
+    </item>
+    
+    <item>
+      <title>Chapter 1</title>
+      <link>https://winsa24.github.io/docs/example-doc/chapter-1/</link>
+      <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/docs/example-doc/chapter-1/</guid>
+      <description>&lt;p&gt;This is chapter 1 of example doc.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 1</title>
+      <link>https://winsa24.github.io/docs/example-doc/nested-chapter/chapter-1/</link>
+      <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/docs/example-doc/nested-chapter/chapter-1/</guid>
+      <description>&lt;p&gt;This is chapter 1 of nested chapter.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 2</title>
+      <link>https://winsa24.github.io/docs/example-doc/chapter-2/</link>
+      <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/docs/example-doc/chapter-2/</guid>
+      <description>&lt;p&gt;This is chapter 2 of example doc.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chapter 2</title>
+      <link>https://winsa24.github.io/docs/example-doc/nested-chapter/chapter-2/</link>
+      <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/docs/example-doc/nested-chapter/chapter-2/</guid>
+      <description>&lt;p&gt;This is chapter 2 of nested chapter.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -162,13 +210,22 @@ The adopted pet in the supermarket might bit the user if he doesn’t get what h
     </item>
     
     <item>
-      <title>Intelligent Visualization Generator</title>
+      <title>Featured Image</title>
+      <link>https://winsa24.github.io/posts/featured-image/</link>
+      <pubDate>Tue, 26 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/posts/featured-image/</guid>
+      <description>&lt;p&gt;Maecenas maximus, elit in ornare porttitor, nisi eros hendrerit nisl, sed fermentum nulla urna blandit tellus.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Visualization Recommendation System</title>
       <link>https://winsa24.github.io/posts/web1/</link>
       <pubDate>Thu, 15 Aug 2019 02:01:58 +0530</pubDate>
       
       <guid>https://winsa24.github.io/posts/web1/</guid>
       <description>Independently develop and build a visualization program to generate a website. Through simple and efficient interaction with users, the website generates a series of visualization solutions based on user data to help users perform data analysis;
-The website is built based on HTML+CSS+JAVASCRIPT+MYSQL, and the displayed visualization scheme is based on ECHARTS.</description>
+The website is built based on HTML+CSS+JAVASCRIPT+MYSQL, and the displayed visualization scheme is based on ECHARTS. Video Here</description>
     </item>
     
     <item>
@@ -178,6 +235,33 @@ The website is built based on HTML+CSS+JAVASCRIPT+MYSQL, and the displayed visua
       
       <guid>https://winsa24.github.io/posts/software/</guid>
       <description>Studied the development of WeChat applet, built “Smart Home” applet in group, in charged of front-end logic writing and front and aft link, maintained version update and administrated intra-group cooperation by Git</description>
+    </item>
+    
+    <item>
+      <title>Markdown Syntax Guide</title>
+      <link>https://winsa24.github.io/posts/markdown-syntax/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/posts/markdown-syntax/</guid>
+      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Placeholder Text</title>
+      <link>https://winsa24.github.io/posts/placeholder-text/</link>
+      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/posts/placeholder-text/</guid>
+      <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Emoji Support</title>
+      <link>https://winsa24.github.io/posts/emoji-support/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/posts/emoji-support/</guid>
+      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -214,7 +298,9 @@ The website is built based on HTML+CSS+JAVASCRIPT+MYSQL, and the displayed visua
       
       <guid>https://winsa24.github.io/about/</guid>
       <description>Xiang WEI contact: email: xiang.wei@ip-paris.fr
-EDUCATION  On going: MSc Computer Science (Interaction, Graphic and Design) at Institut Polytechnique de Paris (IP Paris). (Expected 2020-2022) Exchange at EFREI Paris (2020) BSc Computer Science from Beijing University of Technology (BJUT). (2016-2020)
+EDUCATION  On going: MSc Computer Science (Interaction, Graphic and Design) at Institut Polytechnique de Paris (IP Paris). (Expected 2020-2022)
+Exchange at EFREI Paris (2020)
+BSc Computer Science from Beijing University of Technology (BJUT). (2016-2020)
  EXTRACURRICULAR ACTIVITIES  Vice minister of the Department of Social Practice in the Communist Youth League in Beijing University of Technology. Organized and managed volunteer activities, recruitment and other activities; communicated and collaborated with different departments; applied for activity funds and held social practice results report meeting Assistant English teacher volunteer at Association Carcajada De Villena, Spain.</description>
     </item>
     

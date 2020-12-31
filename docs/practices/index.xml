@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Practices on Hugo</title>
+    <title>Practices on Eureka Demo</title>
     <link>https://winsa24.github.io/practices/</link>
-    <description>Recent content in Practices on Hugo</description>
+    <description>Recent content in Practices on Eureka Demo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>[Home](/) &amp;#183; Theme [Simpleness](https://github.com/winsa24/simpleness) Powered by [Hugo](https://gohugo.io/)</copyright>
+    <copyright>&amp;copy; 2020 &lt;a href=&#34;https://www.wangchucheng.com/&#34;&gt;C. Wang&lt;/a&gt; and &lt;a href=&#34;https://www.ruiqima.com/&#34;&gt;R. Ma&lt;/a&gt;</copyright>
     <lastBuildDate>Wed, 25 Nov 2020 12:00:00 -0500</lastBuildDate><atom:link href="https://winsa24.github.io/practices/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lab 4: Parkour</title>
@@ -23,7 +23,8 @@ rm -rf docs (optional)
 Hugo
 git add .
 git commit -m “something&amp;quot;
-git push origin master</description>
+git push origin master
+ </description>
     </item>
     
     <item>
@@ -42,7 +43,7 @@ https://www.youtube.com/c/DilmerValecillos/videos
 https://sidequestvr.com/app/578/handspace
 https://www.youtube.com/watch?v=A0gpaQGu_H0
 https://www.youtube.com/watch?v=zPFU30tbyKs
- Test on Oculus  try to use the build and run directly from Unity but fail.</description>
+ Test on Oculus  try to use the build and run directly from Unity but fail.   try to review all the undo step.</description>
     </item>
     
     <item>
@@ -53,7 +54,7 @@ https://www.youtube.com/watch?v=zPFU30tbyKs
       <guid>https://winsa24.github.io/practices/p2/</guid>
       <description>New knowledge:  Change to Script Editor:   Unity Lifecycle: Start ( ) / FixedUpdate( ) / Update( )   Skipped step: transform Empty GO   Import TMP: Unshown steps in the tutorial
   Steps order *
-   Tried to start game, but can&amp;rsquo;t control the the player. Have no reaction when kicking the keyboard. Find an error when create the Input Actions in the Assest folder.</description>
+   Tried to start game, but can&amp;rsquo;t control the the player. Have no reaction when kicking the keyboard. Find an error when create the Input Actions in the Assest folder. Tried to create the Input Actions in Inspector.</description>
     </item>
     
     <item>
@@ -67,7 +68,9 @@ https://www.youtube.com/watch?v=zPFU30tbyKs
  Link to my blog https://winsa24.github.io/
 Need to learn Markdown grammar   Notes: Ways to update the pages:
 Git command as follow:
-rm -rf docs (optional)</description>
+rm -rf docs (optional)
+Hugo
+git add .</description>
     </item>
     
   </channel>
