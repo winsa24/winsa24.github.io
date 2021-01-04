@@ -24,9 +24,9 @@ A software that can remotely, link and manage smart devices at home, and has sec
 - Equipment self-inspection: The equipment can perform equipment inspection and point out the result of the failure. Achieve timely troubleshooting and maintenance of equipment failures.
 
 ## Platforms and modules
-Hardware platform: Smart phone
-Operating system: Android and IOS
-Database: MySQL
+- Hardware platform: Smart phone
+- Operating system: Android and IOS
+- Database: MySQL
 
 
 ![avatar](/images/projects/software/home.png)

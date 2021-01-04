@@ -14,8 +14,7 @@
       <pubDate>Thu, 15 Aug 2019 02:01:58 +0530</pubDate>
       
       <guid>https://winsa24.github.io/projects/web1/</guid>
-      <description>Independently develop and build a visualization program to generate a website. Through simple and efficient interaction with users, the website generates a series of visualization solutions based on user data to help users perform data analysis;
-The website is built based on HTML+CSS+JAVASCRIPT+MYSQL, and the displayed visualization scheme is based on ECHARTS.  Video Here</description>
+      <description>Visualization Recommendation System This subject designs and implements a set of visualization scheme recommendation system. The system is oriented to data analysts whose requirements are not clear and who do not have professional programming capabilities. Through simple interactions, the system generates a series of visualization solutions that meet users’ needs. The design of the system is based on the actual analysis of visual element properties, attributes and real cases. By separating its data, properties and attributes, the corresponding relationship among them is studied and defined, and the model is established accordingly.</description>
     </item>
     
     <item>
@@ -43,7 +42,7 @@ Function description Smoke sensor and formaldehyde sensor obtain their respectiv
       <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>https://winsa24.github.io/projects/qt1/</guid>
-      <description>Wrote “2018 World Cup inquiring system” by VS and QT independently, studied knowledge of front-end and back-end development, realized the function of inquiring information of games in a specific date selected by dragging roller and showing all kinds of real-time statistical results</description>
+      <description>Wrote “2018 World Cup inquiring system” by VS and QT independently, studied knowledge of front-end and back-end development, realized the function of inquiring information of games in a specific date selected by dragging roller and showing all kinds of real-time statistical results.</description>
     </item>
     
   </channel>

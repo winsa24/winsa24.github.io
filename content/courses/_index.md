@@ -1,4 +1,4 @@
 +++
-title = "Docs"
+title = "Courses"
 layout = "doc-list"
 +++
