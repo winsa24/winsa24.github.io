@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Android on Eureka Demo</title>
+    <title>Android on Xiang WEI</title>
     <link>https://winsa24.github.io/tags/android/</link>
-    <description>Recent content in Android on Eureka Demo</description>
+    <description>Recent content in Android on Xiang WEI</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2020 &lt;a href=&#34;https://www.wangchucheng.com/&#34;&gt;C. Wang&lt;/a&gt; and &lt;a href=&#34;https://www.ruiqima.com/&#34;&gt;R. Ma&lt;/a&gt;</copyright>
@@ -20,10 +20,11 @@
     <item>
       <title>Course Design of Computer Hardware</title>
       <link>https://winsa24.github.io/projects/hardware/</link>
-      <pubDate>Fri, 01 Mar 2019 02:01:58 +0530</pubDate>
+      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://winsa24.github.io/projects/hardware/</guid>
-      <description>Engaged in the project of ‘Intelligent home system’, learnt Android development and knowledge about IP, been responsible for the encapsulation of IP and whole construction of the showing App</description>
+      <description>SmartHome App A small tool for real-time monitoring of indoor air quality is designed, which can display the current indoor temperature and humidity, formaldehyde concentration and smoke. And realize the analysis of air quality over a period of time on the mobile phone and provide suggestions for improvement.
+Function description Smoke sensor and formaldehyde sensor obtain their respective data and pass it to the development board; The mobile phone can be connected to the development board via software using Bluetooth, and receive real-time data from the board; The software can process the air quality data, draw a line graph, and provide it to users for analysis.</description>
     </item>
     
   </channel>

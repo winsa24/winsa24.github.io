@@ -1,6 +1,6 @@
 publishDir = "docs"
 baseURL = "https://winsa24.github.io"
-title = "Eureka Demo"
+title = "Xiang WEI"
 
 # Comment when installing using Hugo Modules
 theme = "eureka"

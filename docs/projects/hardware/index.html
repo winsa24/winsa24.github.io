@@ -3,7 +3,7 @@
 <meta name="viewport" content="width=device-width">
 
 
-<title>Course Design of Computer Hardware | Eureka Demo</title>
+<title>Course Design of Computer Hardware | Xiang WEI</title>
 <link rel="stylesheet" href="https://winsa24.github.io/css/eureka.min.css">
 <script defer src="https://winsa24.github.io/js/eureka.min.js"></script>
 
@@ -45,7 +45,7 @@
 <link rel="apple-touch-icon" sizes="180x180" href="https://winsa24.github.io/images/icon_hu64421c6c7700f606f0ad45d807017b09_5843_180x180_fill_box_center_2.png">
 
 <meta name="description"
-  content="Engaged in the project of ‘Intelligent home system’, learnt Android development and knowledge about IP, been responsible for the encapsulation of IP and whole construction of the showing App">
+  content="Engaged in the project of ‘Intelligent home system’, learnt Android development and knowledge about IP, been responsible for the encapsulation of IP and whole construction of the showing App.">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -72,9 +72,9 @@
         "@type": "WebPage",
         "@id": "https://winsa24.github.io/projects/hardware/"
     },
-    "headline": "Course Design of Computer Hardware | Eureka Demo","datePublished": "2019-03-01T02:01:58+05:30",
-    "dateModified": "2019-03-01T02:01:58+05:30",
-    "wordCount":  29 ,
+    "headline": "Course Design of Computer Hardware | Xiang WEI","datePublished": "2019-03-01T00:00:00+00:00",
+    "dateModified": "2019-03-01T00:00:00+00:00",
+    "wordCount":  183 ,
     "publisher": {
         "@type": "Person",
         "name": "C. Wang",
@@ -83,9 +83,9 @@
             "url": "https://winsa24.github.io/images/icon.png"
         }
         },
-    "description": "Engaged in the project of ‘Intelligent home system’, learnt Android development and knowledge about IP, been responsible for the encapsulation of IP and whole construction of the showing App"
+    "description": "Engaged in the project of ‘Intelligent home system’, learnt Android development and knowledge about IP, been responsible for the encapsulation of IP and whole construction of the showing App."
 }
-</script><meta property="og:title" content="Course Design of Computer Hardware | Eureka Demo" />
+</script><meta property="og:title" content="Course Design of Computer Hardware | Xiang WEI" />
 <meta property="og:type" content="article" />
 
 
@@ -96,9 +96,7 @@
 
 
 
-
-<meta property="og:description" content="Engaged in the project of ‘Intelligent home system’, learnt Android development and knowledge about IP, been responsible for the encapsulation of IP and whole construction of the showing App" />
-
+<meta property="og:description" content="Engaged in the project of ‘Intelligent home system’, learnt Android development and knowledge about IP, been responsible for the encapsulation of IP and whole construction of the showing App." />
 
 
 
@@ -107,21 +105,21 @@
 
 
 
-<meta property="og:site_name" content="Eureka Demo" />
+<meta property="og:site_name" content="Xiang WEI" />
 
 
 
 
 
 
-<meta property="article:published_time" content="2019-03-01T02:01:58&#43;05:30" />
+<meta property="article:published_time" content="2019-03-01T00:00:00&#43;00:00" />
 
 
-<meta property="article:modified_time" content="2019-03-01T02:01:58&#43;05:30" />
+<meta property="article:modified_time" content="2019-03-01T00:00:00&#43;00:00" />
 
 
 
-<meta property="article:section" content="Projects" />
+<meta property="article:section" content="projects" />
 
 
 <meta property="article:tag" content="Android" />
@@ -145,7 +143,7 @@
     }
 </script>
 <nav class="flex items-center justify-between flex-wrap p-4">
-    <a href="/" class="mr-6 text-primary-text text-xl font-bold">Eureka Demo</a>
+    <a href="/" class="mr-6 text-primary-text text-xl font-bold">Xiang WEI</a>
     <button id="navbar-btn" class="md:hidden flex items-center px-3 py-2" aria-label="Open Navbar">
         <i class="fas fa-bars"></i>
     </button>
@@ -155,10 +153,10 @@
         <div class="text-sm md:flex-grow pb-4 md:pb-0 border-b md:border-b-0">
             <a href="/#about"
                 class="block mt-4 md:inline-block md:mt-0  hover:text-eureka mr-4">About</a>
-            <a href="/posts/"
-                class="block mt-4 md:inline-block md:mt-0  hover:text-eureka mr-4">Posts</a>
-            <a href="/docs/"
-                class="block mt-4 md:inline-block md:mt-0  hover:text-eureka mr-4">Docs</a>
+            <a href="/projects/"
+                class="block mt-4 md:inline-block md:mt-0  text-eureka  hover:text-eureka mr-4">Projects</a>
+            <a href="/courses/"
+                class="block mt-4 md:inline-block md:mt-0  hover:text-eureka mr-4">Courses</a>
         </div>
 
         <div class="flex">
@@ -239,7 +237,19 @@
         
 
         <div class="content">
-            <p>Engaged in the project of ‘Intelligent home system’, learnt Android development and knowledge about IP, been responsible for the encapsulation of IP and whole construction of the showing App</p>
+            <h1 id="smarthome-app">SmartHome App</h1>
+<p>A small tool for real-time monitoring of indoor air quality is designed, which can display the current indoor temperature and humidity, formaldehyde concentration and smoke. And realize the analysis of air quality over a period of time on the mobile phone and provide suggestions for improvement.</p>
+<h2 id="function-description">Function description</h2>
+<p>Smoke sensor and formaldehyde sensor obtain their respective data and pass it to the development board;
+The mobile phone can be connected to the development board via software using Bluetooth, and receive real-time data from the board;
+The software can process the air quality data, draw a line graph, and provide it to users for analysis.</p>
+<h2 id="platforms-and-modules">Platforms and modules</h2>
+<p>The development board selected is PYNQ-Z1, which uses HC-05 embedded Bluetooth serial communication module, ZE08-CH2O formaldehyde module, ZH03 laser dust sensor module, Zhongjingyuan Electronics 2.42 inch OLED display module and digital temperature and humidity sensor DHT11 module . The choice of these sensors is to obtain indoor air quality data, the Bluetooth module is used as the connection between software and hardware, and the display module is the display in terms of hardware.</p>
+<p><img src="/images/projects/hardware/homepage.jpg" alt="avatar">
+<img src="/images/projects/hardware/report.jpg" alt="avatar">
+<img src="/images/projects/hardware/data1.jpg" alt="avatar">
+<img src="/images/projects/hardware/data2.jpg" alt="avatar">
+<a href="/images/projects/hardware/sh.mp4">Video</a></p>
 
         </div>
         

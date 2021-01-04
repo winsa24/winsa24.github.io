@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Lecture on Eureka Demo</title>
+    <title>Lecture on Xiang WEI</title>
     <link>https://winsa24.github.io/tags/lecture/</link>
-    <description>Recent content in Lecture on Eureka Demo</description>
+    <description>Recent content in Lecture on Xiang WEI</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2020 &lt;a href=&#34;https://www.wangchucheng.com/&#34;&gt;C. Wang&lt;/a&gt; and &lt;a href=&#34;https://www.ruiqima.com/&#34;&gt;R. Ma&lt;/a&gt;</copyright>
     <lastBuildDate>Tue, 08 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://winsa24.github.io/tags/lecture/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lecture 4: VR Technology and Perception</title>
-      <link>https://winsa24.github.io/lectures/l4/</link>
+      <link>https://winsa24.github.io/courses/igd301/lectures/l4/</link>
       <pubDate>Tue, 08 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://winsa24.github.io/lectures/l4/</guid>
+      <guid>https://winsa24.github.io/courses/igd301/lectures/l4/</guid>
       <description> Sensation developed other than hand   two types of haptic Ungrounded vs Grounded ad: flexiblity easier to control dis: limited force on human can&amp;rsquo;t adapat to all situation  </description>
     </item>
     
     <item>
       <title>Lecture 3: VR Technology and Perception</title>
-      <link>https://winsa24.github.io/lectures/l3/</link>
+      <link>https://winsa24.github.io/courses/igd301/lectures/l3/</link>
       <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://winsa24.github.io/lectures/l3/</guid>
+      <guid>https://winsa24.github.io/courses/igd301/lectures/l3/</guid>
       <description> Depth percetion Didn&amp;rsquo;t see the shark   On class brainstorm   Gestalt rules https://www.interaction-design.org/literature/topics/gestalt-principles#:~:text=Gestalt%20principles%20or%20laws%20are,the%20separate%20simpler%20elements%20involved.
   Foveated rendering   ? How to link this to the failure of google glass?   Interesting Ideas  </description>
     </item>
     
     <item>
       <title>Lab 1: Setup Blog</title>
-      <link>https://winsa24.github.io/practices/p1/</link>
+      <link>https://winsa24.github.io/courses/igd301/practices/p1/</link>
       <pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://winsa24.github.io/practices/p1/</guid>
+      <guid>https://winsa24.github.io/courses/igd301/practices/p1/</guid>
       <description>Successfully set my first Hugo blog, by following https://gohugo.io/hosting-and-deployment/hosting-on-github/
  One thing need to be careful: DON&amp;rsquo;T forget to modify the settings in GitHub settings   Also remind to read the theme&amp;rsquo;s readme If I want to modify the theme, go to https://themes.gohugo.io/
  Link to my blog https://winsa24.github.io/
@@ -45,10 +45,10 @@ git add .</description>
     
     <item>
       <title>Lecture 2: VR Technology and Perception</title>
-      <link>https://winsa24.github.io/lectures/l2/</link>
+      <link>https://winsa24.github.io/courses/igd301/lectures/l2/</link>
       <pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://winsa24.github.io/lectures/l2/</guid>
+      <guid>https://winsa24.github.io/courses/igd301/lectures/l2/</guid>
       <description>On-class notes: Presence ? Immersive?
 VR fly simulation -(extended)&amp;ndash;&amp;gt; VR history tour ? Ex. Based on 清明上河图?
 Vergence conflict??
@@ -57,10 +57,10 @@ Waiting for the course slide&amp;hellip;</description>
     
     <item>
       <title>Lecture I: Introduction and History of Virtual Reality</title>
-      <link>https://winsa24.github.io/lectures/l1/</link>
+      <link>https://winsa24.github.io/courses/igd301/lectures/l1/</link>
       <pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://winsa24.github.io/lectures/l1/</guid>
+      <guid>https://winsa24.github.io/courses/igd301/lectures/l1/</guid>
       <description>HCI: Moore’s Law : Ex. Microwave
 No intuitive design, but have good design : intelligently leverages cognitive and perceptual abilities
 Ex. Tap Definition: History: VR : rise and fall and rise Homework 1 Two scenario describe that MR could cause problems for users. Based on VIDEO Hyper - Reality : https://www.youtube.com/watch?v=YJg02ivYzSs
