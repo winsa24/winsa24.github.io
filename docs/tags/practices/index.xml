@@ -10,10 +10,10 @@
     <lastBuildDate>Thu, 10 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://winsa24.github.io/tags/practices/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lab 4: Parkour</title>
-      <link>https://winsa24.github.io/courses/igd301/practices/p4/</link>
+      <link>https://winsa24.github.io/courses/example-doc/igd301/p4/</link>
       <pubDate>Thu, 10 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://winsa24.github.io/courses/igd301/practices/p4/</guid>
+      <guid>https://winsa24.github.io/courses/example-doc/igd301/p4/</guid>
       <description>How to open a folder as a Unity Project Double-clicking Scene file opens the project in unity. (It might cause crash of Unity). Then restart hub and select a unity version for it.
  12.22 Try to apply joystick but all operation are mirrorred. =========
   Notes:
@@ -29,10 +29,10 @@ git push origin master
     
     <item>
       <title>Lab 3: VR Unity Selection</title>
-      <link>https://winsa24.github.io/courses/igd301/practices/p3/</link>
+      <link>https://winsa24.github.io/courses/example-doc/igd301/p3/</link>
       <pubDate>Thu, 03 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://winsa24.github.io/courses/igd301/practices/p3/</guid>
+      <guid>https://winsa24.github.io/courses/example-doc/igd301/p3/</guid>
       <description>New knowledge:  Last post mistake: There are difference between tags and layers:
 Tags are used for finding objects with a specific tag ( e.g. FindWithTag(str) ). Layers can be used to identify objects at a high level
   push depth&amp;hellip;.
@@ -48,10 +48,10 @@ https://www.youtube.com/watch?v=zPFU30tbyKs
     
     <item>
       <title>Lab 2: Roll-A-Ball</title>
-      <link>https://winsa24.github.io/courses/igd301/practices/p2/</link>
+      <link>https://winsa24.github.io/courses/example-doc/igd301/p2/</link>
       <pubDate>Mon, 30 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://winsa24.github.io/courses/igd301/practices/p2/</guid>
+      <guid>https://winsa24.github.io/courses/example-doc/igd301/p2/</guid>
       <description>New knowledge:  Change to Script Editor:   Unity Lifecycle: Start ( ) / FixedUpdate( ) / Update( )   Skipped step: transform Empty GO   Import TMP: Unshown steps in the tutorial
   Steps order *
    Tried to start game, but can&amp;rsquo;t control the the player. Have no reaction when kicking the keyboard. Find an error when create the Input Actions in the Assest folder. Tried to create the Input Actions in Inspector.</description>
