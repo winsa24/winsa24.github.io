@@ -28,71 +28,6 @@
   </url>
   
   <url>
-    <loc>https://winsa24.github.io/courses/</loc>
-    <lastmod>2020-12-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://winsa24.github.io/courses/example-doc/nested-chapter/p4/</loc>
-    <lastmod>2020-12-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://winsa24.github.io/tags/practices/</loc>
-    <lastmod>2020-12-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://winsa24.github.io/tags/lecture/</loc>
-    <lastmod>2020-12-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://winsa24.github.io/courses/example-doc/nested-chapter/l4/</loc>
-    <lastmod>2020-12-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://winsa24.github.io/courses/example-doc/nested-chapter/p3/</loc>
-    <lastmod>2020-12-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://winsa24.github.io/courses/example-doc/nested-chapter/l3/</loc>
-    <lastmod>2020-12-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://winsa24.github.io/courses/example-doc/nested-chapter/p2/</loc>
-    <lastmod>2020-11-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://winsa24.github.io/courses/example-doc/nested-chapter/p1/</loc>
-    <lastmod>2020-11-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://winsa24.github.io/courses/example-doc/nested-chapter/chapter-1/</loc>
-    <lastmod>2020-11-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://winsa24.github.io/courses/example-doc/nested-chapter/l2/</loc>
-    <lastmod>2020-11-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://winsa24.github.io/courses/example-doc/nested-chapter/l1/</loc>
-    <lastmod>2020-11-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://winsa24.github.io/courses/example-doc/nested-chapter/</loc>
-    <lastmod>2020-11-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://winsa24.github.io/tags/ar/</loc>
     <lastmod>2020-11-15T02:01:58+05:30</lastmod>
   </url>
@@ -133,6 +68,11 @@
   </url>
   
   <url>
+    <loc>https://winsa24.github.io/courses/example-doc/nested-chapter/chapter-1/</loc>
+    <lastmod>2020-10-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://winsa24.github.io/courses/example-doc/chapter-2/</loc>
     <lastmod>2020-10-16T00:00:00+00:00</lastmod>
   </url>
@@ -143,7 +83,17 @@
   </url>
   
   <url>
+    <loc>https://winsa24.github.io/courses/</loc>
+    <lastmod>2020-10-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://winsa24.github.io/courses/example-doc/</loc>
+    <lastmod>2020-10-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://winsa24.github.io/courses/example-doc/nested-chapter/</loc>
     <lastmod>2020-10-16T00:00:00+00:00</lastmod>
   </url>
   
