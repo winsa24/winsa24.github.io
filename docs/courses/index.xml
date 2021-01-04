@@ -9,21 +9,23 @@
     <copyright>&amp;copy; 2020 &lt;a href=&#34;https://www.wangchucheng.com/&#34;&gt;C. Wang&lt;/a&gt; and &lt;a href=&#34;https://www.ruiqima.com/&#34;&gt;R. Ma&lt;/a&gt;</copyright>
     <lastBuildDate>Fri, 18 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://winsa24.github.io/courses/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Chapter 1</title>
-      <link>https://winsa24.github.io/courses/chapter-1/</link>
-      <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
+      <title>HCI-901: Fundamentals of HCI</title>
+      <link>https://winsa24.github.io/courses/hci901/</link>
+      <pubDate>Thu, 10 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://winsa24.github.io/courses/chapter-1/</guid>
-      <description>&lt;p&gt;This is chapter 1 of example doc.&lt;/p&gt;</description>
+      <guid>https://winsa24.github.io/courses/hci901/</guid>
+      <description>Michel Beaudouin-Lafon
+Interaction styles, basic elements of psychology and software engineering for HCI, in-depth analysis of graphical interaction,post-WIMP interaction techniques, conceptual modeling, theories and models for HCI.</description>
     </item>
     
     <item>
-      <title>Chapter 2</title>
-      <link>https://winsa24.github.io/courses/chapter-2/</link>
-      <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
+      <title>IGR201b: Interactive 2D/Mobile/Web Application Development</title>
+      <link>https://winsa24.github.io/courses/igr201b/</link>
+      <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://winsa24.github.io/courses/chapter-2/</guid>
-      <description>&lt;p&gt;This is chapter 2 of example doc.&lt;/p&gt;</description>
+      <guid>https://winsa24.github.io/courses/igr201b/</guid>
+      <description> This course presents tools for developing 2D interactive applications: Qt GUI toolkit (in C++), Android user interfaces on mobile devices, Web interface basics.
+ </description>
     </item>
     
   </channel>

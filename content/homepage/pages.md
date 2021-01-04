@@ -1,5 +1,5 @@
 +++
-title = "Pages"
+title = "Projects"
 weight = 2
 draft = false
 

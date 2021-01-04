@@ -29,13 +29,11 @@ A software that can remotely, link and manage smart devices at home, and has sec
 - Database: MySQL
 
 
-![avatar](/images/projects/software/home.png)
-![avatar](/images/projects/software/equip2.png)
-![avatar](/images/projects/software/equip.png)
-![avatar](/images/projects/software/self.png)
-![avatar](/images/projects/software/my.png)
-![avatar](/images/projects/software/login.png)
-![avatar](/images/projects/software/register.png)
-![avatar](/images/projects/software/shop1.png)
-![avatar](/images/projects/software/shop2.png)
+![homepage](/images/projects/software/home.png) ![self check](/images/projects/software/self.png)
+
+![edit equipment](/images/projects/software/equip.png) ![edit equipment](/images/projects/software/equip2.png)
+
+![my](/images/projects/software/my.png) ![my](/images/projects/software/login.png) ![my](/images/projects/software/register.png)
+
+![shop](/images/projects/software/shop1.png) ![shop](/images/projects/software/shop2.png)
 

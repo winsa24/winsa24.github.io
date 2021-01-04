@@ -15,8 +15,8 @@ disableToC: false
 disableAutoCollapse: true
 
 ---
->Created a currency converter which allows users can get the product of two entered number. 
->Created a searching engine which allows users to filter the list with student name or module name. 
->Created a [space shooting game](/images/projects/web2/web2.mp4) based on the animations and functions.
+- Created a currency converter which allows users can get the product of two entered number. 
+- Created a searching engine which allows users to filter the list with student name or module name. 
+- Created a [space shooting game](/images/projects/web2/web2.mp4) based on the animations and functions.
 [![Watch the video](/images/projects/web2/ss.png)](/images/projects/web2/web2.mp4)
 

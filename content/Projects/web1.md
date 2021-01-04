@@ -18,6 +18,7 @@ disableAutoCollapse: true
 # Visualization Recommendation System
 This subject designs and implements a set of visualization scheme recommendation system. The system is oriented to data analysts whose requirements are not clear and who do not have professional programming capabilities. Through simple interactions, the system generates a series of visualization solutions that meet users’ needs. The design of the system is based on the actual analysis of visual element properties, attributes and real cases. By separating its data, properties and attributes, the corresponding relationship among them is studied and defined, and the model is established accordingly.
 
->The website is built based on HTML+CSS+JAVASCRIPT+MYSQL, and the displayed visualization scheme is based on [ECHARTS](https://echarts.apache.org/en/index.html).
+The website is built based on HTML+CSS+JAVASCRIPT+MYSQL, and the displayed visualization scheme is based on [ECHARTS](https://echarts.apache.org/en/index.html).
 
+Check the [video](https://youtu.be/71woAAkMNMI) to better learn how the system works.
 [![Watch the video](/images/projects/DV/ss.png)](https://youtu.be/71woAAkMNMI)

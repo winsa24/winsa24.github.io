@@ -25,8 +25,8 @@ The software can process the air quality data, draw a line graph, and provide it
 ## Platforms and modules
 The development board selected is PYNQ-Z1, which uses HC-05 embedded Bluetooth serial communication module, ZE08-CH2O formaldehyde module, ZH03 laser dust sensor module, Zhongjingyuan Electronics 2.42 inch OLED display module and digital temperature and humidity sensor DHT11 module . The choice of these sensors is to obtain indoor air quality data, the Bluetooth module is used as the connection between software and hardware, and the display module is the display in terms of hardware.
 
-![avatar](/images/projects/hardware/homepage.jpg)
-![avatar](/images/projects/hardware/report.jpg)
-![avatar](/images/projects/hardware/data1.jpg)
-![avatar](/images/projects/hardware/data2.jpg)
-[Video](/images/projects/hardware/sh.mp4)
+![homepage](/images/projects/hardware/homepage.jpg) ![report](/images/projects/hardware/report.jpg)
+![subpage](/images/projects/hardware/data1.jpg) ![subpage](/images/projects/hardware/data2.jpg)
+
+Check the [video](/images/projects/hardware/sh.mp4) to better learn how the App works.
+[![Watch the video](/images/projects/hardware/homepage.jpg)](/images/projects/hardware/sh.mp4)
