@@ -4,7 +4,7 @@ weight = 1
 draft = false
 
 role = "Master Student"
-bio = "First year master student major in Interaction, Graphic and Design (M1-IGD)."
+bio = "1st year master student major in Interaction, Graphic and Design (M1-IGD)."
 avatar = "images/about.jpeg"
 
 [organization]
@@ -70,6 +70,6 @@ Introduced Chinese culture and helped the teachers to organize activities and co
 
 - Game Develop
 - VR & AR Develop
-- Front-end Develop
+- Software Develop
 
 
