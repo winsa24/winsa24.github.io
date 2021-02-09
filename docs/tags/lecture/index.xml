@@ -28,31 +28,15 @@
     </item>
     
     <item>
-      <title>Lab 1: Setup Blog</title>
-      <link>https://winsa24.github.io/courses/igd301/p1/</link>
-      <pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://winsa24.github.io/courses/igd301/p1/</guid>
-      <description>Successfully set my first Hugo blog, by following https://gohugo.io/hosting-and-deployment/hosting-on-github/
- One thing need to be careful: DON&amp;rsquo;T forget to modify the settings in GitHub settings   Also remind to read the theme&amp;rsquo;s readme If I want to modify the theme, go to https://themes.gohugo.io/
- Link to my blog https://winsa24.github.io/
-Need to learn Markdown grammar   Notes: Ways to update the pages:
-Git command as follow:
-rm -rf docs (optional)
-Hugo
-git add .</description>
-    </item>
-    
-    <item>
       <title>Lecture 2: VR Technology and Perception</title>
       <link>https://winsa24.github.io/courses/igd301/l2/</link>
-      <pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 26 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>https://winsa24.github.io/courses/igd301/l2/</guid>
-      <description>On-class notes: Presence ? Immersive?
-VR fly simulation -(extended)&amp;ndash;&amp;gt; VR history tour ? Ex. Based on 清明上河图?
-Vergence conflict??
-Waiting for the course slide&amp;hellip;</description>
+      <description>Presence VS Immersive → Presence is about PERCEPTION → Immersion is about SENSATION Immersion can produce a sensation of Presence
+ VR fly simulation
+ -(extended)&amp;ndash;&amp;gt; VR history tour ? Ex. Based on 清明上河图?
+Vergence-Accomodation Conflict </description>
     </item>
     
     <item>
@@ -66,6 +50,24 @@ No intuitive design, but have good design : intelligently leverages cognitive an
 Ex. Tap Definition: History: VR : rise and fall and rise Homework 1 Two scenario describe that MR could cause problems for users. Based on VIDEO Hyper - Reality : https://www.youtube.com/watch?v=YJg02ivYzSs
 Scenario 1:
 The adopted pet in the supermarket might bit the user if he doesn’t get what he want. And the user may have hurt feeling.</description>
+    </item>
+    
+    <item>
+      <title>Lecture 8: Current Research Topics</title>
+      <link>https://winsa24.github.io/courses/igd301/l8/</link>
+      <pubDate>Sun, 19 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/courses/igd301/l8/</guid>
+      <description>Searching Tips: Google Scholar Top Conference  Interesting manga:  Interesting Research going on &amp;hellip;  Homework </description>
+    </item>
+    
+    <item>
+      <title>Lecture 7: Augmented Reality</title>
+      <link>https://winsa24.github.io/courses/igd301/l7/</link>
+      <pubDate>Sun, 12 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/courses/igd301/l7/</guid>
+      <description>Searching Tips: Google Scholar Top Conference  Interesting manga:  Interesting Research going on &amp;hellip;  Homework </description>
     </item>
     
   </channel>

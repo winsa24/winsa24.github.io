@@ -54,4 +54,4 @@ follow video <https://www.youtube.com/watch?v=GSdfqOq_p5k>
 
 >Based on the test and document, start to reframe my locomotion technique...
 Initial technique:
-
+![MyLoc](/images/VR/develop/MyLoc.png)
