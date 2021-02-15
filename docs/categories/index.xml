@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Xiang WEI</title>
+    <link>https://winsa24.github.io/categories/</link>
+    <description>Recent content in Categories on Xiang WEI</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; 2020 &lt;a href=&#34;https://www.wangchucheng.com/&#34;&gt;C. Wang&lt;/a&gt; and &lt;a href=&#34;https://www.ruiqima.com/&#34;&gt;R. Ma&lt;/a&gt;</copyright>
+    <lastBuildDate>Sun, 15 Nov 2020 02:01:58 +0530</lastBuildDate><atom:link href="https://winsa24.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AR Develop</title>
+      <link>https://winsa24.github.io/categories/ar-develop/</link>
+      <pubDate>Sun, 15 Nov 2020 02:01:58 +0530</pubDate>
+      
+      <guid>https://winsa24.github.io/categories/ar-develop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web Develop</title>
+      <link>https://winsa24.github.io/categories/web-develop/</link>
+      <pubDate>Thu, 15 Oct 2020 02:01:58 +0530</pubDate>
+      
+      <guid>https://winsa24.github.io/categories/web-develop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Android Develop</title>
+      <link>https://winsa24.github.io/categories/android-develop/</link>
+      <pubDate>Thu, 01 Oct 2020 02:01:58 +0530</pubDate>
+      
+      <guid>https://winsa24.github.io/categories/android-develop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tool Develop</title>
+      <link>https://winsa24.github.io/categories/tool-develop/</link>
+      <pubDate>Tue, 15 Sep 2020 02:01:58 +0530</pubDate>
+      
+      <guid>https://winsa24.github.io/categories/tool-develop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>WeChat Develop</title>
+      <link>https://winsa24.github.io/categories/wechat-develop/</link>
+      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/categories/wechat-develop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>https://winsa24.github.io/categories/hugo/</link>
+      <pubDate>Thu, 18 May 2017 12:13:30 +0530</pubDate>
+      
+      <guid>https://winsa24.github.io/categories/hugo/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

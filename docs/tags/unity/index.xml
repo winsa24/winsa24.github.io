@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Unity on Xiang WEI</title>
+    <link>https://winsa24.github.io/tags/unity/</link>
+    <description>Recent content in Unity on Xiang WEI</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; 2020 &lt;a href=&#34;https://www.wangchucheng.com/&#34;&gt;C. Wang&lt;/a&gt; and &lt;a href=&#34;https://www.ruiqima.com/&#34;&gt;R. Ma&lt;/a&gt;</copyright>
+    <lastBuildDate>Sun, 15 Nov 2020 02:01:58 +0530</lastBuildDate><atom:link href="https://winsa24.github.io/tags/unity/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Xperience of Virtual Plants (XVP)</title>
+      <link>https://winsa24.github.io/projects/ar/</link>
+      <pubDate>Sun, 15 Nov 2020 02:01:58 +0530</pubDate>
+      
+      <guid>https://winsa24.github.io/projects/ar/</guid>
+      <description>Xperience of Virtual Plants (XVP) An application to help users learn rare plants. The system will generate 3D models based on different image targets. By clicking on the virtual buttons and screen buttons, users can interact with 3D models.
+Target Device An Android equipment with API Level above 19 (4.4 ‘KitKat’)
+Development Platform MacOs Mojave (10.14.6) + Unity (2019.2.13f1) + Vuforia (9.4.6)
+Check the video to better learn our project.</description>
+    </item>
+    
+  </channel>
+</rss>

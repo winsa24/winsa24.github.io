@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lab on Xiang WEI</title>
+    <link>https://winsa24.github.io/tags/lab/</link>
+    <description>Recent content in Lab on Xiang WEI</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; 2020 &lt;a href=&#34;https://www.wangchucheng.com/&#34;&gt;C. Wang&lt;/a&gt; and &lt;a href=&#34;https://www.ruiqima.com/&#34;&gt;R. Ma&lt;/a&gt;</copyright>
+    <lastBuildDate>Thu, 03 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://winsa24.github.io/tags/lab/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lab 3: VR Unity Selection</title>
+      <link>https://winsa24.github.io/courses/igd301/p3/</link>
+      <pubDate>Thu, 03 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/courses/igd301/p3/</guid>
+      <description>New knowledge:  Last post mistake: There are difference between tags and layers:
+Tags are used for finding objects with a specific tag ( e.g. FindWithTag(str) ). Layers can be used to identify objects at a high level
+  push depth&amp;hellip;.
+  other interaction ways&amp;hellip;.
+  links post in chat:
+https://twitter.com/pushmatrix/status/1333773295385194502
+https://www.youtube.com/c/DilmerValecillos/videos
+https://sidequestvr.com/app/578/handspace
+https://www.youtube.com/watch?v=A0gpaQGu_H0
+https://www.youtube.com/watch?v=zPFU30tbyKs
+ Test on Oculus  try to use the build and run directly from Unity but fail.   try to review all the undo step.</description>
+    </item>
+    
+    <item>
+      <title>Lab 2: Roll-A-Ball</title>
+      <link>https://winsa24.github.io/courses/igd301/p2/</link>
+      <pubDate>Mon, 30 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/courses/igd301/p2/</guid>
+      <description>Get start with Unity&amp;hellip; Some New knowledge in Unity for me:  Change to Script Editor:   Unity Lifecycle: Start ( ) / FixedUpdate( ) / Update( )  Start to implement a Simple Roll-A-Ball Game following Wenjie&amp;rsquo;s Slides!  Skipped step: transform Empty GO   Import TMP: Unshown steps in the tutorial
+ Steps order Some Erros &amp;amp; Solutions&amp;hellip; Tried to start game, but can&amp;rsquo;t control the the player. Have no reaction when kicking the keyboard.</description>
+    </item>
+    
+    <item>
+      <title>Lab 1: Setup Blog</title>
+      <link>https://winsa24.github.io/courses/igd301/p1/</link>
+      <pubDate>Thu, 26 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/courses/igd301/p1/</guid>
+      <description>Set up your own Blog Like this&amp;hellip;  Successfully set my first Hugo blog, by following https://gohugo.io/getting-started/installing/ https://gohugo.io/hosting-and-deployment/hosting-on-github/
+  One thing need to be careful: DON&amp;rsquo;T forget to modify the settings in GitHub settings   Also remind to read the theme&amp;rsquo;s readme If I want to modify the theme, go to https://themes.gohugo.io/
+  Write in Markdown grammar
+   Notes: Ways to update the pages:
+Git command as follow:
+rm -rf docs (optional)</description>
+    </item>
+    
+  </channel>
+</rss>
