@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2020 &lt;a href=&#34;https://www.wangchucheng.com/&#34;&gt;C. Wang&lt;/a&gt; and &lt;a href=&#34;https://www.ruiqima.com/&#34;&gt;R. Ma&lt;/a&gt;</copyright>
-    <lastBuildDate>Tue, 19 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://winsa24.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 26 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://winsa24.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lab 5: VR Locomotion Implementation</title>
+      <link>https://winsa24.github.io/courses/igd301/p5/</link>
+      <pubDate>Tue, 26 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/courses/igd301/p5/</guid>
+      <description>Initial ideas&amp;hellip; I tried to implement this technique on a simple scene in unity and tested it myself. But It doesn’t work well and also bring me a lot fatigue by forcing my arm behind my shoulder. And I also tested with one of my friends and received some feedback from her. During our discussion and we thought to remove the moving back option and also augment the turning. 2nd Round Design&amp;hellip; In this version, player will only use their hand to control [rotation].</description>
+    </item>
+    
     <item>
       <title>Lecture 8: Current Research Topics</title>
       <link>https://winsa24.github.io/courses/igd301/l8/</link>
@@ -34,17 +43,6 @@
       <guid>https://winsa24.github.io/courses/igd301/l6/</guid>
       <description>Prototyping &amp;amp; Evaluation Human Techniques : Ethnographies, Focus Groups and Interviews&amp;hellip;
 Design Prototype Low-Fi Tools Horizontal and Vertical Prototype Evaluate • Lab study • Field study • Survey • Grounded Theory/ Thematic Analysis Some [Guide] or [Restriction] in evaluation  Example&amp;hellip;  [Problem] How to solve fatigue or use small motion to realize big movement? some interesting [Solutions]: Homework Evaluate your Locomotion Technique  Link to a large Locomotion Technique Lib  How to evaluate? Result General result We filled in all our evaluation result in table.</description>
-    </item>
-    
-    <item>
-      <title>Lab 5: VR Locomotion Implementation</title>
-      <link>https://winsa24.github.io/courses/igd301/p5/</link>
-      <pubDate>Thu, 17 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://winsa24.github.io/courses/igd301/p5/</guid>
-      <description>Initial ideas&amp;hellip;  Recap
- Rocketer Errors&amp;hellip; Moving Left &amp;amp; Right != Turning Left &amp;amp; Right
-Final Implementation &amp;mdash; My Drivekour Game </description>
     </item>
     
     <item>

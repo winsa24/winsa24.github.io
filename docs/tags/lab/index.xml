@@ -7,7 +7,27 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2020 &lt;a href=&#34;https://www.wangchucheng.com/&#34;&gt;C. Wang&lt;/a&gt; and &lt;a href=&#34;https://www.ruiqima.com/&#34;&gt;R. Ma&lt;/a&gt;</copyright>
-    <lastBuildDate>Thu, 03 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://winsa24.github.io/tags/lab/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 26 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://winsa24.github.io/tags/lab/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lab 5: VR Locomotion Implementation</title>
+      <link>https://winsa24.github.io/courses/igd301/p5/</link>
+      <pubDate>Tue, 26 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/courses/igd301/p5/</guid>
+      <description>Initial ideas&amp;hellip; I tried to implement this technique on a simple scene in unity and tested it myself. But It doesn’t work well and also bring me a lot fatigue by forcing my arm behind my shoulder. And I also tested with one of my friends and received some feedback from her. During our discussion and we thought to remove the moving back option and also augment the turning. 2nd Round Design&amp;hellip; In this version, player will only use their hand to control [rotation].</description>
+    </item>
+    
+    <item>
+      <title>Lab 4: Parkour</title>
+      <link>https://winsa24.github.io/courses/igd301/p4/</link>
+      <pubDate>Thu, 10 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/courses/igd301/p4/</guid>
+      <description>How to open a folder as a Unity Project Double-clicking Scene file opens the project in unity. (It might cause crash of Unity). Then restart hub and select a unity version for it.
+My Locomotion Technique ideas&amp;hellip; Inspiration
+  Rocketer (Click to check the presentation slide) On class example for presenting the idea: Target : Develop a Swimming Technique in VR Requirements: Make user feel that they are moving forward or backward Method: detect distance and have the matrix Evaluate: Set a Goal: perform best swimming experience</description>
+    </item>
+    
     <item>
       <title>Lab 3: VR Unity Selection</title>
       <link>https://winsa24.github.io/courses/igd301/p3/</link>
