@@ -38,14 +38,16 @@ https://www.youtube.com/watch?v=zPFU30tbyKs
     </item>
     
     <item>
-      <title>Lab 1: Setup Blog</title>
+      <title>Lab 1: Setup Blog &amp; Unity</title>
       <link>https://winsa24.github.io/courses/igd301/p1/</link>
       <pubDate>Thu, 26 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>https://winsa24.github.io/courses/igd301/p1/</guid>
-      <description>Set up your own Blog Like this&amp;hellip; Generally follow this link  Install Hugo on macOS (Homebrew):  Type in console: 
- brew install hugo   Register on Git Create Page  - hugo new site sitename - cd sitename  Select Theme  - git init - cd themes - git submodule add https://github.com/budparr/gohugotheme-ananke.git themes/ananke  Open config.toml in a text editor and add theme = &amp;ldquo;ananke&amp;rdquo;
-Local test  hugo server -D</description>
+      <description>Setup your own Blog Like this&amp;hellip; Generally follow this link
+ Install Hugo on macOS (Homebrew):  Type in console:
+  Register on Git Create Page  - cd sitename   Select Theme  - cd themes - git submodule add https://github.com/budparr/gohugotheme-ananke.git themes/ananke  Open config.toml in a text editor and add theme = &amp;ldquo;ananke&amp;rdquo;
+Local test  See http://localhost:1313/ in the browser.
+Deployment  Add publishDir = &amp;ldquo;docs&amp;rdquo; to the config.toml Set baseURL = &amp;ldquo;https://.</description>
     </item>
     
   </channel>
