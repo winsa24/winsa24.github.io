@@ -9,6 +9,45 @@
     <copyright>&amp;copy; 2020 &lt;a href=&#34;https://www.wangchucheng.com/&#34;&gt;C. Wang&lt;/a&gt; and &lt;a href=&#34;https://www.ruiqima.com/&#34;&gt;R. Ma&lt;/a&gt;</copyright>
     <lastBuildDate>Thu, 19 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://winsa24.github.io/courses/igd301/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Lecture 8: Current Research Topics</title>
+      <link>https://winsa24.github.io/courses/igd301/l8/</link>
+      <pubDate>Tue, 19 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/courses/igd301/l8/</guid>
+      <description>Searching Tips: Google Scholar Top Conference  Interesting manga:  Interesting Research going on &amp;hellip;  </description>
+    </item>
+    
+    <item>
+      <title>Lecture 7: Augmented Reality</title>
+      <link>https://winsa24.github.io/courses/igd301/l7/</link>
+      <pubDate>Tue, 12 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/courses/igd301/l7/</guid>
+      <description>AR Definition • Combines Real and Virtual Images Both can be seen at the same time • Interactive in real-time The virtual content can be interacted with • Registered in 3D Virtual objects appear fixed in space AR History • 1960’s – 80’s: Early Experimentation • 1980’s – 90’s: Basic Research (Tracking, Display) • 1995 – 2005: Tools/Applications (Interaction, Usability..) • 2005 – today: Commercial Applications (Games, Medical, Industry) • 2007 – AR Reaches Mainstream • MIT Technology Review of March 2007: One of the 10 most exciting technologies • Economist (Dec.</description>
+    </item>
+    
+    <item>
+      <title>Lecture 6: Design Processes and Guidelines</title>
+      <link>https://winsa24.github.io/courses/igd301/l6/</link>
+      <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/courses/igd301/l6/</guid>
+      <description>Prototyping &amp;amp; Evaluation Human Techniques : Ethnographies, Focus Groups and Interviews&amp;hellip;
+Design Prototype Low-Fi Tools Horizontal and Vertical Prototype Evaluate • Lab study • Field study • Survey • Grounded Theory/ Thematic Analysis Some [Guide] or [Restriction] in evaluation  Example&amp;hellip;  [Problem] How to solve fatigue or use small motion to realize big movement? some interesting [Solutions]: Homework Evaluate your Locomotion Technique  Link to a large Locomotion Technique Lib  How to evaluate? Result General result We filled in all our evaluation result in table.</description>
+    </item>
+    
+    <item>
+      <title>Lab 5: VR Locomotion Implementation</title>
+      <link>https://winsa24.github.io/courses/igd301/p5/</link>
+      <pubDate>Thu, 17 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/courses/igd301/p5/</guid>
+      <description>Initial ideas&amp;hellip;  Recap
+ Rocketer Errors&amp;hellip; Moving Left &amp;amp; Right != Turning Left &amp;amp; Right
+Final Implementation &amp;mdash; My Drivekour Game </description>
+    </item>
+    
+    <item>
       <title>Lab 4: Parkour</title>
       <link>https://winsa24.github.io/courses/igd301/p4/</link>
       <pubDate>Thu, 10 Dec 2020 00:00:00 +0000</pubDate>
@@ -26,6 +65,16 @@ My Locomotion Technique ideas&amp;hellip; Inspiration
       
       <guid>https://winsa24.github.io/courses/igd301/l4/</guid>
       <description> Sensation developed other than hand   two types of haptic Ungrounded vs Grounded ad: flexiblity easier to control dis: limited force on human can&amp;rsquo;t adapat to all situation  </description>
+    </item>
+    
+    <item>
+      <title>Lecture 5: Input Devices and Interaction Techniques</title>
+      <link>https://winsa24.github.io/courses/igd301/l5/</link>
+      <pubDate>Tue, 08 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/courses/igd301/l5/</guid>
+      <description>[Problem] How to have feedback? some interesting solutions: Controller: Hand:   Interesting inspiration
+  SeeThrough muscle?  virtual face    Another inspire of Locomotion Technique  without controller to move</description>
     </item>
     
     <item>
@@ -104,24 +153,6 @@ No intuitive design, but have good design : intelligently leverages cognitive an
 Ex. Tap Definition: History: VR : rise and fall and rise Homework Section 1 Two scenario describe that MR could cause problems for users. Based on VIDEO Hyper - Reality : https://www.youtube.com/watch?v=YJg02ivYzSs
 Scenario 1:
 The adopted pet in the supermarket might bit the user if he doesn’t get what he want.</description>
-    </item>
-    
-    <item>
-      <title>Lecture 8: Current Research Topics</title>
-      <link>https://winsa24.github.io/courses/igd301/l8/</link>
-      <pubDate>Sun, 19 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://winsa24.github.io/courses/igd301/l8/</guid>
-      <description>Searching Tips: Google Scholar Top Conference  Interesting manga:  Interesting Research going on &amp;hellip;  Homework </description>
-    </item>
-    
-    <item>
-      <title>Lecture 7: Augmented Reality</title>
-      <link>https://winsa24.github.io/courses/igd301/l7/</link>
-      <pubDate>Sun, 12 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://winsa24.github.io/courses/igd301/l7/</guid>
-      <description>Searching Tips: Google Scholar Top Conference  Interesting manga:  Interesting Research going on &amp;hellip;  Homework </description>
     </item>
     
   </channel>
