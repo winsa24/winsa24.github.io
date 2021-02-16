@@ -78,7 +78,7 @@
     },
     "headline": "Lab 2: Roll-A-Ball | Xiang WEI","datePublished": "2020-11-30T00:00:00+00:00",
     "dateModified": "2020-11-30T00:00:00+00:00",
-    "wordCount":  146 ,
+    "wordCount":  214 ,
     "publisher": {
         "@type": "Person",
         "name": "C. Wang",
@@ -216,7 +216,7 @@
     </div>
     <div class="mr-6 my-2">
         <i class="fas fa-clock mr-1"></i>
-        <span>1 min read</span>
+        <span>2 min read</span>
     </div>
     
     
@@ -231,7 +231,7 @@
             <h1 id="get-start-with-unity">Get start with Unity&hellip;</h1>
 <h2 id="some-new-knowledge-in-unity-for-me">Some New knowledge in Unity for me:</h2>
 <blockquote>
-<p>Change to Script Editor:
+<p>Customize Script Editor:
 <img src="/images/courses/igd301/P2/vs.png" alt="avatar"></p>
 </blockquote>
 <blockquote>
@@ -241,19 +241,21 @@ Start ( ) / FixedUpdate( ) / Update( )
 </blockquote>
 <h2 id="start-to-implement-a-simple-roll-a-ball-game-following-wenjies-slides">Start to implement a Simple Roll-A-Ball Game following Wenjie&rsquo;s Slides!</h2>
 <blockquote>
-<p>Skipped step:
-transform Empty GO
-<img src="/images/courses/igd301/P2/skip.png" alt="avatar"></p>
+<p>Skipped step: transform Empty GameObject
+<img src="/images/courses/igd301/P2/skip.png" alt="avatar"><br>
+In my scene, I don&rsquo;t need to change the transform matrix of the Wall in general.</p>
 </blockquote>
 <blockquote>
-<p>Import TMP:
+<p><strong>Import TMP</strong>:
 Unshown steps in the tutorial<br>
-<img src="/images/courses/igd301/P2/TMP.png" alt="avatar"></p>
-</blockquote>
-<h3 id="steps-order"><em>Steps order</em></h3>
-<p><img src="/images/courses/igd301/P2/TMP1.png" alt="avatar"><br>
+<img src="/images/courses/igd301/P2/TMP.png" alt="avatar">
+It works with only importing the essential package.<br>
+Also it&rsquo;s always tricky to set the position of the text. I figured out this <strong>Steps order</strong> to help setup a UI text.
+<img src="/images/courses/igd301/P2/TMP1.png" alt="avatar"><br>
 <img src="/images/courses/igd301/P2/TMP2.png" alt="avatar"></p>
+</blockquote>
 <h2 id="some-erros--solutions">Some Erros &amp; Solutions&hellip;</h2>
+<h3 id="problem1-player-control">[Problem1] Player Control</h3>
 <p>Tried to start game, but can&rsquo;t control the the player. Have no reaction when kicking the keyboard.
 Find an error when create the Input Actions in the Assest folder.
 <img src="/images/courses/igd301/P2/Input.png" alt="avatar">
@@ -267,16 +269,15 @@ Installed Input version<br>
 <img src="/images/courses/igd301/P2/error1.png" alt="avatar"></p>
 </blockquote>
 <blockquote>
-<p>Error2: still edition?
+<p>Error2: Try to reimport and updated to the latest version but receive more errors.
 <img src="/images/courses/igd301/P2/error2.png" alt="avatar"><br>
-<img src="/images/courses/igd301/P2/solution2.png" alt="avatar"></p>
-</blockquote>
-<blockquote>
-<p>Result
+Methods:<br>
+<img src="/images/courses/igd301/P2/solution2.png" alt="avatar"><br>
+Result: No errors but still can&rsquo;t move<br>
 <img src="/images/courses/igd301/P2/Rimmovable.png" alt="avatar"></p>
 </blockquote>
 <blockquote>
-<p>Solutions
+<p><strong>Final Solutions</strong><br>
 Create InputActions in Inspector.
 <a href="https://docs.unity3d.com/Packages/com.unity.inputsystem@1.0/manual/QuickStartGuide.html#getting-input-indirectly-through-an-input-action">https://docs.unity3d.com/Packages/com.unity.inputsystem@1.0/manual/QuickStartGuide.html#getting-input-indirectly-through-an-input-action</a>
 Message sent:
@@ -285,14 +286,12 @@ C# scripts:
 <img src="/images/courses/igd301/P2/onmove2.png" alt="avatar"><br>
 <strong>Solved</strong></p>
 </blockquote>
-<blockquote>
-<p>Testing collide
-In our program, we detect the collide with the layers. But we couldn&rsquo;t set the tags for a father Empty Object and apply to all.
+<h3 id="problem-2-testing-collision">[Problem 2] Testing collision</h3>
+<p>In our program, we detect the collision with the layers. But we couldn&rsquo;t set the tags for a father Empty Object and apply to all.
 <img src="/images/courses/igd301/P2/tags.png" alt="avatar"><br>
-Solution: Individually set tags</p>
-</blockquote>
-<h3 id="final-result">Final result:</h3>
-<p><img src="/images/courses/igd301/P2/result.png" alt="avatar"></p>
+<strong>Solution</strong>: Individually set tags</p>
+<h1 id="final-result">Final result:</h1>
+<p><img src="/images/courses/igd301/P2/roll-a-ball.gif" alt="avatar"></p>
 
         </div>
         
