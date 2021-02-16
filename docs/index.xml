@@ -122,12 +122,9 @@ https://www.youtube.com/watch?v=zPFU30tbyKs
       <pubDate>Thu, 26 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>https://winsa24.github.io/courses/igd301/p1/</guid>
-      <description>Set up your own Blog Like this&amp;hellip;  Successfully set my first Hugo blog, by following https://gohugo.io/getting-started/installing/ https://gohugo.io/hosting-and-deployment/hosting-on-github/
-  One thing need to be careful: DON&amp;rsquo;T forget to modify the settings in GitHub settings   Also remind to read the theme&amp;rsquo;s readme If I want to modify the theme, go to https://themes.gohugo.io/
-  Write in Markdown grammar
-   Notes: Ways to update the pages:
-Git command as follow:
-rm -rf docs (optional)</description>
+      <description>Set up your own Blog Like this&amp;hellip; Generally follow this link  Install Hugo on macOS (Homebrew):  Type in console: 
+ brew install hugo   Register on Git Create Page  - hugo new site sitename - cd sitename  Select Theme  - git init - cd themes - git submodule add https://github.com/budparr/gohugotheme-ananke.git themes/ananke  Open config.toml in a text editor and add theme = &amp;ldquo;ananke&amp;rdquo;
+Local test  hugo server -D</description>
     </item>
     
     <item>

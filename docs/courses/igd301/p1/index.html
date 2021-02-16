@@ -78,7 +78,7 @@
     },
     "headline": "Lab 1: Setup Blog | Xiang WEI","datePublished": "2020-11-26T00:00:00+00:00",
     "dateModified": "2020-11-26T00:00:00+00:00",
-    "wordCount":  79 ,
+    "wordCount":  168 ,
     "publisher": {
         "@type": "Person",
         "name": "C. Wang",
@@ -229,15 +229,49 @@
 
         <div class="content">
             <h1 id="set-up-your-own-blog-like-thishttpswinsa24githubio">Set up your own Blog Like <a href="https://winsa24.github.io/">this</a>&hellip;</h1>
+<h2 id="generally-follow-this-linkhttpsgohugoiogetting-startedinstalling">Generally follow this <a href="https://gohugo.io/getting-started/installing/">link</a></h2>
 <blockquote>
-<p>Successfully set my first Hugo blog, by following
+<h3 id="install-hugo-on-macos-homebrew">Install Hugo on macOS (Homebrew):</h3>
+</blockquote>
+<p>Type in console:
+<b></p>
+<ul>
+<li>brew install hugo
+</b></li>
+</ul>
+<h3 id="register-on-githttpsgithubcom">Register on <a href="https://github.com/">Git</a></h3>
+<h3 id="create-page">Create Page</h3>
+ <b>
+- hugo new site sitename
+- cd sitename
+</b>
+<h3 id="select-themehttpsthemesgohugoio">Select <a href="https://themes.gohugo.io/">Theme</a></h3>
+<b>
+- git init
+- cd themes
+- git submodule add https://github.com/budparr/gohugotheme-ananke.git themes/ananke
+</b>
+<p><strong>Open config.toml in a text editor and add theme = &ldquo;ananke&rdquo;</strong></p>
+<h3 id="local-test">Local test</h3>
+<p><b> hugo server -D </b></p>
+<p>See <a href="http://localhost:1313/">http://localhost:1313/</a> in the browser.</p>
+<h3 id="deploymenthttpsgohugoiohosting-and-deploymenthosting-on-github"><a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/">Deployment</a></h3>
+<ol>
+<li>Add publishDir = &ldquo;docs&rdquo; to the config.toml</li>
+<li>Set baseURL = &ldquo;https://<username>.github.io/<reponame>&rdquo; in the config.toml</li>
+<li>Got to the settings page of the repository and enable GitHub pages to use the docs folder
+<img src="/images/courses/igd301/P1/Settings.png" alt="docs"></li>
+</ol>
+<h2 id="some-tips">Some tips&hellip;</h2>
+<blockquote>
+</blockquote>
+<p>Useful tutorial links to follow:
 <a href="https://gohugo.io/getting-started/installing/">https://gohugo.io/getting-started/installing/</a>
 <a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/">https://gohugo.io/hosting-and-deployment/hosting-on-github/</a></p>
-</blockquote>
 <blockquote>
 <p>One thing need to be careful:
 DON&rsquo;T forget to modify the settings in GitHub settings
-<img src="/images/courses/igd301/P1/Settings.png" alt="avatar"></p>
+<img src="/images/courses/igd301/P1/Settings.png" alt="docs"></p>
 </blockquote>
 <blockquote>
 <p>Also remind to read the theme&rsquo;s readme
@@ -248,15 +282,15 @@ If I want to modify the theme, go to <a href="https://themes.gohugo.io/">https:/
 </blockquote>
 <hr>
 <blockquote>
-<p>Notes:
-Ways to update the pages:<br>
-Git command as follow:<br>
-rm -rf docs (optional)<br>
-Hugo<br>
-git add .<br>
-git commit -m “something&quot;<br>
-git push origin master</p>
+<h3 id="ways-to-update-the-pages">Ways to update the pages:</h3>
 </blockquote>
+<b>
+rm -rf docs (optional)  
+Hugo  
+git add .  
+git commit -m “something"  
+git push origin master  
+</b>
 
         </div>
         
