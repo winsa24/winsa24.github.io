@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2020 &lt;a href=&#34;https://www.wangchucheng.com/&#34;&gt;C. Wang&lt;/a&gt; and &lt;a href=&#34;https://www.ruiqima.com/&#34;&gt;R. Ma&lt;/a&gt;</copyright>
-    <lastBuildDate>Tue, 16 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://winsa24.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 18 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://winsa24.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Food Atlas - Local Food Around the World</title>
+      <link>https://winsa24.github.io/projects/foodatlas/</link>
+      <pubDate>Thu, 18 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/projects/foodatlas/</guid>
+      <description>We have made a food atlas based on augmented reality technology. This map can help people, especially children, understand and memorize the typical food of various places through having fun with the matching games. The user needs to recognize the map with the camera of the smartphone, and select the country they want to explore by clicking on the map. After starting the game, there are going to show five models of local specialties. The user needs to select the corresponding word card according to the model.</description>
+    </item>
+    
     <item>
       <title>ARcher</title>
       <link>https://winsa24.github.io/projects/archer/</link>
@@ -23,7 +32,7 @@
       <pubDate>Tue, 26 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://winsa24.github.io/projects/drivekour/</guid>
-      <description>Drivekour Game Based on the Parkour Game developed by Wenjie, we implement our locomotion technique and also add some IP Paris feature. Download from github Play instruction below</description>
+      <description>Drivekour Game Based on the Parkour Game developed by Wenjie, we implement our locomotion technique and also add some IP Paris feature. Download from github Play instruction Video</description>
     </item>
     
     <item>
@@ -59,8 +68,12 @@
       <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://winsa24.github.io/courses/igd301/l6/</guid>
-      <description>Prototyping &amp;amp; Evaluation Human Techniques : Ethnographies, Focus Groups and Interviews&amp;hellip;
-Design Prototype Low-Fi Tools Horizontal and Vertical Prototype Evaluate • Lab study • Field study • Survey • Grounded Theory/ Thematic Analysis Some [Guide] or [Restriction] in evaluation  Example&amp;hellip;  [Problem] How to solve fatigue or use small motion to realize big movement? some interesting [Solutions]: Homework Evaluate your Locomotion Technique  Link to a large Locomotion Technique Lib  How to evaluate? Result General result We filled in all our evaluation result in table.</description>
+      <description>Prototyping &amp;amp; Evaluation Human Techniques  Ethnographies, Focus Groups and Interviews&amp;hellip;
+ Design Prototype  Low-Fi Tools Horizontal and Vertical Prototype  Evaluate  • Lab study
+• Field study
+• Survey
+• Grounded Theory/ Thematic Analysis
+Some Guide or Restriction in evaluation  Examples&amp;hellip; [Problem] How to solve fatigue or use small motion to realize big movement? [Solutions] Homework &amp;mdash; Evaluate your Locomotion Technique  Link to a large Locomotion Technique Lib  How to evaluate?</description>
     </item>
     
     <item>
@@ -77,22 +90,13 @@ Method: detect distance and have the matrix</description>
     </item>
     
     <item>
-      <title>Lecture 4: VR Technology and Perception</title>
-      <link>https://winsa24.github.io/courses/igd301/l4/</link>
-      <pubDate>Tue, 08 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://winsa24.github.io/courses/igd301/l4/</guid>
-      <description> Sensation developed other than hand   two types of haptic Ungrounded vs Grounded ad: flexiblity easier to control dis: limited force on human can&amp;rsquo;t adapat to all situation  </description>
-    </item>
-    
-    <item>
       <title>Lecture 5: Input Devices and Interaction Techniques</title>
       <link>https://winsa24.github.io/courses/igd301/l5/</link>
       <pubDate>Tue, 08 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>https://winsa24.github.io/courses/igd301/l5/</guid>
-      <description>[Problem] How to have feedback? some interesting solutions: Controller: Hand:   Interesting inspiration
-  SeeThrough muscle?  virtual face    Another inspire of Locomotion Technique  without controller to move</description>
+      <description> [Problem] How to have feedback?  some interesting solutions:
+Controller: Hand:  Some Interesting inspiration   SeeThrough muscle  Virtual face  Locomotion (no need of controller nor hand)   </description>
     </item>
     
     <item>
@@ -101,23 +105,29 @@ Method: detect distance and have the matrix</description>
       <pubDate>Thu, 03 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>https://winsa24.github.io/courses/igd301/p3/</guid>
-      <description>New knowledge:  Last post mistake: There are difference between tags and layers:
-Tags are used for finding objects with a specific tag ( e.g. FindWithTag(str) ). Layers can be used to identify objects at a high level
-  There are also other interesting tutorials to follow&amp;hellip; https://www.youtube.com/c/DilmerValecillos/videos
+      <description>New knowledge:  Last post mistake:
+There are difference between tags and layers:
+Tags are used for finding objects with a specific tag ( e.g. FindWithTag(str) ).
+Layers can be used to identify objects at a high level.
+  There are also other interesting tutorials to follow&amp;hellip;
+https://www.youtube.com/c/DilmerValecillos/videos
 https://sidequestvr.com/app/578/handspace
 https://www.youtube.com/watch?v=A0gpaQGu_H0
 https://www.youtube.com/watch?v=zPFU30tbyKs
- Deploy my Roll-A-Ball on Oculus  try to use the build and run directly from Unity but fail.   try to review all the undo step.</description>
+ Deploy my Roll-A-Ball on Oculus Errors record&amp;hellip;  try to use the build and run directly from Unity but fail.   try to review all the undo step.</description>
     </item>
     
     <item>
-      <title>Lecture 3: VR Technology and Perception</title>
+      <title>Lecture 3 &amp; 4: VR Technology and Perception</title>
       <link>https://winsa24.github.io/courses/igd301/l3/</link>
       <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>https://winsa24.github.io/courses/igd301/l3/</guid>
-      <description> Depth percetion Didn&amp;rsquo;t see the shark   On class brainstorm   Gestalt rules https://www.interaction-design.org/literature/topics/gestalt-principles#:~:text=Gestalt%20principles%20or%20laws%20are,the%20separate%20simpler%20elements%20involved.
-  Foveated rendering   ? How to link this to the failure of google glass?   Interesting Ideas  </description>
+      <description>Depth percetion Can&amp;rsquo;t see the shark
+On class brainstorm Gestalt rules Foveated rendering One potential reason to the failure of google glass Sensation developed other than hand two types of haptic Ungrounded &amp;mdash; Pro: flexiblity &amp;mdash; Con: limited force on human
+vs
+Grounded &amp;mdash; Pro: easier to control &amp;mdash; Con: can&amp;rsquo;t adapat to all situation
+Some Interesting Ideas </description>
     </item>
     
     <item>
@@ -149,10 +159,10 @@ Local test - hugo server -D  See http://localhost:1313/ in the browser.</descrip
       <pubDate>Thu, 26 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>https://winsa24.github.io/courses/igd301/l2/</guid>
-      <description>Presence VS Immersive → Presence is about PERCEPTION → Immersion is about SENSATION Immersion can produce a sensation of Presence
- VR fly simulation
- -(extended)&amp;ndash;&amp;gt; VR history tour ? Ex. Based on 清明上河图?
-Vergence-Accomodation Conflict </description>
+      <description>Presence VS Immersive → Presence is about PERCEPTION
+→ Immersion is about SENSATION
+Immersion can produce a sensation of Presence
+Vergence-Accomodation Conflict (Click to check the video)  Some ideas&amp;hellip;  From VR fly simulation I can create a VR history tour? Ex. Based on 清明上河图?</description>
     </item>
     
     <item>
@@ -177,7 +187,7 @@ The adopted pet in the supermarket might bit the user if he doesn’t get what h
       <description>Xperience of Virtual Plants (XVP) An application to help users learn rare plants. The system will generate 3D models based on different image targets. By clicking on the virtual buttons and screen buttons, users can interact with 3D models.
 Target Device An Android equipment with API Level above 19 (4.4 ‘KitKat’)
 Development Platform MacOs Mojave (10.14.6) + Unity (2019.2.13f1) + Vuforia (9.4.6)
-Check the video to better learn our project.</description>
+Final video Check the video to better learn our project.</description>
     </item>
     
     <item>

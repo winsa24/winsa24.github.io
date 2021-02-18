@@ -22,7 +22,7 @@ An application to help users learn rare plants. The system will generate 3D mode
 An Android equipment with API Level above 19 (4.4 ‘KitKat’)
 ## Development Platform
 MacOs Mojave (10.14.6) + Unity (2019.2.13f1) + Vuforia (9.4.6)
-
+## Final video
 Check the [video](https://youtu.be/yDBr6PcsSf4) to better learn our project.
 [![Watch the video](/images/projects/XVP/ss.png)](https://youtu.be/yDBr6PcsSf4)
 

@@ -23,8 +23,12 @@
       <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://winsa24.github.io/courses/igd301/l6/</guid>
-      <description>Prototyping &amp;amp; Evaluation Human Techniques : Ethnographies, Focus Groups and Interviews&amp;hellip;
-Design Prototype Low-Fi Tools Horizontal and Vertical Prototype Evaluate • Lab study • Field study • Survey • Grounded Theory/ Thematic Analysis Some [Guide] or [Restriction] in evaluation  Example&amp;hellip;  [Problem] How to solve fatigue or use small motion to realize big movement? some interesting [Solutions]: Homework Evaluate your Locomotion Technique  Link to a large Locomotion Technique Lib  How to evaluate? Result General result We filled in all our evaluation result in table.</description>
+      <description>Prototyping &amp;amp; Evaluation Human Techniques  Ethnographies, Focus Groups and Interviews&amp;hellip;
+ Design Prototype  Low-Fi Tools Horizontal and Vertical Prototype  Evaluate  • Lab study
+• Field study
+• Survey
+• Grounded Theory/ Thematic Analysis
+Some Guide or Restriction in evaluation  Examples&amp;hellip; [Problem] How to solve fatigue or use small motion to realize big movement? [Solutions] Homework &amp;mdash; Evaluate your Locomotion Technique  Link to a large Locomotion Technique Lib  How to evaluate?</description>
     </item>
     
     <item>
@@ -46,13 +50,16 @@ Method: detect distance and have the matrix</description>
       <pubDate>Thu, 03 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>https://winsa24.github.io/courses/igd301/p3/</guid>
-      <description>New knowledge:  Last post mistake: There are difference between tags and layers:
-Tags are used for finding objects with a specific tag ( e.g. FindWithTag(str) ). Layers can be used to identify objects at a high level
-  There are also other interesting tutorials to follow&amp;hellip; https://www.youtube.com/c/DilmerValecillos/videos
+      <description>New knowledge:  Last post mistake:
+There are difference between tags and layers:
+Tags are used for finding objects with a specific tag ( e.g. FindWithTag(str) ).
+Layers can be used to identify objects at a high level.
+  There are also other interesting tutorials to follow&amp;hellip;
+https://www.youtube.com/c/DilmerValecillos/videos
 https://sidequestvr.com/app/578/handspace
 https://www.youtube.com/watch?v=A0gpaQGu_H0
 https://www.youtube.com/watch?v=zPFU30tbyKs
- Deploy my Roll-A-Ball on Oculus  try to use the build and run directly from Unity but fail.   try to review all the undo step.</description>
+ Deploy my Roll-A-Ball on Oculus Errors record&amp;hellip;  try to use the build and run directly from Unity but fail.   try to review all the undo step.</description>
     </item>
     
     <item>

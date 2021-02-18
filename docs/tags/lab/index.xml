@@ -36,13 +36,16 @@ Method: detect distance and have the matrix</description>
       <pubDate>Thu, 03 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>https://winsa24.github.io/courses/igd301/p3/</guid>
-      <description>New knowledge:  Last post mistake: There are difference between tags and layers:
-Tags are used for finding objects with a specific tag ( e.g. FindWithTag(str) ). Layers can be used to identify objects at a high level
-  There are also other interesting tutorials to follow&amp;hellip; https://www.youtube.com/c/DilmerValecillos/videos
+      <description>New knowledge:  Last post mistake:
+There are difference between tags and layers:
+Tags are used for finding objects with a specific tag ( e.g. FindWithTag(str) ).
+Layers can be used to identify objects at a high level.
+  There are also other interesting tutorials to follow&amp;hellip;
+https://www.youtube.com/c/DilmerValecillos/videos
 https://sidequestvr.com/app/578/handspace
 https://www.youtube.com/watch?v=A0gpaQGu_H0
 https://www.youtube.com/watch?v=zPFU30tbyKs
- Deploy my Roll-A-Ball on Oculus  try to use the build and run directly from Unity but fail.   try to review all the undo step.</description>
+ Deploy my Roll-A-Ball on Oculus Errors record&amp;hellip;  try to use the build and run directly from Unity but fail.   try to review all the undo step.</description>
     </item>
     
     <item>

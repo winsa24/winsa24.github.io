@@ -16,10 +16,10 @@ disableAutoCollapse: true
 # Drivekour Game
 ### Based on the Parkour Game developed by Wenjie, we implement our locomotion technique and also add some IP Paris feature.
 
-### Download from [github](https://github.com/winsa24/VRParkou)
-### Play instruction below
+## Download from [github](https://github.com/winsa24/VRParkou)
+## Play instruction
 ![ins](/images/courses/igd301/P5/instruction.png)  
-
+## Video
 [![Watch the video](http://img.youtube.com/vi/wKmwVckSEc8/0.jpg)](https://www.youtube.com/watch?v=wKmwVckSEc8)
 
 
