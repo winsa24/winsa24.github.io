@@ -2,14 +2,12 @@
 date: 2021-03-14
 description: ""
 featured_image: "/images/courses/igd301/igd.png"
-tags: ["Lab"]
-title: "Qt Lab Microwave"
+tags: ["Lab", "Qt"]
+title: "Qt - Microwave"
 ---
 # Qt Lab#3 : Statecharts
 
-## Souce code:  <https://github.com/winsa24/-QT-Microwave>   
-## Result  
-![result](https://github.com/winsa24/-QT-Microwave/blob/main/result.gif)  
+## Source code:  <https://github.com/winsa24/-QT-Microwave>   
 
 ### Introduction
 I implement the presentation and interaction control panel of a microwave oven on Qt.

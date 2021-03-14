@@ -13,7 +13,12 @@
   </url>
   
   <url>
-    <loc>https://winsa24.github.io/courses/igr203/igr203/</loc>
+    <loc>https://winsa24.github.io/tags/qt/</loc>
+    <lastmod>2021-03-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://winsa24.github.io/courses/igr203/lab3/</loc>
     <lastmod>2021-03-14T00:00:00+00:00</lastmod>
   </url>
   
@@ -44,6 +49,11 @@
   
   <url>
     <loc>https://winsa24.github.io/projects/foodatlas/</loc>
+    <lastmod>2021-02-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://winsa24.github.io/courses/igr203/</loc>
     <lastmod>2021-02-18T00:00:00+00:00</lastmod>
   </url>
   
@@ -193,12 +203,12 @@
   </url>
   
   <url>
-    <loc>https://winsa24.github.io/projects/qt2/</loc>
-    <lastmod>2020-09-15T02:01:58+05:30</lastmod>
+    <loc>https://winsa24.github.io/courses/igr201/lab1/</loc>
+    <lastmod>2020-09-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://winsa24.github.io/tags/qt/</loc>
+    <loc>https://winsa24.github.io/projects/qt2/</loc>
     <lastmod>2020-09-15T02:01:58+05:30</lastmod>
   </url>
   
@@ -210,6 +220,11 @@
   <url>
     <loc>https://winsa24.github.io/courses/hci901/</loc>
     <lastmod>2020-09-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://winsa24.github.io/courses/igr201/</loc>
+    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
