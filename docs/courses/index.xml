@@ -7,7 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2020 &lt;a href=&#34;https://www.wangchucheng.com/&#34;&gt;C. Wang&lt;/a&gt; and &lt;a href=&#34;https://www.ruiqima.com/&#34;&gt;R. Ma&lt;/a&gt;</copyright>
-    <lastBuildDate>Tue, 26 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://winsa24.github.io/courses/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 14 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://winsa24.github.io/courses/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Qt Lab Microwave</title>
+      <link>https://winsa24.github.io/courses/igr203/igr203/</link>
+      <pubDate>Sun, 14 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/courses/igr203/igr203/</guid>
+      <description>Qt Lab#3 : Statecharts Souce code: https://github.com/winsa24/-QT-Microwave Result Introduction I implement the presentation and interaction control panel of a microwave oven on Qt.
+1. Design the Statechart 2. Graphical interface In this part, I created a graphical interface by dragging and dropping based on Qt Designor. I used QLineEdit and QDial as display panel and slider.
+3. Implement In this part, I first implement the QtStateMachine according to the Statechart shown in the first section. I created 9 states and use state-&amp;gt;addTransition() to link different states with different buttons.</description>
+    </item>
+    
     <item>
       <title>HCI-901: Fundamentals of HCI</title>
       <link>https://winsa24.github.io/courses/hci901/</link>
