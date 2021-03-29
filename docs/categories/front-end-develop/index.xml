@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Front-end Develop on Xiang WEI</title>
+    <link>https://winsa24.github.io/categories/front-end-develop/</link>
+    <description>Recent content in Front-end Develop on Xiang WEI</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; 2020 &lt;a href=&#34;https://www.wangchucheng.com/&#34;&gt;C. Wang&lt;/a&gt; and &lt;a href=&#34;https://www.ruiqima.com/&#34;&gt;R. Ma&lt;/a&gt;</copyright>
+    <lastBuildDate>Sat, 27 Mar 2021 02:01:58 +0530</lastBuildDate><atom:link href="https://winsa24.github.io/categories/front-end-develop/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>前端面经</title>
+      <link>https://winsa24.github.io/blogs/job/</link>
+      <pubDate>Sat, 27 Mar 2021 02:01:58 +0530</pubDate>
+      
+      <guid>https://winsa24.github.io/blogs/job/</guid>
+      <description>前端知识点总结 HTML CSS 数据库  索引的创建和原理？
+ </description>
+    </item>
+    
+    <item>
+      <title>Vue Start</title>
+      <link>https://winsa24.github.io/blogs/vuestart/</link>
+      <pubDate>Fri, 26 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/blogs/vuestart/</guid>
+      <description>Vue Start  要开始认真学习前端了。。听说复盘很重要，随手记录下。。
+  本机环境：macOS 11.2
+ 安装Vue 控制台
+ 报错&amp;ndash;&amp;gt;
+Error: EACCES: permission denied, access &#39;/usr/local/lib/node_modules&#39;  解决&amp;ndash;&amp;gt;
+sudo chown -R &amp;lt;username&amp;gt;: /usr/local/lib/node_modules  (username需替换，查询控制台输入id -un)
+新建项目 cd 进项目存储目录
+Vue init webpack &amp;lt;my-project&amp;gt;(项目名称)  然后会出一堆输入或者选项，比如Project name, description&amp;hellip;看着随便填吧，我是一路Yes了
+创建好后
+cd (项目名称) npm run dev  显示：Your application is running here: http://localhost:8080 ===&amp;gt; 成功
+ Ref: https://www.jianshu.com/p/58920175e93d
+ TodoList  列举Task
+ &amp;lt;ul&amp;gt; &amp;lt;li v-for=&amp;quot;item in items&amp;quot;&amp;gt; {{item.label}} &amp;lt;/li&amp;gt; &amp;lt;/ul&amp;gt;  报错：
+[vue/require-v-for-key] Elements in iteration expect to have &#39;v-bind:key&#39; directives.</description>
+    </item>
+    
+  </channel>
+</rss>

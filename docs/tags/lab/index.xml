@@ -83,6 +83,15 @@ Local test - hugo server -D  See http://localhost:1313/ in the browser.</descrip
     </item>
     
     <item>
+      <title>Qt - Drawing Tool</title>
+      <link>https://winsa24.github.io/courses/igr201/lab2/</link>
+      <pubDate>Fri, 30 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/courses/igr201/lab2/</guid>
+      <description>Qt Lab #2: 2D Drawing Tool In this work, I completely finished a drawing application based on Qt toolkit by following all the instructions in Lab 2. The application has an interactive interface which allows users to draw multiple shapes in different colors, line styles and thickness, by clicking buttons or dragging sliders. Moreover, by clicking bottom buttons users can switch to editing part which allows users to select an existing shape and move, resize or change attributes of it.</description>
+    </item>
+    
+    <item>
       <title>Qt - Basic</title>
       <link>https://winsa24.github.io/courses/igr201/lab1/</link>
       <pubDate>Wed, 30 Sep 2020 00:00:00 +0000</pubDate>

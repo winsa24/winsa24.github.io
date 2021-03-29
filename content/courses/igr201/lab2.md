@@ -1,5 +1,5 @@
 ---
-date: 2021-10-30
+date: 2020-10-30
 description: ""
 featured_image: "/images/courses/igd301/igd.png"
 tags: ["Lab", "Qt"]
