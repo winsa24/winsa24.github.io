@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lab on Xiang WEI</title>
+    <link>https://winsa24.github.io/tags/lab/</link>
+    <description>Recent content in Lab on Xiang WEI</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; 2020 &lt;a href=&#34;https://www.wangchucheng.com/&#34;&gt;C. Wang&lt;/a&gt; and &lt;a href=&#34;https://www.ruiqima.com/&#34;&gt;R. Ma&lt;/a&gt;</copyright>
+    <lastBuildDate>Sun, 11 Apr 2021 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://winsa24.github.io/tags/lab/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Qt - Microwave</title>
+      <link>https://winsa24.github.io/courses/igr203/software-dev/</link>
+      <pubDate>Sun, 11 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/courses/igr203/software-dev/</guid>
+      <description> 2 Ways to solve The specification of the interaction of a complex interface Statecharts/state machine Specification languages
+ StateMachine &amp;amp; StateCharts  Statecharts is hierarchical state machines
+ </description>
+    </item>
+    
+    <item>
+      <title>Qt - Microwave</title>
+      <link>https://winsa24.github.io/courses/igr203/lab3/</link>
+      <pubDate>Sun, 14 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/courses/igr203/lab3/</guid>
+      <description>Qt Lab#3 : Statecharts Source code: https://github.com/winsa24/-QT-Microwave Introduction I implement the presentation and interaction control panel of a microwave oven on Qt.
+1. Design the Statechart 2. Graphical interface In this part, I created a graphical interface by dragging and dropping based on Qt Designor. I used QLineEdit and QDial as display panel and slider.
+3. Implement In this part, I first implement the QtStateMachine according to the Statechart shown in the first section. I created 9 states and use state-&amp;gt;addTransition() to link different states with different buttons.</description>
+    </item>
+    
+    <item>
+      <title>Lab 5: VR Locomotion Implementation</title>
+      <link>https://winsa24.github.io/courses/igd301/p5/</link>
+      <pubDate>Tue, 26 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/courses/igd301/p5/</guid>
+      <description>Initial ideas&amp;hellip; I tried to implement this technique on a simple scene in unity and tested it myself. But It doesn’t work well and also bring me a lot fatigue by forcing my arm behind my shoulder. And I also tested with one of my friends and received some feedback from her. During our discussion and we thought to remove the moving back option and also augment the turning. 2nd Round Design&amp;hellip; In this version, player will only use their hand to control [rotation].</description>
+    </item>
+    
+    <item>
+      <title>Lab 4: Parkour</title>
+      <link>https://winsa24.github.io/courses/igd301/p4/</link>
+      <pubDate>Thu, 10 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/courses/igd301/p4/</guid>
+      <description>How to open a folder as a Unity Project  Double-clicking Scene file opens the project in unity. (It might cause crash of Unity). Then restart hub and select a unity version for it.
+My Locomotion Technique ideas&amp;hellip; Inspiration (Click to check the video)   On class example for presenting the idea:
+Target : Develop a Swimming Technique in VR
+Requirements: Make user feel that they are moving forward or backward
+Method: detect distance and have the matrix</description>
+    </item>
+    
+    <item>
+      <title>Lab 3: VR Unity Selection</title>
+      <link>https://winsa24.github.io/courses/igd301/p3/</link>
+      <pubDate>Thu, 03 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/courses/igd301/p3/</guid>
+      <description>New knowledge:  Last post mistake:
+There are difference between tags and layers:
+Tags are used for finding objects with a specific tag ( e.g. FindWithTag(str) ).
+Layers can be used to identify objects at a high level.
+  There are also other interesting tutorials to follow&amp;hellip;
+https://www.youtube.com/c/DilmerValecillos/videos
+https://sidequestvr.com/app/578/handspace
+https://www.youtube.com/watch?v=A0gpaQGu_H0
+https://www.youtube.com/watch?v=zPFU30tbyKs
+ Deploy my Roll-A-Ball on Oculus Errors record&amp;hellip;  try to use the build and run directly from Unity but fail.   try to review all the undo step.</description>
+    </item>
+    
+    <item>
+      <title>Lab 2: Roll-A-Ball</title>
+      <link>https://winsa24.github.io/courses/igd301/p2/</link>
+      <pubDate>Mon, 30 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/courses/igd301/p2/</guid>
+      <description>Get start with Unity&amp;hellip; Some New knowledge in Unity for me:  Customize Script Editor:   Unity Lifecycle: Start ( ) / FixedUpdate( ) / Update( )  Start to implement a Simple Roll-A-Ball Game following Wenjie&amp;rsquo;s Slides!  Skipped step: transform Empty GameObject In my scene, I don&amp;rsquo;t need to change the transform matrix of the Wall in general.
+  Import TMP: Unshown steps in the tutorial
+It works with only importing the essential package.</description>
+    </item>
+    
+    <item>
+      <title>Lab 1: Setup Blog &amp; Unity</title>
+      <link>https://winsa24.github.io/courses/igd301/p1/</link>
+      <pubDate>Thu, 26 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/courses/igd301/p1/</guid>
+      <description>Setup your own Blog Like this&amp;hellip; Generally follow this link
+ Install Hugo on macOS (Homebrew):  Type in console:
+- brew install hugo   Register on Git Create Page  - hugo new site sitename - cd sitename   Select Theme  - git init - cd themes - git submodule add https://github.com/budparr/gohugotheme-ananke.git themes/ananke  Open config.toml in a text editor and add theme = &amp;ldquo;ananke&amp;rdquo;
+Local test - hugo server -D  See http://localhost:1313/ in the browser.</description>
+    </item>
+    
+    <item>
+      <title>Qt - Drawing Tool</title>
+      <link>https://winsa24.github.io/courses/igr201/lab2/</link>
+      <pubDate>Fri, 30 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/courses/igr201/lab2/</guid>
+      <description>Qt Lab #2: 2D Drawing Tool In this work, I completely finished a drawing application based on Qt toolkit by following all the instructions in Lab 2. The application has an interactive interface which allows users to draw multiple shapes in different colors, line styles and thickness, by clicking buttons or dragging sliders. Moreover, by clicking bottom buttons users can switch to editing part which allows users to select an existing shape and move, resize or change attributes of it.</description>
+    </item>
+    
+    <item>
+      <title>Qt - Basic</title>
+      <link>https://winsa24.github.io/courses/igr201/lab1/</link>
+      <pubDate>Wed, 30 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/courses/igr201/lab1/</guid>
+      <description>Qt Lab#1 : Qt Basic Source code: https://github.com/winsa24/-QT-BasicMenu </description>
+    </item>
+    
+  </channel>
+</rss>

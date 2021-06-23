@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Xiang WEI</title>
+    <link>https://winsa24.github.io/projects/</link>
+    <description>Recent content in Projects on Xiang WEI</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; 2020 &lt;a href=&#34;https://www.wangchucheng.com/&#34;&gt;C. Wang&lt;/a&gt; and &lt;a href=&#34;https://www.ruiqima.com/&#34;&gt;R. Ma&lt;/a&gt;</copyright>
+    <lastBuildDate>Thu, 18 Feb 2021 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://winsa24.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Food Atlas - Local Food Around the World</title>
+      <link>https://winsa24.github.io/projects/foodatlas/</link>
+      <pubDate>Thu, 18 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/projects/foodatlas/</guid>
+      <description>We have made a food atlas based on augmented reality technology. This map can help people, especially children, understand and memorize the typical food of various places through having fun with the matching games. The user needs to recognize the map with the camera of the smartphone, and select the country they want to explore by clicking on the map. After starting the game, there are going to show five models of local specialties. The user needs to select the corresponding word card according to the model.</description>
+    </item>
+    
+    <item>
+      <title>ARcher</title>
+      <link>https://winsa24.github.io/projects/archer/</link>
+      <pubDate>Tue, 16 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/projects/archer/</guid>
+      <description>ARcher The purpose of our application is to create an AR game that anyone can use in their home. In our case we use as basis the basic deck of card that almost everyone has. In our demo, we include 4 different kind of cards : 1) Ace of Spades 2) Two of Spades 3) Eight of Spades 4) Five of Hearts. The beautiful of this implementation is that one is able to create non-linear platform levels with the same cards andthis is the main motivation behind our project.</description>
+    </item>
+    
+    <item>
+      <title>DriveKour (VR Locomotion Develop)</title>
+      <link>https://winsa24.github.io/projects/drivekour/</link>
+      <pubDate>Tue, 26 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/projects/drivekour/</guid>
+      <description>Drivekour Game Based on the Parkour Game developed by Wenjie, we implement our locomotion technique and also add some IP Paris feature. Download from github Play instruction Video</description>
+    </item>
+    
+    <item>
+      <title>Xperience of Virtual Plants (XVP)</title>
+      <link>https://winsa24.github.io/projects/xvp/</link>
+      <pubDate>Sun, 15 Nov 2020 02:01:58 +0530</pubDate>
+      
+      <guid>https://winsa24.github.io/projects/xvp/</guid>
+      <description>Xperience of Virtual Plants (XVP) An application to help users learn rare plants. The system will generate 3D models based on different image targets. By clicking on the virtual buttons and screen buttons, users can interact with 3D models.
+Target Device An Android equipment with API Level above 19 (4.4 ‘KitKat’)
+Development Platform MacOs Mojave (10.14.6) + Unity (2019.2.13f1) + Vuforia (9.4.6)
+Final video Check the video to better learn our project.</description>
+    </item>
+    
+    <item>
+      <title>Web Develop Practice</title>
+      <link>https://winsa24.github.io/projects/web2/</link>
+      <pubDate>Thu, 15 Oct 2020 02:01:58 +0530</pubDate>
+      
+      <guid>https://winsa24.github.io/projects/web2/</guid>
+      <description> Created a currency converter which allows users can get the product of two entered number. Created a searching engine which allows users to filter the list with student name or module name. Created a space shooting game based on the animations and functions.   </description>
+    </item>
+    
+    <item>
+      <title>Currency-Converter</title>
+      <link>https://winsa24.github.io/projects/android2/</link>
+      <pubDate>Thu, 01 Oct 2020 02:01:58 +0530</pubDate>
+      
+      <guid>https://winsa24.github.io/projects/android2/</guid>
+      <description>Created a currency-converter based on Android Studio. The users can enter different amount and select types of convert. The app will automatically read the rate from a given URL, and update the result on the interface immediately.</description>
+    </item>
+    
+    <item>
+      <title>Drawing Tool</title>
+      <link>https://winsa24.github.io/projects/qt2/</link>
+      <pubDate>Tue, 15 Sep 2020 02:01:58 +0530</pubDate>
+      
+      <guid>https://winsa24.github.io/projects/qt2/</guid>
+      <description>Created a simple drawing application based on Qt toolkit (which I’ve tried to use in the Course Design of Data Structures in my undergraduate study). The application has an interactive interface which allows users to draw multiple shapes in different colors, line styles and thickness, by clicking buttons or dragging sliders. Users can also select an existing shape and move, resize or change attributes of it. It also allows users to read or save the images.</description>
+    </item>
+    
+    <item>
+      <title>Visualization Recommendation System</title>
+      <link>https://winsa24.github.io/projects/web1/</link>
+      <pubDate>Thu, 15 Aug 2019 02:01:58 +0530</pubDate>
+      
+      <guid>https://winsa24.github.io/projects/web1/</guid>
+      <description>Visualization Recommendation System This subject designs and implements a set of visualization scheme recommendation system. The system is oriented to data analysts whose requirements are not clear and who do not have professional programming capabilities. Through simple interactions, the system generates a series of visualization solutions that meet users’ needs. The design of the system is based on the actual analysis of visual element properties, attributes and real cases. By separating its data, properties and attributes, the corresponding relationship among them is studied and defined, and the model is established accordingly.</description>
+    </item>
+    
+    <item>
+      <title>Course Design of Software Engineering</title>
+      <link>https://winsa24.github.io/projects/software/</link>
+      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/projects/software/</guid>
+      <description>SmartHome WeChat Mini Program A software that can remotely, link and manage smart devices at home, and has security alarm and device self-checking functions. To meet the remote control of the equipment, it can control the equipment to realize the corresponding function or make the corresponding response to change the indoor lighting, temperature and other environmental conditions before returning home. It can realize the security alarm function, detect the parameters of the sensor equipment, realize the timely alarm of abnormal conditions, and ensure the health of family members and the safety of property.</description>
+    </item>
+    
+    <item>
+      <title>Course Design of Computer Hardware</title>
+      <link>https://winsa24.github.io/projects/hardware/</link>
+      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/projects/hardware/</guid>
+      <description>SmartHome App A small tool for real-time monitoring of indoor air quality is designed, which can display the current indoor temperature and humidity, formaldehyde concentration and smoke. And realize the analysis of air quality over a period of time on the mobile phone and provide suggestions for improvement.
+Function description Smoke sensor and formaldehyde sensor obtain their respective data and pass it to the development board; The mobile phone can be connected to the development board via software using Bluetooth, and receive real-time data from the board; The software can process the air quality data, draw a line graph, and provide it to users for analysis.</description>
+    </item>
+    
+    <item>
+      <title>Course Design of Data Structure</title>
+      <link>https://winsa24.github.io/projects/qt1/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/projects/qt1/</guid>
+      <description>Wrote “2018 World Cup inquiring system” by VS and QT independently, studied knowledge of front-end and back-end development, realized the function of inquiring information of games in a specific date selected by dragging roller and showing all kinds of real-time statistical results.</description>
+    </item>
+    
+    <item>
+      <title>Markdown Syntax Guide</title>
+      <link>https://winsa24.github.io/projects/markdown/</link>
+      <pubDate>Thu, 18 May 2017 12:13:30 +0530</pubDate>
+      
+      <guid>https://winsa24.github.io/projects/markdown/</guid>
+      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
