@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang='en' ><meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+
+<title>IGR203: Human-Computer Interaction | Xiang WEI</title>
+<link rel="stylesheet" href="https://winsa24.github.io/css/eureka.min.css">
+<script defer src="https://winsa24.github.io/js/eureka.min.js"></script>
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload"
+  href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Noto+Serif+SC:wght@400;600;700&display=swap"
+  as="style" onload="this.onload=null;this.rel='stylesheet'">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.0/build/styles/solarized-light.min.css"
+   media="print"
+  onload="this.media='all';this.onload=null" crossorigin>
+<script defer src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.0/build/highlight.min.js"
+   crossorigin></script>
+<script defer src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.14.0/js/all.min.js"
+   integrity="sha256-uNYoXefWRqv&#43;PsIF/OflNmwtKM4lStn9yrz2gVl6ymo="  crossorigin></script>
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+   integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3&#43;Aro6EYUG4&#43;cU&#43;KJWu/X"  media="print"
+  onload="this.media='all';this.onload=null" crossorigin>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js" 
+  integrity="sha384-g7c&#43;Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI&#43;sEnkvrMWph2EDg4"  crossorigin></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js"
+   integrity="sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC&#43;Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa"  crossorigin></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    renderMathInElement(document.body, {
+      delimiters: [
+        { left: "$$", right: "$$", display: true },
+        { left: "$", right: "$", display: false },
+        { left: "\\(", right: "\\)", display: false },
+        { left: "\\[", right: "\\]", display: true }
+      ],
+    });
+  });
+</script>
+
+
+<link rel="icon" type="image/png" sizes="32x32" href="https://winsa24.github.io/images/icon_hu64421c6c7700f606f0ad45d807017b09_5843_32x32_fill_box_center_2.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://winsa24.github.io/images/icon_hu64421c6c7700f606f0ad45d807017b09_5843_180x180_fill_box_center_2.png">
+
+<meta name="description"
+  content=" This course presents methods and techniques for designing efficient, user-friendly user interfaces. Focuses on software development (GUI toolkits, Web interfaces, Statecharts, MVC, multi-threading) and on human factors (user-centered design, evaluation, ergonomics, empirical laws and models). Also presents novel emerging techniques
+ ">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+      "@type": "ListItem",
+      "position": 1 ,
+      "name":"Courses",
+      "item":"https://winsa24.github.io/courses/"},{
+      "@type": "ListItem",
+      "position": 2 ,
+      "name":"IGR203: Human-Computer Interaction",
+      "item":"https://winsa24.github.io/courses/igr203/"}]
+}
+</script>
+
+
+
+
+<script type="application/ld+json">
+{
+    "@context":"https://schema.org",
+    "@type":"ItemList",
+    "itemListElement":[{
+            "@type":"ListItem",
+            "position":  1 ,
+            "name": "Gestural Interfaces",
+            "description": "To design a gestural interfaces Creating a gesture set and defining a gesture-command mapping Laban feature Laban Movement Analysis (LMA)\n The LMA system provides models for the interpretation of movement, its function and its expression through 4 components: − Body (what) − Effort (how) − Space (where) − Shape (relation with the environment) Effort has 4 Factors thought as a continuum with 2 opposite ends: − Weight : strong, light − Time : quick, substained − Space : flexible, direct − Flow : bound , free",
+            "url": "https://winsa24.github.io/courses/igr203/gesture/"
+        },{
+            "@type":"ListItem",
+            "position":  2 ,
+            "name": "Perception - Color - Ergonomic",
+            "description": "Perception / Action Estimate interaction time : Fitt\u0026rsquo;s law : Pointing time relies on D/W ( Distance to target / Width of target)  Solutions:\n  Reduce D : Popup menus / Attract applications or target Increase W : The Mac bar (border is infinite) / Marking menus (rely on angle) Mouse gain : mouse moving speed Semantic pointing : Common actions easy to reach while dangerous hard Avoid Pointing : Hotkeys / Gesture  Hick law : Selecting time relies on n (number of the options) Colors Color models: RGB : Additive model Light emission (screens)",
+            "url": "https://winsa24.github.io/courses/igr203/perception/"
+        },{
+            "@type":"ListItem",
+            "position":  3 ,
+            "name": "Qt - Microwave",
+            "description": " 2 Ways to solve The specification of the interaction of a complex interface Statecharts/state machine Specification languages\n StateMachine \u0026amp; StateCharts  Statecharts is hierarchical state machines\n ",
+            "url": "https://winsa24.github.io/courses/igr203/software-dev/"
+        },{
+            "@type":"ListItem",
+            "position":  4 ,
+            "name": "User Center Design (UCD)",
+            "description": "User Center Design (UCD)  3 Constraints to Design : Task - Human - Technology Usability Criteria  Ease of learning: learning cost / use of advanced functionalities Recall: Remember how from one session to the next Productivity: speed of execution Fatigue (cf. repetitive actions) Risk of errors: should be minimized, good feebcak needed otherwise User satisfaction\nAccessibility, functionality, time, effort, learnability, satisfaction, …  Ideation Brainstorm, Sketches\u0026hellip;.\nPrototype  Methods: • Storyboards — good for user flow • Paper prototypes — good for layout, flow • Video prototypes — good for overall experience • Powerpoint/Photoshop — Look ’n’ feel • Software — functionality",
+            "url": "https://winsa24.github.io/courses/igr203/ucd/"
+        },{
+            "@type":"ListItem",
+            "position":  5 ,
+            "name": "Qt - Microwave",
+            "description": "Qt Lab#3 : Statecharts Source code: https://github.com/winsa24/-QT-Microwave Introduction I implement the presentation and interaction control panel of a microwave oven on Qt.\n1. Design the Statechart 2. Graphical interface In this part, I created a graphical interface by dragging and dropping based on Qt Designor. I used QLineEdit and QDial as display panel and slider.\n3. Implement In this part, I first implement the QtStateMachine according to the Statechart shown in the first section. I created 9 states and use state-\u0026gt;addTransition() to link different states with different buttons.",
+            "url": "https://winsa24.github.io/courses/igr203/lab3/"
+        }
+    ]
+}
+</script><meta property="og:title" content="IGR203: Human-Computer Interaction | Xiang WEI" />
+<meta property="og:type" content="website" />
+
+
+<meta property="og:image" content="https://winsa24.github.io/images/icon.png">
+
+
+<meta property="og:url" content="https://winsa24.github.io/courses/igr203/" />
+
+
+
+
+
+<meta property="og:description" content="Eureka is a elegant and powerful theme for Hugo." />
+
+
+
+
+
+<meta property="og:locale" content="en" />
+
+
+
+
+<meta property="og:site_name" content="Xiang WEI" />
+
+
+
+
+
+
+<meta property="og:updated_time" content="2021-02-18T00:00:00&#43;00:00" />
+
+
+
+<meta property="article:section" content="courses" />
+
+
+<link rel="alternate" type="application/rss+xml" href="https://winsa24.github.io/courses/igr203/index.xml" title="Xiang WEI" />
+
+<body class="flex flex-col min-h-screen">
+    <header class="fixed flex items-center w-full min-h-16 pl-scrollbar z-50 bg-secondary-bg shadow-sm">
+        <div class="w-full max-w-screen-xl mx-auto"><script>
+    let storageColorScheme = localStorage.getItem("lightDarkMode")
+    if (((storageColorScheme == 'Auto' || storageColorScheme == null) && window.matchMedia("(prefers-color-scheme: dark)").matches) || storageColorScheme == "Dark") {
+        document.getElementsByTagName('html')[0].classList.add('dark')
+    }
+</script>
+<nav class="flex items-center justify-between flex-wrap p-4">
+    <a href="/" class="mr-6 text-primary-text text-xl font-bold">Xiang WEI</a>
+    <button id="navbar-btn" class="md:hidden flex items-center px-3 py-2" aria-label="Open Navbar">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <div id="target"
+        class="hidden block md:flex md:flex-grow md:justify-between md:items-center w-full md:w-auto text-primary-text z-20">
+        <div class="text-sm md:flex-grow pb-4 md:pb-0 border-b md:border-b-0">
+            <a href="/#about"
+                class="block mt-4 md:inline-block md:mt-0  hover:text-eureka mr-4">About</a>
+            <a href="/projects/"
+                class="block mt-4 md:inline-block md:mt-0  hover:text-eureka mr-4">Projects</a>
+            <a href="/courses/"
+                class="block mt-4 md:inline-block md:mt-0  text-eureka  hover:text-eureka mr-4">Courses</a>
+        </div>
+
+        <div class="flex">
+            <div class="relative pt-4 md:pt-0">
+                <div class="cursor-pointer hover:text-eureka" id="lightDarkMode">
+                    <i class="fas fa-adjust"></i>
+                </div>
+                <div class="fixed hidden inset-0 opacity-0 h-full w-full cursor-default z-30" id="is-open">
+                </div>
+                <div class="absolute flex flex-col left-0 md:left-auto right-auto md:right-0 hidden bg-secondary-bg w-48 rounded py-2 border border-tertiary-bg cursor-pointer z-40"
+                    id='lightDarkOptions'>
+                    <span class="px-4 py-1 hover:text-eureka">Light</span>
+                    <span class="px-4 py-1 hover:text-eureka">Dark</span>
+                    <span class="px-4 py-1 hover:text-eureka">Auto</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fixed hidden inset-0 opacity-0 h-full w-full cursor-default z-0" id="is-open-mobile">
+    </div>
+
+</nav>
+<script>
+    let element = document.getElementById('lightDarkMode')
+    if (storageColorScheme == null || storageColorScheme == 'Auto') {
+        document.addEventListener('DOMContentLoaded', () => {
+            switchMode('Auto')
+        })
+    } else if (storageColorScheme == "Light") {
+        element.firstElementChild.classList.remove('fa-adjust')
+        element.firstElementChild.setAttribute("data-icon", 'sun')
+        element.firstElementChild.classList.add('fa-sun')
+    } else if (storageColorScheme == "Dark") {
+        element.firstElementChild.classList.remove('fa-adjust')
+        element.firstElementChild.setAttribute("data-icon", 'moon')
+        element.firstElementChild.classList.add('fa-moon')
+    }
+    
+    document.addEventListener('DOMContentLoaded', () => {
+        getcolorscheme();
+        switchBurger();
+    });
+</script></div>
+    </header>
+    <main class="flex-grow pt-16">
+        <div class="pl-scrollbar">
+            <div class="w-full max-w-screen-xl lg:px-4 xl:px-8 mx-auto">
+<article class="mx-6 my-8">
+    <h1 class="font-bold text-3xl text-primary-text">IGR203: Human-Computer Interaction</h1>
+    
+    <div class="content">
+        <blockquote>
+<p>This course presents methods and techniques for designing efficient, user-friendly user interfaces. Focuses on software development (GUI toolkits, Web interfaces, Statecharts, MVC, multi-threading) and on human factors (user-centered design, evaluation, ergonomics, empirical laws and models). Also presents novel emerging techniques</p>
+</blockquote>
+
+    </div>
+    
+</article>
+<div class="bg-secondary-bg rounded px-6">
+    <div class="overflow-hidden divide-y">
+  
+  <div class="py-6">
+    <div class="flex flex-col-reverse lg:flex-row justify-between">
+  
+  <div class="w-full ">
+    <div class="mb-4">
+  <a href="https://winsa24.github.io/courses/igr203/gesture/" class="font-bold text-xl hover:text-eureka">Gestural Interfaces</a>
+</div>
+<div class="content">
+  To design a gestural interfaces Creating a gesture set and defining a gesture-command mapping Laban feature Laban Movement Analysis (LMA)
+ The LMA system provides models for the interpretation of movement, its function and its expression through 4 components: − Body (what) − Effort (how) − Space (where) − Shape (relation with the environment) Effort has 4 Factors thought as a continuum with 2 opposite ends: − Weight : strong, light − Time : quick, substained − Space : flexible, direct − Flow : bound , free
+</div>
+
+<div class="flex flex-wrap flex-row items-center mt-2 text-tertiary-text">
+    <div class="mr-6 my-2">
+        <i class="fas fa-calendar mr-1"></i>
+        <span>2021-04-11</span>
+    </div>
+    <div class="mr-6 my-2">
+        <i class="fas fa-clock mr-1"></i>
+        <span>2 min read</span>
+    </div>
+    
+    
+
+    
+</div>
+
+  </div>
+
+  
+</div>
+  </div>
+  
+  <div class="py-6">
+    <div class="flex flex-col-reverse lg:flex-row justify-between">
+  
+  <div class="w-full ">
+    <div class="mb-4">
+  <a href="https://winsa24.github.io/courses/igr203/perception/" class="font-bold text-xl hover:text-eureka">Perception - Color - Ergonomic</a>
+</div>
+<div class="content">
+  Perception / Action Estimate interaction time : Fitt&amp;rsquo;s law : Pointing time relies on D/W ( Distance to target / Width of target)  Solutions:
+  Reduce D : Popup menus / Attract applications or target Increase W : The Mac bar (border is infinite) / Marking menus (rely on angle) Mouse gain : mouse moving speed Semantic pointing : Common actions easy to reach while dangerous hard Avoid Pointing : Hotkeys / Gesture  Hick law : Selecting time relies on n (number of the options) Colors Color models: RGB : Additive model Light emission (screens)
+</div>
+
+<div class="flex flex-wrap flex-row items-center mt-2 text-tertiary-text">
+    <div class="mr-6 my-2">
+        <i class="fas fa-calendar mr-1"></i>
+        <span>2021-04-11</span>
+    </div>
+    <div class="mr-6 my-2">
+        <i class="fas fa-clock mr-1"></i>
+        <span>2 min read</span>
+    </div>
+    
+    
+
+    
+</div>
+
+  </div>
+
+  
+</div>
+  </div>
+  
+  <div class="py-6">
+    <div class="flex flex-col-reverse lg:flex-row justify-between">
+  
+  <div class="w-full ">
+    <div class="mb-4">
+  <a href="https://winsa24.github.io/courses/igr203/software-dev/" class="font-bold text-xl hover:text-eureka">Qt - Microwave</a>
+</div>
+<div class="content">
+   2 Ways to solve The specification of the interaction of a complex interface Statecharts/state machine Specification languages
+ StateMachine &amp;amp; StateCharts  Statecharts is hierarchical state machines
+ 
+</div>
+
+<div class="flex flex-wrap flex-row items-center mt-2 text-tertiary-text">
+    <div class="mr-6 my-2">
+        <i class="fas fa-calendar mr-1"></i>
+        <span>2021-04-11</span>
+    </div>
+    <div class="mr-6 my-2">
+        <i class="fas fa-clock mr-1"></i>
+        <span>1 min read</span>
+    </div>
+    
+    
+
+    
+</div>
+
+  </div>
+
+  
+</div>
+  </div>
+  
+  <div class="py-6">
+    <div class="flex flex-col-reverse lg:flex-row justify-between">
+  
+  <div class="w-full ">
+    <div class="mb-4">
+  <a href="https://winsa24.github.io/courses/igr203/ucd/" class="font-bold text-xl hover:text-eureka">User Center Design (UCD)</a>
+</div>
+<div class="content">
+  User Center Design (UCD)  3 Constraints to Design : Task - Human - Technology Usability Criteria  Ease of learning: learning cost / use of advanced functionalities Recall: Remember how from one session to the next Productivity: speed of execution Fatigue (cf. repetitive actions) Risk of errors: should be minimized, good feebcak needed otherwise User satisfaction
+Accessibility, functionality, time, effort, learnability, satisfaction, …  Ideation Brainstorm, Sketches&amp;hellip;.
+Prototype  Methods: • Storyboards — good for user flow • Paper prototypes — good for layout, flow • Video prototypes — good for overall experience • Powerpoint/Photoshop — Look ’n’ feel • Software — functionality
+</div>
+
+<div class="flex flex-wrap flex-row items-center mt-2 text-tertiary-text">
+    <div class="mr-6 my-2">
+        <i class="fas fa-calendar mr-1"></i>
+        <span>2021-04-11</span>
+    </div>
+    <div class="mr-6 my-2">
+        <i class="fas fa-clock mr-1"></i>
+        <span>1 min read</span>
+    </div>
+    
+    
+
+    
+</div>
+
+  </div>
+
+  
+</div>
+  </div>
+  
+  <div class="py-6">
+    <div class="flex flex-col-reverse lg:flex-row justify-between">
+  
+  <div class="w-full ">
+    <div class="mb-4">
+  <a href="https://winsa24.github.io/courses/igr203/lab3/" class="font-bold text-xl hover:text-eureka">Qt - Microwave</a>
+</div>
+<div class="content">
+  Qt Lab#3 : Statecharts Source code: https://github.com/winsa24/-QT-Microwave Introduction I implement the presentation and interaction control panel of a microwave oven on Qt.
+1. Design the Statechart 2. Graphical interface In this part, I created a graphical interface by dragging and dropping based on Qt Designor. I used QLineEdit and QDial as display panel and slider.
+3. Implement In this part, I first implement the QtStateMachine according to the Statechart shown in the first section. I created 9 states and use state-&amp;gt;addTransition() to link different states with different buttons.
+</div>
+
+<div class="flex flex-wrap flex-row items-center mt-2 text-tertiary-text">
+    <div class="mr-6 my-2">
+        <i class="fas fa-calendar mr-1"></i>
+        <span>2021-03-14</span>
+    </div>
+    <div class="mr-6 my-2">
+        <i class="fas fa-clock mr-1"></i>
+        <span>2 min read</span>
+    </div>
+    
+    
+
+    
+</div>
+
+  </div>
+
+  
+</div>
+  </div>
+  
+</div>
+
+
+</div>
+
+
+
+
+            </div>
+        </div>
+        
+    </main>
+    <footer class="pl-scrollbar">
+        <div class="w-full max-w-screen-xl mx-auto"><div class="text-center p-6 pin-b">
+    <p class="text-sm text-tertiary-text">&copy; 2020 <a href="https://www.wangchucheng.com/">C. Wang</a> and <a href="https://www.ruiqima.com/">R. Ma</a> &middot;  Powered by the <a href="https://github.com/wangchucheng/hugo-eureka" class="hover:text-eureka">Eureka</a> theme for <a href="https://gohugo.io" class="hover:text-eureka">Hugo</a></p>
+</div></div>
+    </footer>
+</body>
+
+</html>

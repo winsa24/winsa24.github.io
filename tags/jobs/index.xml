@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jobs on Xiang WEI</title>
+    <link>https://winsa24.github.io/tags/jobs/</link>
+    <description>Recent content in Jobs on Xiang WEI</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; 2020 &lt;a href=&#34;https://www.wangchucheng.com/&#34;&gt;C. Wang&lt;/a&gt; and &lt;a href=&#34;https://www.ruiqima.com/&#34;&gt;R. Ma&lt;/a&gt;</copyright>
+    <lastBuildDate>Sat, 27 Mar 2021 02:01:58 +0530</lastBuildDate>
+    
+	<atom:link href="https://winsa24.github.io/tags/jobs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>前端面经</title>
+      <link>https://winsa24.github.io/blogs/job/</link>
+      <pubDate>Sat, 27 Mar 2021 02:01:58 +0530</pubDate>
+      
+      <guid>https://winsa24.github.io/blogs/job/</guid>
+      <description>前端知识点总结 HTML CSS 数据库  索引的创建和原理？
+ </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang='en' ><meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+
+<title>Vue Start | Xiang WEI</title>
+<link rel="stylesheet" href="https://winsa24.github.io/css/eureka.min.css">
+<script defer src="https://winsa24.github.io/js/eureka.min.js"></script>
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload"
+  href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Noto+Serif+SC:wght@400;600;700&display=swap"
+  as="style" onload="this.onload=null;this.rel='stylesheet'">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.0/build/styles/solarized-light.min.css"
+   media="print"
+  onload="this.media='all';this.onload=null" crossorigin>
+<script defer src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.0/build/highlight.min.js"
+   crossorigin></script>
+<script defer src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.14.0/js/all.min.js"
+   integrity="sha256-uNYoXefWRqv&#43;PsIF/OflNmwtKM4lStn9yrz2gVl6ymo="  crossorigin></script>
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+   integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3&#43;Aro6EYUG4&#43;cU&#43;KJWu/X"  media="print"
+  onload="this.media='all';this.onload=null" crossorigin>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js" 
+  integrity="sha384-g7c&#43;Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI&#43;sEnkvrMWph2EDg4"  crossorigin></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js"
+   integrity="sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC&#43;Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa"  crossorigin></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    renderMathInElement(document.body, {
+      delimiters: [
+        { left: "$$", right: "$$", display: true },
+        { left: "$", right: "$", display: false },
+        { left: "\\(", right: "\\)", display: false },
+        { left: "\\[", right: "\\]", display: true }
+      ],
+    });
+  });
+</script>
+
+
+<link rel="icon" type="image/png" sizes="32x32" href="https://winsa24.github.io/images/icon_hu64421c6c7700f606f0ad45d807017b09_5843_32x32_fill_box_center_2.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://winsa24.github.io/images/icon_hu64421c6c7700f606f0ad45d807017b09_5843_180x180_fill_box_center_2.png">
+
+<meta name="description"
+  content="Vue Start  要开始认真学习前端了。。听说复盘很重要，随手记录下。。
+  本机环境：macOS 11.2
+ 安装Vue 控制台
+ 报错&ndash;&gt;
+Error: EACCES: permission denied, access &#39;/usr/local/lib/node_modules&#39;  解决&ndash;&gt;
+sudo chown -R &lt;username&gt;: /usr/local/lib/node_modules  (username需替换，查询控制台输入id -un)
+新建项目 cd 进项目存储目录
+Vue init webpack &lt;my-project&gt;(项目名称)  然后会出一堆输入或者选项，比如Project name, description&hellip;看着随便填吧，我是一路Yes了
+创建好后
+cd (项目名称) npm run dev  显示：Your application is running here: http://localhost:8080 ===&gt; 成功
+ Ref: https://www.jianshu.com/p/58920175e93d
+ TodoList  列举Task
+ &lt;ul&gt; &lt;li v-for=&quot;item in items&quot;&gt; {{item.label}} &lt;/li&gt; &lt;/ul&gt;  报错：
+[vue/require-v-for-key] Elements in iteration expect to have &#39;v-bind:key&#39; directives.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+      "@type": "ListItem",
+      "position": 1 ,
+      "name":"Blogs",
+      "item":"https://winsa24.github.io/blogs/"},{
+      "@type": "ListItem",
+      "position": 2 ,
+      "name":"Vue Start",
+      "item":"https://winsa24.github.io/blogs/vuestart/"}]
+}
+</script>
+
+
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://winsa24.github.io/blogs/vuestart/"
+    },
+    "headline": "Vue Start | Xiang WEI","datePublished": "2021-03-26T00:00:00+00:00",
+    "dateModified": "2021-03-26T00:00:00+00:00",
+    "wordCount":  550 ,
+    "publisher": {
+        "@type": "Person",
+        "name": "C. Wang",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://winsa24.github.io/images/icon.png"
+        }
+        },
+    "description": "Vue Start  要开始认真学习前端了。。听说复盘很重要，随手记录下。。\n  本机环境：macOS 11.2\n 安装Vue 控制台\n 报错\u0026ndash;\u0026gt;\nError: EACCES: permission denied, access \u0027\/usr\/local\/lib\/node_modules\u0027  解决\u0026ndash;\u0026gt;\nsudo chown -R \u0026lt;username\u0026gt;: \/usr\/local\/lib\/node_modules  (username需替换，查询控制台输入id -un)\n新建项目 cd 进项目存储目录\nVue init webpack \u0026lt;my-project\u0026gt;(项目名称)  然后会出一堆输入或者选项，比如Project name, description\u0026hellip;看着随便填吧，我是一路Yes了\n创建好后\ncd (项目名称) npm run dev  显示：Your application is running here: http:\/\/localhost:8080 ===\u0026gt; 成功\n Ref: https:\/\/www.jianshu.com\/p\/58920175e93d\n TodoList  列举Task\n \u0026lt;ul\u0026gt; \u0026lt;li v-for=\u0026quot;item in items\u0026quot;\u0026gt; {{item.label}} \u0026lt;\/li\u0026gt; \u0026lt;\/ul\u0026gt;  报错：\n[vue\/require-v-for-key] Elements in iteration expect to have \u0027v-bind:key\u0027 directives."
+}
+</script><meta property="og:title" content="Vue Start | Xiang WEI" />
+<meta property="og:type" content="article" />
+
+
+<meta property="og:image" content="https://winsa24.github.io/images/icon.png">
+
+
+<meta property="og:url" content="https://winsa24.github.io/blogs/vuestart/" />
+
+
+
+
+<meta property="og:description" content="Vue Start  要开始认真学习前端了。。听说复盘很重要，随手记录下。。
+  本机环境：macOS 11.2
+ 安装Vue 控制台
+ 报错&ndash;&gt;
+Error: EACCES: permission denied, access &#39;/usr/local/lib/node_modules&#39;  解决&ndash;&gt;
+sudo chown -R &lt;username&gt;: /usr/local/lib/node_modules  (username需替换，查询控制台输入id -un)
+新建项目 cd 进项目存储目录
+Vue init webpack &lt;my-project&gt;(项目名称)  然后会出一堆输入或者选项，比如Project name, description&hellip;看着随便填吧，我是一路Yes了
+创建好后
+cd (项目名称) npm run dev  显示：Your application is running here: http://localhost:8080 ===&gt; 成功
+ Ref: https://www.jianshu.com/p/58920175e93d
+ TodoList  列举Task
+ &lt;ul&gt; &lt;li v-for=&quot;item in items&quot;&gt; {{item.label}} &lt;/li&gt; &lt;/ul&gt;  报错：
+[vue/require-v-for-key] Elements in iteration expect to have &#39;v-bind:key&#39; directives." />
+
+
+
+
+<meta property="og:locale" content="en" />
+
+
+
+
+<meta property="og:site_name" content="Xiang WEI" />
+
+
+
+
+
+
+<meta property="article:published_time" content="2021-03-26T00:00:00&#43;00:00" />
+
+
+<meta property="article:modified_time" content="2021-03-26T00:00:00&#43;00:00" />
+
+
+
+<meta property="article:section" content="blogs" />
+
+
+<meta property="article:tag" content="Vue" />
+
+
+
+
+
+<body class="flex flex-col min-h-screen">
+    <header class="fixed flex items-center w-full min-h-16 pl-scrollbar z-50 bg-secondary-bg shadow-sm">
+        <div class="w-full max-w-screen-xl mx-auto"><script>
+    let storageColorScheme = localStorage.getItem("lightDarkMode")
+    if (((storageColorScheme == 'Auto' || storageColorScheme == null) && window.matchMedia("(prefers-color-scheme: dark)").matches) || storageColorScheme == "Dark") {
+        document.getElementsByTagName('html')[0].classList.add('dark')
+    }
+</script>
+<nav class="flex items-center justify-between flex-wrap p-4">
+    <a href="/" class="mr-6 text-primary-text text-xl font-bold">Xiang WEI</a>
+    <button id="navbar-btn" class="md:hidden flex items-center px-3 py-2" aria-label="Open Navbar">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <div id="target"
+        class="hidden block md:flex md:flex-grow md:justify-between md:items-center w-full md:w-auto text-primary-text z-20">
+        <div class="text-sm md:flex-grow pb-4 md:pb-0 border-b md:border-b-0">
+            <a href="/#about"
+                class="block mt-4 md:inline-block md:mt-0  hover:text-eureka mr-4">About</a>
+            <a href="/projects/"
+                class="block mt-4 md:inline-block md:mt-0  hover:text-eureka mr-4">Projects</a>
+            <a href="/courses/"
+                class="block mt-4 md:inline-block md:mt-0  hover:text-eureka mr-4">Courses</a>
+        </div>
+
+        <div class="flex">
+            <div class="relative pt-4 md:pt-0">
+                <div class="cursor-pointer hover:text-eureka" id="lightDarkMode">
+                    <i class="fas fa-adjust"></i>
+                </div>
+                <div class="fixed hidden inset-0 opacity-0 h-full w-full cursor-default z-30" id="is-open">
+                </div>
+                <div class="absolute flex flex-col left-0 md:left-auto right-auto md:right-0 hidden bg-secondary-bg w-48 rounded py-2 border border-tertiary-bg cursor-pointer z-40"
+                    id='lightDarkOptions'>
+                    <span class="px-4 py-1 hover:text-eureka">Light</span>
+                    <span class="px-4 py-1 hover:text-eureka">Dark</span>
+                    <span class="px-4 py-1 hover:text-eureka">Auto</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fixed hidden inset-0 opacity-0 h-full w-full cursor-default z-0" id="is-open-mobile">
+    </div>
+
+</nav>
+<script>
+    let element = document.getElementById('lightDarkMode')
+    if (storageColorScheme == null || storageColorScheme == 'Auto') {
+        document.addEventListener('DOMContentLoaded', () => {
+            switchMode('Auto')
+        })
+    } else if (storageColorScheme == "Light") {
+        element.firstElementChild.classList.remove('fa-adjust')
+        element.firstElementChild.setAttribute("data-icon", 'sun')
+        element.firstElementChild.classList.add('fa-sun')
+    } else if (storageColorScheme == "Dark") {
+        element.firstElementChild.classList.remove('fa-adjust')
+        element.firstElementChild.setAttribute("data-icon", 'moon')
+        element.firstElementChild.classList.add('fa-moon')
+    }
+    
+    document.addEventListener('DOMContentLoaded', () => {
+        getcolorscheme();
+        switchBurger();
+    });
+</script></div>
+    </header>
+    <main class="flex-grow pt-16">
+        <div class="pl-scrollbar">
+            <div class="w-full max-w-screen-xl lg:px-4 xl:px-8 mx-auto">
+
+
+<div class="grid grid-cols-2 lg:grid-cols-8 gap-4 lg:pt-12">
+    <div
+        class="col-span-2 lg:col-start-2 lg:col-span-6 bg-secondary-bg rounded px-6 py-8">
+        <h1 class="font-bold text-3xl text-primary-text">Vue Start</h1>
+        <div class="flex flex-wrap flex-row items-center mt-2 text-tertiary-text">
+    <div class="mr-6 my-2">
+        <i class="fas fa-calendar mr-1"></i>
+        <span>2021-03-26</span>
+    </div>
+    <div class="mr-6 my-2">
+        <i class="fas fa-clock mr-1"></i>
+        <span>3 min read</span>
+    </div>
+    
+    
+    <div class="mr-6 my-2">
+        <i class="fas fa-folder mr-1"></i>
+        
+        <a href="https://winsa24.github.io/categories/front-end-develop/" class="hover:text-eureka">Front-end Develop</a>
+        
+    </div>
+    
+
+    
+</div>
+        
+        
+        
+
+        <div class="content">
+            <h1 id="vue-start">Vue Start</h1>
+<blockquote>
+<p>要开始认真学习前端了。。听说复盘很重要，随手记录下。。</p>
+</blockquote>
+<blockquote>
+<p><strong>本机环境</strong>：macOS 11.2</p>
+</blockquote>
+<h2 id="安装vue">安装Vue</h2>
+<p>控制台</p>
+<pre><code class="language-npm"></code></pre>
+<p>报错&ndash;&gt;</p>
+<pre><code>Error: EACCES: permission denied, access '/usr/local/lib/node_modules'
+</code></pre>
+<p>解决&ndash;&gt;</p>
+<pre><code>sudo chown -R &lt;username&gt;: /usr/local/lib/node_modules
+</code></pre>
+<p>(username需替换，查询控制台输入id -un)</p>
+<h2 id="新建项目">新建项目</h2>
+<p>cd 进项目存储目录</p>
+<pre><code>Vue init webpack &lt;my-project&gt;(项目名称)
+</code></pre>
+<p>然后会出一堆输入或者选项，比如Project name, description&hellip;看着随便填吧，我是一路Yes了</p>
+<p>创建好后</p>
+<pre><code>cd (项目名称)
+npm run dev
+</code></pre>
+<p>显示：Your application is running here: http://localhost:8080 ===&gt; <strong>成功</strong></p>
+<blockquote>
+<p><strong>Ref:</strong> <a href="https://www.jianshu.com/p/58920175e93d">https://www.jianshu.com/p/58920175e93d</a></p>
+</blockquote>
+<h2 id="todolist">TodoList</h2>
+<blockquote>
+<p>列举Task</p>
+</blockquote>
+<pre><code>&lt;ul&gt;
+      &lt;li v-for=&quot;item in items&quot;&gt;
+        {{item.label}}
+      &lt;/li&gt;
+&lt;/ul&gt;
+</code></pre>
+<p>报错：</p>
+<pre><code>[vue/require-v-for-key]
+Elements in iteration expect to have 'v-bind:key' directives.eslint-plugin-vue
+</code></pre>
+<p>解决：</p>
+<pre><code>&lt;li v-for=&quot;item in items&quot;  v-bind:key = &quot;item&quot;&gt; 
+</code></pre>
+<blockquote>
+<p>实现简单todo list: <input> &amp; <li></p>
+</blockquote>
+<blockquote>
+<p><strong>Ref:</strong> <a href="https://www.ngui.cc/vuejs/show-4390.html">https://www.ngui.cc/vuejs/show-4390.html</a></p>
+</blockquote>
+<hr>
+<blockquote>
+<p>第二天重启
+命令行重新npm run dev (or npm start)
+16个报错。。。
+但localhost:8080 正常运行</p>
+</blockquote>
+<blockquote>
+<p>想搭一个更高级的，就去翻了下 <a href="https://cn.vuejs.org/v2/guide/installation.html">官网文档</a>， 突然发现不推荐新手直接用vue-cli。。。anw</p>
+</blockquote>
+<blockquote>
+<p>自己尝试将直接写在App.vue里的代码挪到component里，但是失败了，所以搜了这个<a href="https://segmentfault.com/a/1190000013056647">教程</a> 打算fo一下</p>
+</blockquote>
+<blockquote>
+<p>太复杂了，我还是先自己解决一个页面引多个components的问题吧。。。<br>
+修改router &ndash;&gt; index.js</p>
+</blockquote>
+<pre><code>routes: [
+    {
+      path: '/',
+      components: {
+        HelloWorld,
+        newcp
+      }
+    }
+  ]
+</code></pre>
+<p>然后在App.vue里</p>
+<pre><code>&lt;router-view name=&quot;HelloWorld&quot;/&gt;
+&lt;router-view name=&quot;newcp&quot;/&gt;
+</code></pre>
+<blockquote>
+<p>然后想写一个简单的tabbar，实现页面间的转跳。但查阅了下资料发现“VUE就是单页应用”
+我的测试：
+可以在index.js中添加另一路径</p>
+</blockquote>
+<pre><code>{  path.....}
+{
+    path: '/abc',
+    components: {
+        HelloWorld,
+        newcp,
+        tabbar
+    }
+}
+</code></pre>
+<p>然后在tabbar.vue  component里用</p>
+<pre><code>&lt;a href = &quot;http://localhost:8080/#/abc&quot;&gt;
+</code></pre>
+<p>硬指。 但是最终都会显示App.vue中的样式。</p>
+<blockquote>
+<p>实现一个基本的<strong>增删查改</strong>的TodoList<br>
+删除时，无法动态删除页面控件<br>
+改用splice方法即可。官方文档解释：<a href="https://cn.vuejs.org/v2/guide/list.html#%E6%95%B0%E7%BB%84%E6%9B%B4%E6%96%B0%E6%A3%80%E6%B5%8B">数组更新检测</a></p>
+</blockquote>
+<blockquote>
+<p>显示<br>
+其中isFinished属性用于实现点击完成
+isSearched属性用于（查）操作</p>
+</blockquote>
+<pre><code>&lt;div v-for=&quot;(item, index) in list&quot; :key=&quot;index&quot;&gt;
+        &lt;span v-bind:class=&quot;{'finished': item.isFinished, 'searched': item.isSearched}&quot; v-on:click = &quot;ChangeStatus(index)&quot;&gt;{{item.name}}&lt;/span&gt;
+        &lt;span&gt;{{item.isFinished ? &quot;Finished&quot; : &quot;Not finish&quot; }}&lt;/span&gt;
+        &lt;button v-on:click = &quot;Delete(item)&quot;&gt;Delete&lt;/button&gt;
+        &lt;button v-on:click = &quot;Edit(index)&quot;&gt;Edit&lt;/button&gt;
+&lt;/div&gt;
+</code></pre>
+<pre><code>data () {
+    return {
+    ...
+      list: [{
+        name: 'Task1',
+        isFinished: true,
+        isSearched: false
+      },
+      {
+        name: 'Task2',
+        isFinished: false,
+        isSearched: false
+      }]
+    }
+  },
+</code></pre>
+<pre><code>methods: {
+    ...
+    ChangeStatus: function (index) {
+          this.list[index].isFinished = !this.list[index].isFinished
+    },
+    ...
+}
+</code></pre>
+<blockquote>
+<p>增</p>
+</blockquote>
+<pre><code>&lt;input placeholder=&quot;Enter task name to add ...&quot; v-model = &quot;taskname&quot; v-on:keyup.enter = &quot;Add&quot;&gt;
+</code></pre>
+<pre><code>data () {
+    return {
+      taskname: '',
+      ...
+    }
+  },
+</code></pre>
+<pre><code>methods: {
+    ...
+    Add: function () {
+      this.list.push({name: this.taskname, isFinished: false, isSearched: false})
+      this.taskname = ''
+    },
+    ...
+}
+</code></pre>
+<blockquote>
+<p>删</p>
+</blockquote>
+<pre><code>methods: {
+    ...
+    Delete: function (item) {
+      var i = 0
+      while (this.list[i].name !== item.name) {
+        i = i + 1
+      }
+      this.list.splice(i, 1)
+    },
+    ...
+}
+</code></pre>
+<blockquote>
+<p>改</p>
+</blockquote>
+<pre><code>&lt;input placeholder=&quot;Enter new task name...&quot; v-model= &quot;editname&quot;&gt;
+</code></pre>
+<pre><code>methods: {
+    ...
+    Edit: function (index) {
+          this.list[index].name = this.editname
+    },
+    ...
+}
+
+</code></pre>
+<blockquote>
+<p>查</p>
+</blockquote>
+<pre><code>&lt;input placeholder=&quot;Enter task name to search ...&quot; v-model = &quot;searchname&quot; v-on:keyup.enter = &quot;Search&quot;&gt;
+</code></pre>
+<pre><code>methods: {
+    ...
+    Search: function () {
+      for (var i = 0; i &lt; this.list.length; i++) {
+        if (this.list[i].name.search(this.searchname) !== -1) {
+          this.list[i].isSearched = true
+        } else {
+          this.list[i].isSearched = false
+        }
+      }
+    }
+}
+</code></pre>
+<blockquote>
+<p>注册组件</p>
+</blockquote>
+<pre><code>&lt;hello v-for=&quot;(item, index) in list&quot; v-bind:key=&quot;index&quot; v-bind:item=&quot;item&quot;&gt;&lt;/hello&gt;
+</code></pre>
+<pre><code>Vue.component('hello', {
+  props: ['item', 'index'],
+  template: `
+  &lt;div&gt;
+    &lt;span v-bind:class=&quot;{'finished': item.isFinished, 'searched': item.isSearched}&quot; v-on:click = &quot;ChangeStatus(index)&quot;&gt;{{item.name}}&lt;/span&gt;
+    &lt;span&gt;{{item.isFinished ? &quot;Finished&quot; : &quot;Not finish&quot; }}&lt;/span&gt;
+    &lt;button v-on:click = &quot;Delete(item)&quot;&gt;Delete&lt;/button&gt;
+    &lt;button v-on:click = &quot;Edit(index)&quot;&gt;Edit&lt;/button&gt;
+  &lt;/div&gt;
+  `
+})
+</code></pre>
+<p>以上无法响应方法。但能动态接受数据（item &amp; index)</p>
+<hr>
+<p>解决 &mdash;&gt;  转变思维：父组件传递整个数组（list)给子控件，子控件自己for，然后发送index / item回父组件，父组件进行处理</p>
+<p><strong>子组件</strong> （component/HelloWorld.vue）</p>
+<pre><code>&lt;template&gt;
+&lt;div&gt;
+  &lt;div v-for=&quot;(item, index) in list&quot; v-bind:key=&quot;index&quot;&gt;
+    &lt;span v-bind:class=&quot;{'finished': item.isFinished, 'searched': item.isSearched}&quot; v-on:click = &quot;ChangeStatus(index)&quot;&gt;{{item.name}}&lt;/span&gt;
+    &lt;span&gt;{{item.isFinished ? &quot;Finished&quot; : &quot;Not finish&quot; }}&lt;/span&gt;
+    &lt;button v-on:click = &quot;Delete(item)&quot;&gt;Delete&lt;/button&gt;
+    &lt;button v-on:click = &quot;Edit(index)&quot;&gt;Edit&lt;/button&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/template&gt;
+
+&lt;script&gt;
+export default {
+  name: 'todo',                         //随便起，不重要
+  props: ['list'],
+  methods: {
+    ChangeStatus: function (index) {
+      this.$emit('changeS', index)
+    },
+    Delete: function (item) {
+      this.$emit('delete', item)
+    },
+    Edit: function (index) {
+      this.$emit('edit', index)
+    }
+  }
+}
+&lt;/script&gt;
+</code></pre>
+<p><strong>父组件</strong> (App.vue)</p>
+<pre><code>&lt;template&gt;
+  &lt;div id=&quot;app&quot;&gt;
+    &lt;todo v-bind:list=&quot;list&quot; v-on:changeS='ChangeStatus' v-on:delete='Delete' v-on:edit='Edit'&gt;&lt;/todo&gt;
+    &lt;input placeholder=&quot;Enter task name to add ...&quot; v-model = &quot;taskname&quot; v-on:keyup.enter = &quot;Add&quot;&gt;
+    &lt;input placeholder=&quot;Enter task name to search ...&quot; v-model = &quot;searchname&quot; v-on:keyup.enter = &quot;Search&quot;&gt;
+    ...
+</code></pre>
+<pre><code>&lt;script&gt;
+import HelloWorld from './components/HelloWorld.vue'
+export default {
+  name: 'App',
+  components: {
+    'todo': HelloWorld
+  },
+  ...
+</code></pre>
+<p>其他不用变</p>
+<blockquote>
+<p>最终效果：
+<img src="/images/blogs/VueTodo.gif" alt="VueTodo"></p>
+</blockquote>
+<blockquote>
+<p><strong>Ref:</strong> <a href="https://blog.csdn.net/kuangshp128/article/details/80680225">https://blog.csdn.net/kuangshp128/article/details/80680225</a> //比官方文档更清楚些<br>
+<a href="https://segmentfault.com/a/1190000012826671">https://segmentfault.com/a/1190000012826671</a></p>
+</blockquote>
+<h2 id="优化--思考">优化 &amp; 思考。。。</h2>
+<blockquote>
+<p>实时修改内容 : 用<input>显示任务名称，点击按钮设置可编辑状态，回车确认。<br>
+实时搜索高亮 ： ？
+可参考demo : <a href="https://medium.com/ivycodefive/vue-to-do-list-%E6%8B%86%E8%A7%A3%E7%B7%B4%E7%BF%92-8c6f079919e2">https://medium.com/ivycodefive/vue-to-do-list-%E6%8B%86%E8%A7%A3%E7%B7%B4%E7%BF%92-8c6f079919e2</a>  //功能完善，界面好看
+<a href="https://www.jianshu.com/p/8856c4634a51">https://www.jianshu.com/p/8856c4634a51</a>   //代码实现简单</p>
+</blockquote>
+
+        </div>
+        
+        <div class="my-4">
+    
+    <a href="https://winsa24.github.io/tags/vue/" class="inline-block bg-tertiary-bg text-sm rounded px-3 py-1 my-1 mr-2 hover:text-eureka">#Vue</a>
+    
+</div>
+        
+        
+        
+        
+        
+        
+        
+<div class="flex flex-col md:flex-row md:justify-between -mx-2 mt-4 px-2 pt-4 border-t">
+    <div>
+        
+        <span class="block font-bold">Previous</span>
+        <a href="https://winsa24.github.io/blogs/job/" class="block">前端面经</a>
+        
+    </div>
+    <div class="md:text-right mt-4 md:mt-0">
+        
+    </div>
+</div>
+
+        
+    </div>
+    
+
+    
+    
+</div>
+<script>
+    document.addEventListener('DOMContentLoaded', ()=>{
+        hljs.initHighlightingOnLoad();
+    })
+</script>
+
+            </div>
+        </div>
+        
+    </main>
+    <footer class="pl-scrollbar">
+        <div class="w-full max-w-screen-xl mx-auto"><div class="text-center p-6 pin-b">
+    <p class="text-sm text-tertiary-text">&copy; 2020 <a href="https://www.wangchucheng.com/">C. Wang</a> and <a href="https://www.ruiqima.com/">R. Ma</a> &middot;  Powered by the <a href="https://github.com/wangchucheng/hugo-eureka" class="hover:text-eureka">Eureka</a> theme for <a href="https://gohugo.io" class="hover:text-eureka">Hugo</a></p>
+</div></div>
+    </footer>
+</body>
+
+</html>

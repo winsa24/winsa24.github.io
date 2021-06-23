@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lecture on Xiang WEI</title>
+    <link>https://winsa24.github.io/tags/lecture/</link>
+    <description>Recent content in Lecture on Xiang WEI</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; 2020 &lt;a href=&#34;https://www.wangchucheng.com/&#34;&gt;C. Wang&lt;/a&gt; and &lt;a href=&#34;https://www.ruiqima.com/&#34;&gt;R. Ma&lt;/a&gt;</copyright>
+    <lastBuildDate>Sun, 11 Apr 2021 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://winsa24.github.io/tags/lecture/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Gestural Interfaces</title>
+      <link>https://winsa24.github.io/courses/igr203/gesture/</link>
+      <pubDate>Sun, 11 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/courses/igr203/gesture/</guid>
+      <description>To design a gestural interfaces Creating a gesture set and defining a gesture-command mapping Laban feature Laban Movement Analysis (LMA)
+ The LMA system provides models for the interpretation of movement, its function and its expression through 4 components: − Body (what) − Effort (how) − Space (where) − Shape (relation with the environment) Effort has 4 Factors thought as a continuum with 2 opposite ends: − Weight : strong, light − Time : quick, substained − Space : flexible, direct − Flow : bound , free</description>
+    </item>
+    
+    <item>
+      <title>JavaScript AJAX (js2Lab)</title>
+      <link>https://winsa24.github.io/courses/inf203/js2lab/</link>
+      <pubDate>Sun, 11 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/courses/inf203/js2lab/</guid>
+      <description>Lab: Javascript in the browser Exercise 1 - Get a file with AJAX and add its contents in the current HTML page  Question 1a: Write a function named loadDoc that loads the file text.txt and includes it in the page when you click a button.
+ function loadDoc(){ var texta = document.getElementById(&#39;texta&#39;); var xmlHttp = new XMLHttpRequest(); if(xmlHttp != null){ xmlHttp.open(&amp;quot;get&amp;quot;,&amp;quot;text.txt&amp;quot;, true);// 3 parameters (method, url, async) xmlHttp.send(); xmlHttp.onreadystatechange = function () { if (xmlHttp.</description>
+    </item>
+    
+    <item>
+      <title>Perception - Color - Ergonomic</title>
+      <link>https://winsa24.github.io/courses/igr203/perception/</link>
+      <pubDate>Sun, 11 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/courses/igr203/perception/</guid>
+      <description>Perception / Action Estimate interaction time : Fitt&amp;rsquo;s law : Pointing time relies on D/W ( Distance to target / Width of target)  Solutions:
+  Reduce D : Popup menus / Attract applications or target Increase W : The Mac bar (border is infinite) / Marking menus (rely on angle) Mouse gain : mouse moving speed Semantic pointing : Common actions easy to reach while dangerous hard Avoid Pointing : Hotkeys / Gesture  Hick law : Selecting time relies on n (number of the options) Colors Color models: RGB : Additive model Light emission (screens)</description>
+    </item>
+    
+    <item>
+      <title>Simple Server (ServerLab)</title>
+      <link>https://winsa24.github.io/courses/inf203/serverlab/</link>
+      <pubDate>Sun, 11 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/courses/inf203/serverlab/</guid>
+      <description>Lab: Server Question 1: Using only the http module, in a file called server.js, write a JavaScript program that implements a web server on port 8000. The server shall return an HTML string confirming that the server works when you access the root of the server, that is, “http://localhost:8000/”.
+var http = require(&amp;quot;http&amp;quot;); http.createServer(function(req, res){ if(req.url == &amp;quot;/&amp;quot;){ res.writeHead(200,{ &amp;quot;content-type&amp;quot;:&amp;quot;text/html&amp;quot; }); res.write(&amp;quot;hello world123&amp;quot;); res.end(); } }).listen(process.argv[2])  Type &amp;laquo; node server.js 8000 &amp;raquo; in the console.</description>
+    </item>
+    
+    <item>
+      <title>User Center Design (UCD)</title>
+      <link>https://winsa24.github.io/courses/igr203/ucd/</link>
+      <pubDate>Sun, 11 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/courses/igr203/ucd/</guid>
+      <description>User Center Design (UCD)  3 Constraints to Design : Task - Human - Technology Usability Criteria  Ease of learning: learning cost / use of advanced functionalities Recall: Remember how from one session to the next Productivity: speed of execution Fatigue (cf. repetitive actions) Risk of errors: should be minimized, good feebcak needed otherwise User satisfaction
+Accessibility, functionality, time, effort, learnability, satisfaction, …  Ideation Brainstorm, Sketches&amp;hellip;.
+Prototype  Methods: • Storyboards — good for user flow • Paper prototypes — good for layout, flow • Video prototypes — good for overall experience • Powerpoint/Photoshop — Look ’n’ feel • Software — functionality</description>
+    </item>
+    
+    <item>
+      <title>Web Application (webappLab)</title>
+      <link>https://winsa24.github.io/courses/inf203/webapplab/</link>
+      <pubDate>Sun, 11 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/courses/inf203/webapplab/</guid>
+      <description>Lab: Web Application Questions 1 to 5:  Client-side: create a button bar with “show txt”, “add element”, “remove element”, “clear” and ”restore”. The actions of these buttons are:
+  show txt: shows the text of the current JSON add element: adds in the current JSON an element whose information is a number (value), a text (title) and a color in CSS format (color name or hex) (color). The new element is at the end of the list.</description>
+    </item>
+    
+    <item>
+      <title>Lecture 8: Current Research Topics</title>
+      <link>https://winsa24.github.io/courses/igd301/l8/</link>
+      <pubDate>Tue, 19 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/courses/igd301/l8/</guid>
+      <description>Searching Tips: Google Scholar Top Conference  Interesting manga:  Interesting Research going on &amp;hellip;  </description>
+    </item>
+    
+    <item>
+      <title>Lecture 7: Augmented Reality</title>
+      <link>https://winsa24.github.io/courses/igd301/l7/</link>
+      <pubDate>Tue, 12 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/courses/igd301/l7/</guid>
+      <description>AR Definition • Combines Real and Virtual Images Both can be seen at the same time • Interactive in real-time The virtual content can be interacted with • Registered in 3D Virtual objects appear fixed in space AR History • 1960’s – 80’s: Early Experimentation • 1980’s – 90’s: Basic Research (Tracking, Display) • 1995 – 2005: Tools/Applications (Interaction, Usability..) • 2005 – today: Commercial Applications (Games, Medical, Industry) • 2007 – AR Reaches Mainstream • MIT Technology Review of March 2007: One of the 10 most exciting technologies • Economist (Dec.</description>
+    </item>
+    
+    <item>
+      <title>Lecture 6: Design Processes and Guidelines</title>
+      <link>https://winsa24.github.io/courses/igd301/l6/</link>
+      <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/courses/igd301/l6/</guid>
+      <description>Prototyping &amp;amp; Evaluation Human Techniques  Ethnographies, Focus Groups and Interviews&amp;hellip;
+ Design Prototype  Low-Fi Tools Horizontal and Vertical Prototype  Evaluate  • Lab study
+• Field study
+• Survey
+• Grounded Theory/ Thematic Analysis
+Some Guide or Restriction in evaluation  Examples&amp;hellip; [Problem] How to solve fatigue or use small motion to realize big movement? [Solutions] Homework &amp;mdash; Evaluate your Locomotion Technique  Link to a large Locomotion Technique Lib  How to evaluate?</description>
+    </item>
+    
+    <item>
+      <title>Lecture 5: Input Devices and Interaction Techniques</title>
+      <link>https://winsa24.github.io/courses/igd301/l5/</link>
+      <pubDate>Tue, 08 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/courses/igd301/l5/</guid>
+      <description> [Problem] How to have feedback?  some interesting solutions:
+Controller: Hand:  Some Interesting inspiration   SeeThrough muscle  Virtual face  Locomotion (no need of controller nor hand)   </description>
+    </item>
+    
+    <item>
+      <title>Lecture 3 &amp; 4: VR Technology and Perception</title>
+      <link>https://winsa24.github.io/courses/igd301/l3/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/courses/igd301/l3/</guid>
+      <description>Depth percetion Can&amp;rsquo;t see the shark
+On class brainstorm Gestalt rules Foveated rendering One potential reason to the failure of google glass Sensation developed other than hand two types of haptic Ungrounded &amp;mdash; Pro: flexiblity &amp;mdash; Con: limited force on human
+vs
+Grounded &amp;mdash; Pro: easier to control &amp;mdash; Con: can&amp;rsquo;t adapat to all situation
+Some Interesting Ideas </description>
+    </item>
+    
+    <item>
+      <title>Lecture 2: VR Technology and Perception</title>
+      <link>https://winsa24.github.io/courses/igd301/l2/</link>
+      <pubDate>Thu, 26 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/courses/igd301/l2/</guid>
+      <description>Presence VS Immersive → Presence is about PERCEPTION
+→ Immersion is about SENSATION
+Immersion can produce a sensation of Presence
+Vergence-Accomodation Conflict (Click to check the video)  Some ideas&amp;hellip;  From VR fly simulation I can create a VR history tour? Ex. Based on 清明上河图?</description>
+    </item>
+    
+    <item>
+      <title>Lecture I: Introduction and History of Virtual Reality</title>
+      <link>https://winsa24.github.io/courses/igd301/l1/</link>
+      <pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/courses/igd301/l1/</guid>
+      <description>Idea you can gain from the class&amp;hellip; HCI: Moore’s Law : Ex. Microwave
+No intuitive design, but have good design : intelligently leverages cognitive and perceptual abilities
+Ex. Tap Definition: History: VR : rise and fall and rise Homework Section 1 Two scenario describe that MR could cause problems for users. Based on VIDEO Hyper - Reality : https://www.youtube.com/watch?v=YJg02ivYzSs
+Scenario 1:
+The adopted pet in the supermarket might bit the user if he doesn’t get what he want.</description>
+    </item>
+    
+  </channel>
+</rss>

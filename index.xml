@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Xiang WEI</title>
+    <link>https://winsa24.github.io/</link>
+    <description>Recent content on Xiang WEI</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; 2020 &lt;a href=&#34;https://www.wangchucheng.com/&#34;&gt;C. Wang&lt;/a&gt; and &lt;a href=&#34;https://www.ruiqima.com/&#34;&gt;R. Ma&lt;/a&gt;</copyright>
+    <lastBuildDate>Sun, 11 Apr 2021 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://winsa24.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Gestural Interfaces</title>
+      <link>https://winsa24.github.io/courses/igr203/gesture/</link>
+      <pubDate>Sun, 11 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/courses/igr203/gesture/</guid>
+      <description>To design a gestural interfaces Creating a gesture set and defining a gesture-command mapping Laban feature Laban Movement Analysis (LMA)
+ The LMA system provides models for the interpretation of movement, its function and its expression through 4 components: − Body (what) − Effort (how) − Space (where) − Shape (relation with the environment) Effort has 4 Factors thought as a continuum with 2 opposite ends: − Weight : strong, light − Time : quick, substained − Space : flexible, direct − Flow : bound , free</description>
+    </item>
+    
+    <item>
+      <title>JavaScript AJAX (js2Lab)</title>
+      <link>https://winsa24.github.io/courses/inf203/js2lab/</link>
+      <pubDate>Sun, 11 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/courses/inf203/js2lab/</guid>
+      <description>Lab: Javascript in the browser Exercise 1 - Get a file with AJAX and add its contents in the current HTML page  Question 1a: Write a function named loadDoc that loads the file text.txt and includes it in the page when you click a button.
+ function loadDoc(){ var texta = document.getElementById(&#39;texta&#39;); var xmlHttp = new XMLHttpRequest(); if(xmlHttp != null){ xmlHttp.open(&amp;quot;get&amp;quot;,&amp;quot;text.txt&amp;quot;, true);// 3 parameters (method, url, async) xmlHttp.send(); xmlHttp.onreadystatechange = function () { if (xmlHttp.</description>
+    </item>
+    
+    <item>
+      <title>Perception - Color - Ergonomic</title>
+      <link>https://winsa24.github.io/courses/igr203/perception/</link>
+      <pubDate>Sun, 11 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/courses/igr203/perception/</guid>
+      <description>Perception / Action Estimate interaction time : Fitt&amp;rsquo;s law : Pointing time relies on D/W ( Distance to target / Width of target)  Solutions:
+  Reduce D : Popup menus / Attract applications or target Increase W : The Mac bar (border is infinite) / Marking menus (rely on angle) Mouse gain : mouse moving speed Semantic pointing : Common actions easy to reach while dangerous hard Avoid Pointing : Hotkeys / Gesture  Hick law : Selecting time relies on n (number of the options) Colors Color models: RGB : Additive model Light emission (screens)</description>
+    </item>
+    
+    <item>
+      <title>Qt - Microwave</title>
+      <link>https://winsa24.github.io/courses/igr203/software-dev/</link>
+      <pubDate>Sun, 11 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/courses/igr203/software-dev/</guid>
+      <description> 2 Ways to solve The specification of the interaction of a complex interface Statecharts/state machine Specification languages
+ StateMachine &amp;amp; StateCharts  Statecharts is hierarchical state machines
+ </description>
+    </item>
+    
+    <item>
+      <title>Simple Server (ServerLab)</title>
+      <link>https://winsa24.github.io/courses/inf203/serverlab/</link>
+      <pubDate>Sun, 11 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/courses/inf203/serverlab/</guid>
+      <description>Lab: Server Question 1: Using only the http module, in a file called server.js, write a JavaScript program that implements a web server on port 8000. The server shall return an HTML string confirming that the server works when you access the root of the server, that is, “http://localhost:8000/”.
+var http = require(&amp;quot;http&amp;quot;); http.createServer(function(req, res){ if(req.url == &amp;quot;/&amp;quot;){ res.writeHead(200,{ &amp;quot;content-type&amp;quot;:&amp;quot;text/html&amp;quot; }); res.write(&amp;quot;hello world123&amp;quot;); res.end(); } }).listen(process.argv[2])  Type &amp;laquo; node server.js 8000 &amp;raquo; in the console.</description>
+    </item>
+    
+    <item>
+      <title>User Center Design (UCD)</title>
+      <link>https://winsa24.github.io/courses/igr203/ucd/</link>
+      <pubDate>Sun, 11 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/courses/igr203/ucd/</guid>
+      <description>User Center Design (UCD)  3 Constraints to Design : Task - Human - Technology Usability Criteria  Ease of learning: learning cost / use of advanced functionalities Recall: Remember how from one session to the next Productivity: speed of execution Fatigue (cf. repetitive actions) Risk of errors: should be minimized, good feebcak needed otherwise User satisfaction
+Accessibility, functionality, time, effort, learnability, satisfaction, …  Ideation Brainstorm, Sketches&amp;hellip;.
+Prototype  Methods: • Storyboards — good for user flow • Paper prototypes — good for layout, flow • Video prototypes — good for overall experience • Powerpoint/Photoshop — Look ’n’ feel • Software — functionality</description>
+    </item>
+    
+    <item>
+      <title>Web Application (webappLab)</title>
+      <link>https://winsa24.github.io/courses/inf203/webapplab/</link>
+      <pubDate>Sun, 11 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/courses/inf203/webapplab/</guid>
+      <description>Lab: Web Application Questions 1 to 5:  Client-side: create a button bar with “show txt”, “add element”, “remove element”, “clear” and ”restore”. The actions of these buttons are:
+  show txt: shows the text of the current JSON add element: adds in the current JSON an element whose information is a number (value), a text (title) and a color in CSS format (color name or hex) (color). The new element is at the end of the list.</description>
+    </item>
+    
+    <item>
+      <title>React Start</title>
+      <link>https://winsa24.github.io/blogs/reactstart/</link>
+      <pubDate>Mon, 29 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/blogs/reactstart/</guid>
+      <description>React Start  Vue过了一个非常简单的todo list小例子，再试一下React
+  本机环境：macOS 11.2
+ 安装React 控制台
+ 新建项目 cd 进项目存储目录
+ 然后会出一堆输入或者选项，比如Project name, description&amp;hellip;看着随便填吧，我是一路Yes了
+创建好后，用VS打开
+cd (项目名称) npm start  显示：Your application is running here: http://localhost:3000 ===&amp;gt; 成功
+ Ref: https://www.jianshu.com/p/7343578ad5e9 (没装路由(Router)）
+ 先研究下Components  直接新建一个.js文件。然后在App.js中import、调用即可
+ import React from &#39;react&#39; class Test extends React.Component { render() { return ( &amp;lt;h1&amp;gt;weixiang&amp;lt;/h1&amp;gt; ) } } export default Test;  Todo List  列举Task
+ &amp;lt;ul&amp;gt; &amp;lt;li v-for=&amp;quot;item in items&amp;quot;&amp;gt; {{item.label}} &amp;lt;/li&amp;gt; &amp;lt;/ul&amp;gt;  报错：</description>
+    </item>
+    
+    <item>
+      <title>前端面经</title>
+      <link>https://winsa24.github.io/blogs/job/</link>
+      <pubDate>Sat, 27 Mar 2021 02:01:58 +0530</pubDate>
+      
+      <guid>https://winsa24.github.io/blogs/job/</guid>
+      <description>前端知识点总结 HTML CSS 数据库  索引的创建和原理？
+ </description>
+    </item>
+    
+    <item>
+      <title>Vue Start</title>
+      <link>https://winsa24.github.io/blogs/vuestart/</link>
+      <pubDate>Fri, 26 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/blogs/vuestart/</guid>
+      <description>Vue Start  要开始认真学习前端了。。听说复盘很重要，随手记录下。。
+  本机环境：macOS 11.2
+ 安装Vue 控制台
+ 报错&amp;ndash;&amp;gt;
+Error: EACCES: permission denied, access &#39;/usr/local/lib/node_modules&#39;  解决&amp;ndash;&amp;gt;
+sudo chown -R &amp;lt;username&amp;gt;: /usr/local/lib/node_modules  (username需替换，查询控制台输入id -un)
+新建项目 cd 进项目存储目录
+Vue init webpack &amp;lt;my-project&amp;gt;(项目名称)  然后会出一堆输入或者选项，比如Project name, description&amp;hellip;看着随便填吧，我是一路Yes了
+创建好后
+cd (项目名称) npm run dev  显示：Your application is running here: http://localhost:8080 ===&amp;gt; 成功
+ Ref: https://www.jianshu.com/p/58920175e93d
+ TodoList  列举Task
+ &amp;lt;ul&amp;gt; &amp;lt;li v-for=&amp;quot;item in items&amp;quot;&amp;gt; {{item.label}} &amp;lt;/li&amp;gt; &amp;lt;/ul&amp;gt;  报错：
+[vue/require-v-for-key] Elements in iteration expect to have &#39;v-bind:key&#39; directives.</description>
+    </item>
+    
+    <item>
+      <title>Qt - Microwave</title>
+      <link>https://winsa24.github.io/courses/igr203/lab3/</link>
+      <pubDate>Sun, 14 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/courses/igr203/lab3/</guid>
+      <description>Qt Lab#3 : Statecharts Source code: https://github.com/winsa24/-QT-Microwave Introduction I implement the presentation and interaction control panel of a microwave oven on Qt.
+1. Design the Statechart 2. Graphical interface In this part, I created a graphical interface by dragging and dropping based on Qt Designor. I used QLineEdit and QDial as display panel and slider.
+3. Implement In this part, I first implement the QtStateMachine according to the Statechart shown in the first section. I created 9 states and use state-&amp;gt;addTransition() to link different states with different buttons.</description>
+    </item>
+    
+    <item>
+      <title>Food Atlas - Local Food Around the World</title>
+      <link>https://winsa24.github.io/projects/foodatlas/</link>
+      <pubDate>Thu, 18 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/projects/foodatlas/</guid>
+      <description>We have made a food atlas based on augmented reality technology. This map can help people, especially children, understand and memorize the typical food of various places through having fun with the matching games. The user needs to recognize the map with the camera of the smartphone, and select the country they want to explore by clicking on the map. After starting the game, there are going to show five models of local specialties. The user needs to select the corresponding word card according to the model.</description>
+    </item>
+    
+    <item>
+      <title>ARcher</title>
+      <link>https://winsa24.github.io/projects/archer/</link>
+      <pubDate>Tue, 16 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/projects/archer/</guid>
+      <description>ARcher The purpose of our application is to create an AR game that anyone can use in their home. In our case we use as basis the basic deck of card that almost everyone has. In our demo, we include 4 different kind of cards : 1) Ace of Spades 2) Two of Spades 3) Eight of Spades 4) Five of Hearts. The beautiful of this implementation is that one is able to create non-linear platform levels with the same cards andthis is the main motivation behind our project.</description>
+    </item>
+    
+    <item>
+      <title>DriveKour (VR Locomotion Develop)</title>
+      <link>https://winsa24.github.io/projects/drivekour/</link>
+      <pubDate>Tue, 26 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/projects/drivekour/</guid>
+      <description>Drivekour Game Based on the Parkour Game developed by Wenjie, we implement our locomotion technique and also add some IP Paris feature. Download from github Play instruction Video</description>
+    </item>
+    
+    <item>
+      <title>Lab 5: VR Locomotion Implementation</title>
+      <link>https://winsa24.github.io/courses/igd301/p5/</link>
+      <pubDate>Tue, 26 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/courses/igd301/p5/</guid>
+      <description>Initial ideas&amp;hellip; I tried to implement this technique on a simple scene in unity and tested it myself. But It doesn’t work well and also bring me a lot fatigue by forcing my arm behind my shoulder. And I also tested with one of my friends and received some feedback from her. During our discussion and we thought to remove the moving back option and also augment the turning. 2nd Round Design&amp;hellip; In this version, player will only use their hand to control [rotation].</description>
+    </item>
+    
+    <item>
+      <title>Lecture 8: Current Research Topics</title>
+      <link>https://winsa24.github.io/courses/igd301/l8/</link>
+      <pubDate>Tue, 19 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/courses/igd301/l8/</guid>
+      <description>Searching Tips: Google Scholar Top Conference  Interesting manga:  Interesting Research going on &amp;hellip;  </description>
+    </item>
+    
+    <item>
+      <title>Lecture 7: Augmented Reality</title>
+      <link>https://winsa24.github.io/courses/igd301/l7/</link>
+      <pubDate>Tue, 12 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/courses/igd301/l7/</guid>
+      <description>AR Definition • Combines Real and Virtual Images Both can be seen at the same time • Interactive in real-time The virtual content can be interacted with • Registered in 3D Virtual objects appear fixed in space AR History • 1960’s – 80’s: Early Experimentation • 1980’s – 90’s: Basic Research (Tracking, Display) • 1995 – 2005: Tools/Applications (Interaction, Usability..) • 2005 – today: Commercial Applications (Games, Medical, Industry) • 2007 – AR Reaches Mainstream • MIT Technology Review of March 2007: One of the 10 most exciting technologies • Economist (Dec.</description>
+    </item>
+    
+    <item>
+      <title>Lecture 6: Design Processes and Guidelines</title>
+      <link>https://winsa24.github.io/courses/igd301/l6/</link>
+      <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/courses/igd301/l6/</guid>
+      <description>Prototyping &amp;amp; Evaluation Human Techniques  Ethnographies, Focus Groups and Interviews&amp;hellip;
+ Design Prototype  Low-Fi Tools Horizontal and Vertical Prototype  Evaluate  • Lab study
+• Field study
+• Survey
+• Grounded Theory/ Thematic Analysis
+Some Guide or Restriction in evaluation  Examples&amp;hellip; [Problem] How to solve fatigue or use small motion to realize big movement? [Solutions] Homework &amp;mdash; Evaluate your Locomotion Technique  Link to a large Locomotion Technique Lib  How to evaluate?</description>
+    </item>
+    
+    <item>
+      <title>Lab 4: Parkour</title>
+      <link>https://winsa24.github.io/courses/igd301/p4/</link>
+      <pubDate>Thu, 10 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/courses/igd301/p4/</guid>
+      <description>How to open a folder as a Unity Project  Double-clicking Scene file opens the project in unity. (It might cause crash of Unity). Then restart hub and select a unity version for it.
+My Locomotion Technique ideas&amp;hellip; Inspiration (Click to check the video)   On class example for presenting the idea:
+Target : Develop a Swimming Technique in VR
+Requirements: Make user feel that they are moving forward or backward
+Method: detect distance and have the matrix</description>
+    </item>
+    
+    <item>
+      <title>Lecture 5: Input Devices and Interaction Techniques</title>
+      <link>https://winsa24.github.io/courses/igd301/l5/</link>
+      <pubDate>Tue, 08 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/courses/igd301/l5/</guid>
+      <description> [Problem] How to have feedback?  some interesting solutions:
+Controller: Hand:  Some Interesting inspiration   SeeThrough muscle  Virtual face  Locomotion (no need of controller nor hand)   </description>
+    </item>
+    
+    <item>
+      <title>Lab 3: VR Unity Selection</title>
+      <link>https://winsa24.github.io/courses/igd301/p3/</link>
+      <pubDate>Thu, 03 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/courses/igd301/p3/</guid>
+      <description>New knowledge:  Last post mistake:
+There are difference between tags and layers:
+Tags are used for finding objects with a specific tag ( e.g. FindWithTag(str) ).
+Layers can be used to identify objects at a high level.
+  There are also other interesting tutorials to follow&amp;hellip;
+https://www.youtube.com/c/DilmerValecillos/videos
+https://sidequestvr.com/app/578/handspace
+https://www.youtube.com/watch?v=A0gpaQGu_H0
+https://www.youtube.com/watch?v=zPFU30tbyKs
+ Deploy my Roll-A-Ball on Oculus Errors record&amp;hellip;  try to use the build and run directly from Unity but fail.   try to review all the undo step.</description>
+    </item>
+    
+    <item>
+      <title>Lecture 3 &amp; 4: VR Technology and Perception</title>
+      <link>https://winsa24.github.io/courses/igd301/l3/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/courses/igd301/l3/</guid>
+      <description>Depth percetion Can&amp;rsquo;t see the shark
+On class brainstorm Gestalt rules Foveated rendering One potential reason to the failure of google glass Sensation developed other than hand two types of haptic Ungrounded &amp;mdash; Pro: flexiblity &amp;mdash; Con: limited force on human
+vs
+Grounded &amp;mdash; Pro: easier to control &amp;mdash; Con: can&amp;rsquo;t adapat to all situation
+Some Interesting Ideas </description>
+    </item>
+    
+    <item>
+      <title>Lab 2: Roll-A-Ball</title>
+      <link>https://winsa24.github.io/courses/igd301/p2/</link>
+      <pubDate>Mon, 30 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/courses/igd301/p2/</guid>
+      <description>Get start with Unity&amp;hellip; Some New knowledge in Unity for me:  Customize Script Editor:   Unity Lifecycle: Start ( ) / FixedUpdate( ) / Update( )  Start to implement a Simple Roll-A-Ball Game following Wenjie&amp;rsquo;s Slides!  Skipped step: transform Empty GameObject In my scene, I don&amp;rsquo;t need to change the transform matrix of the Wall in general.
+  Import TMP: Unshown steps in the tutorial
+It works with only importing the essential package.</description>
+    </item>
+    
+    <item>
+      <title>Lab 1: Setup Blog &amp; Unity</title>
+      <link>https://winsa24.github.io/courses/igd301/p1/</link>
+      <pubDate>Thu, 26 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/courses/igd301/p1/</guid>
+      <description>Setup your own Blog Like this&amp;hellip; Generally follow this link
+ Install Hugo on macOS (Homebrew):  Type in console:
+- brew install hugo   Register on Git Create Page  - hugo new site sitename - cd sitename   Select Theme  - git init - cd themes - git submodule add https://github.com/budparr/gohugotheme-ananke.git themes/ananke  Open config.toml in a text editor and add theme = &amp;ldquo;ananke&amp;rdquo;
+Local test - hugo server -D  See http://localhost:1313/ in the browser.</description>
+    </item>
+    
+    <item>
+      <title>Lecture 2: VR Technology and Perception</title>
+      <link>https://winsa24.github.io/courses/igd301/l2/</link>
+      <pubDate>Thu, 26 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/courses/igd301/l2/</guid>
+      <description>Presence VS Immersive → Presence is about PERCEPTION
+→ Immersion is about SENSATION
+Immersion can produce a sensation of Presence
+Vergence-Accomodation Conflict (Click to check the video)  Some ideas&amp;hellip;  From VR fly simulation I can create a VR history tour? Ex. Based on 清明上河图?</description>
+    </item>
+    
+    <item>
+      <title>Lecture I: Introduction and History of Virtual Reality</title>
+      <link>https://winsa24.github.io/courses/igd301/l1/</link>
+      <pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/courses/igd301/l1/</guid>
+      <description>Idea you can gain from the class&amp;hellip; HCI: Moore’s Law : Ex. Microwave
+No intuitive design, but have good design : intelligently leverages cognitive and perceptual abilities
+Ex. Tap Definition: History: VR : rise and fall and rise Homework Section 1 Two scenario describe that MR could cause problems for users. Based on VIDEO Hyper - Reality : https://www.youtube.com/watch?v=YJg02ivYzSs
+Scenario 1:
+The adopted pet in the supermarket might bit the user if he doesn’t get what he want.</description>
+    </item>
+    
+    <item>
+      <title>Xperience of Virtual Plants (XVP)</title>
+      <link>https://winsa24.github.io/projects/xvp/</link>
+      <pubDate>Sun, 15 Nov 2020 02:01:58 +0530</pubDate>
+      
+      <guid>https://winsa24.github.io/projects/xvp/</guid>
+      <description>Xperience of Virtual Plants (XVP) An application to help users learn rare plants. The system will generate 3D models based on different image targets. By clicking on the virtual buttons and screen buttons, users can interact with 3D models.
+Target Device An Android equipment with API Level above 19 (4.4 ‘KitKat’)
+Development Platform MacOs Mojave (10.14.6) + Unity (2019.2.13f1) + Vuforia (9.4.6)
+Final video Check the video to better learn our project.</description>
+    </item>
+    
+    <item>
+      <title>Qt - Drawing Tool</title>
+      <link>https://winsa24.github.io/courses/igr201/lab2/</link>
+      <pubDate>Fri, 30 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/courses/igr201/lab2/</guid>
+      <description>Qt Lab #2: 2D Drawing Tool In this work, I completely finished a drawing application based on Qt toolkit by following all the instructions in Lab 2. The application has an interactive interface which allows users to draw multiple shapes in different colors, line styles and thickness, by clicking buttons or dragging sliders. Moreover, by clicking bottom buttons users can switch to editing part which allows users to select an existing shape and move, resize or change attributes of it.</description>
+    </item>
+    
+    <item>
+      <title>Web Develop Practice</title>
+      <link>https://winsa24.github.io/projects/web2/</link>
+      <pubDate>Thu, 15 Oct 2020 02:01:58 +0530</pubDate>
+      
+      <guid>https://winsa24.github.io/projects/web2/</guid>
+      <description> Created a currency converter which allows users can get the product of two entered number. Created a searching engine which allows users to filter the list with student name or module name. Created a space shooting game based on the animations and functions.   </description>
+    </item>
+    
+    <item>
+      <title>Currency-Converter</title>
+      <link>https://winsa24.github.io/projects/android2/</link>
+      <pubDate>Thu, 01 Oct 2020 02:01:58 +0530</pubDate>
+      
+      <guid>https://winsa24.github.io/projects/android2/</guid>
+      <description>Created a currency-converter based on Android Studio. The users can enter different amount and select types of convert. The app will automatically read the rate from a given URL, and update the result on the interface immediately.</description>
+    </item>
+    
+    <item>
+      <title>Qt - Basic</title>
+      <link>https://winsa24.github.io/courses/igr201/lab1/</link>
+      <pubDate>Wed, 30 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/courses/igr201/lab1/</guid>
+      <description>Qt Lab#1 : Qt Basic Source code: https://github.com/winsa24/-QT-BasicMenu </description>
+    </item>
+    
+    <item>
+      <title>Drawing Tool</title>
+      <link>https://winsa24.github.io/projects/qt2/</link>
+      <pubDate>Tue, 15 Sep 2020 02:01:58 +0530</pubDate>
+      
+      <guid>https://winsa24.github.io/projects/qt2/</guid>
+      <description>Created a simple drawing application based on Qt toolkit (which I’ve tried to use in the Course Design of Data Structures in my undergraduate study). The application has an interactive interface which allows users to draw multiple shapes in different colors, line styles and thickness, by clicking buttons or dragging sliders. Users can also select an existing shape and move, resize or change attributes of it. It also allows users to read or save the images.</description>
+    </item>
+    
+    <item>
+      <title>HCI-901: Fundamentals of HCI</title>
+      <link>https://winsa24.github.io/courses/hci901/</link>
+      <pubDate>Thu, 10 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/courses/hci901/</guid>
+      <description>Michel Beaudouin-Lafon
+Interaction styles, basic elements of psychology and software engineering for HCI, in-depth analysis of graphical interaction,post-WIMP interaction techniques, conceptual modeling, theories and models for HCI.</description>
+    </item>
+    
+    <item>
+      <title>IGR201b: Interactive 2D/Mobile/Web Application Development</title>
+      <link>https://winsa24.github.io/courses/igr201b/</link>
+      <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/courses/igr201b/</guid>
+      <description>This course presents tools for developing 2D interactive applications: Qt GUI toolkit (in C++), Android user interfaces on mobile devices, Web interface basics.
+ Done in class: https://winsa24.github.io/projects/qt2/ https://winsa24.github.io/projects/android2/ https://winsa24.github.io/projects/web2/</description>
+    </item>
+    
+    <item>
+      <title>Visualization Recommendation System</title>
+      <link>https://winsa24.github.io/projects/web1/</link>
+      <pubDate>Thu, 15 Aug 2019 02:01:58 +0530</pubDate>
+      
+      <guid>https://winsa24.github.io/projects/web1/</guid>
+      <description>Visualization Recommendation System This subject designs and implements a set of visualization scheme recommendation system. The system is oriented to data analysts whose requirements are not clear and who do not have professional programming capabilities. Through simple interactions, the system generates a series of visualization solutions that meet users’ needs. The design of the system is based on the actual analysis of visual element properties, attributes and real cases. By separating its data, properties and attributes, the corresponding relationship among them is studied and defined, and the model is established accordingly.</description>
+    </item>
+    
+    <item>
+      <title>Course Design of Software Engineering</title>
+      <link>https://winsa24.github.io/projects/software/</link>
+      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/projects/software/</guid>
+      <description>SmartHome WeChat Mini Program A software that can remotely, link and manage smart devices at home, and has security alarm and device self-checking functions. To meet the remote control of the equipment, it can control the equipment to realize the corresponding function or make the corresponding response to change the indoor lighting, temperature and other environmental conditions before returning home. It can realize the security alarm function, detect the parameters of the sensor equipment, realize the timely alarm of abnormal conditions, and ensure the health of family members and the safety of property.</description>
+    </item>
+    
+    <item>
+      <title>Course Design of Computer Hardware</title>
+      <link>https://winsa24.github.io/projects/hardware/</link>
+      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/projects/hardware/</guid>
+      <description>SmartHome App A small tool for real-time monitoring of indoor air quality is designed, which can display the current indoor temperature and humidity, formaldehyde concentration and smoke. And realize the analysis of air quality over a period of time on the mobile phone and provide suggestions for improvement.
+Function description Smoke sensor and formaldehyde sensor obtain their respective data and pass it to the development board; The mobile phone can be connected to the development board via software using Bluetooth, and receive real-time data from the board; The software can process the air quality data, draw a line graph, and provide it to users for analysis.</description>
+    </item>
+    
+    <item>
+      <title>Course Design of Data Structure</title>
+      <link>https://winsa24.github.io/projects/qt1/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/projects/qt1/</guid>
+      <description>Wrote “2018 World Cup inquiring system” by VS and QT independently, studied knowledge of front-end and back-end development, realized the function of inquiring information of games in a specific date selected by dragging roller and showing all kinds of real-time statistical results.</description>
+    </item>
+    
+    <item>
+      <title>Markdown Syntax Guide</title>
+      <link>https://winsa24.github.io/projects/markdown/</link>
+      <pubDate>Thu, 18 May 2017 12:13:30 +0530</pubDate>
+      
+      <guid>https://winsa24.github.io/projects/markdown/</guid>
+      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web Develop on Xiang WEI</title>
+    <link>https://winsa24.github.io/categories/web-develop/</link>
+    <description>Recent content in Web Develop on Xiang WEI</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; 2020 &lt;a href=&#34;https://www.wangchucheng.com/&#34;&gt;C. Wang&lt;/a&gt; and &lt;a href=&#34;https://www.ruiqima.com/&#34;&gt;R. Ma&lt;/a&gt;</copyright>
+    <lastBuildDate>Thu, 15 Oct 2020 02:01:58 +0530</lastBuildDate>
+    
+	<atom:link href="https://winsa24.github.io/categories/web-develop/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Web Develop Practice</title>
+      <link>https://winsa24.github.io/projects/web2/</link>
+      <pubDate>Thu, 15 Oct 2020 02:01:58 +0530</pubDate>
+      
+      <guid>https://winsa24.github.io/projects/web2/</guid>
+      <description> Created a currency converter which allows users can get the product of two entered number. Created a searching engine which allows users to filter the list with student name or module name. Created a space shooting game based on the animations and functions.   </description>
+    </item>
+    
+    <item>
+      <title>Visualization Recommendation System</title>
+      <link>https://winsa24.github.io/projects/web1/</link>
+      <pubDate>Thu, 15 Aug 2019 02:01:58 +0530</pubDate>
+      
+      <guid>https://winsa24.github.io/projects/web1/</guid>
+      <description>Visualization Recommendation System This subject designs and implements a set of visualization scheme recommendation system. The system is oriented to data analysts whose requirements are not clear and who do not have professional programming capabilities. Through simple interactions, the system generates a series of visualization solutions that meet users’ needs. The design of the system is based on the actual analysis of visual element properties, attributes and real cases. By separating its data, properties and attributes, the corresponding relationship among them is studied and defined, and the model is established accordingly.</description>
+    </item>
+    
+  </channel>
+</rss>
