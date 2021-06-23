@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang='en' ><meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+
+<title>IGR203: Human-Computer Interaction | Xiang WEI</title>
+<link rel="stylesheet" href="https://winsa24.github.io/css/eureka.min.css">
+<script defer src="https://winsa24.github.io/js/eureka.min.js"></script>
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload"
+  href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Noto+Serif+SC:wght@400;600;700&display=swap"
+  as="style" onload="this.onload=null;this.rel='stylesheet'">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.0/build/styles/solarized-light.min.css"
+   media="print"
+  onload="this.media='all';this.onload=null" crossorigin>
+<script defer src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.0/build/highlight.min.js"
+   crossorigin></script>
+<script defer src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.14.0/js/all.min.js"
+   integrity="sha256-uNYoXefWRqv&#43;PsIF/OflNmwtKM4lStn9yrz2gVl6ymo="  crossorigin></script>
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+   integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3&#43;Aro6EYUG4&#43;cU&#43;KJWu/X"  media="print"
+  onload="this.media='all';this.onload=null" crossorigin>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js" 
+  integrity="sha384-g7c&#43;Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI&#43;sEnkvrMWph2EDg4"  crossorigin></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js"
+   integrity="sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC&#43;Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa"  crossorigin></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    renderMathInElement(document.body, {
+      delimiters: [
+        { left: "$$", right: "$$", display: true },
+        { left: "$", right: "$", display: false },
+        { left: "\\(", right: "\\)", display: false },
+        { left: "\\[", right: "\\]", display: true }
+      ],
+    });
+  });
+</script>
+
+
+<link rel="icon" type="image/png" sizes="32x32" href="https://winsa24.github.io/images/icon_hu64421c6c7700f606f0ad45d807017b09_5843_32x32_fill_box_center_2.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://winsa24.github.io/images/icon_hu64421c6c7700f606f0ad45d807017b09_5843_180x180_fill_box_center_2.png">
+
+<meta name="description"
+  content=" This course presents methods and techniques for designing efficient, user-friendly user interfaces. Focuses on software development (GUI toolkits, Web interfaces, Statecharts, MVC, multi-threading) and on human factors (user-centered design, evaluation, ergonomics, empirical laws and models). Also presents novel emerging techniques
+ ">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+      "@type": "ListItem",
+      "position": 1 ,
+      "name":"Courses",
+      "item":"https://winsa24.github.io/courses/"},{
+      "@type": "ListItem",
+      "position": 2 ,
+      "name":"IGR203: Human-Computer Interaction",
+      "item":"https://winsa24.github.io/courses/inf203/"}]
+}
+</script>
+
+
+
+
+<script type="application/ld+json">
+{
+    "@context":"https://schema.org",
+    "@type":"ItemList",
+    "itemListElement":[{
+            "@type":"ListItem",
+            "position":  1 ,
+            "name": "JavaScript AJAX (js2Lab)",
+            "description": "Lab: Javascript in the browser Exercise 1 - Get a file with AJAX and add its contents in the current HTML page  Question 1a: Write a function named loadDoc that loads the file text.txt and includes it in the page when you click a button.\n function loadDoc(){ var texta = document.getElementById('texta'); var xmlHttp = new XMLHttpRequest(); if(xmlHttp != null){ xmlHttp.open(\u0026quot;get\u0026quot;,\u0026quot;text.txt\u0026quot;, true);// 3 parameters (method, url, async) xmlHttp.send(); xmlHttp.onreadystatechange = function () { if (xmlHttp.",
+            "url": "https://winsa24.github.io/courses/inf203/js2lab/"
+        },{
+            "@type":"ListItem",
+            "position":  2 ,
+            "name": "Simple Server (ServerLab)",
+            "description": "Lab: Server Question 1: Using only the http module, in a file called server.js, write a JavaScript program that implements a web server on port 8000. The server shall return an HTML string confirming that the server works when you access the root of the server, that is, “http://localhost:8000/”.\nvar http = require(\u0026quot;http\u0026quot;); http.createServer(function(req, res){ if(req.url == \u0026quot;/\u0026quot;){ res.writeHead(200,{ \u0026quot;content-type\u0026quot;:\u0026quot;text/html\u0026quot; }); res.write(\u0026quot;hello world123\u0026quot;); res.end(); } }).listen(process.argv[2])  Type \u0026laquo; node server.js 8000 \u0026raquo; in the console.",
+            "url": "https://winsa24.github.io/courses/inf203/serverlab/"
+        },{
+            "@type":"ListItem",
+            "position":  3 ,
+            "name": "Web Application (webappLab)",
+            "description": "Lab: Web Application Questions 1 to 5:  Client-side: create a button bar with “show txt”, “add element”, “remove element”, “clear” and ”restore”. The actions of these buttons are:\n  show txt: shows the text of the current JSON add element: adds in the current JSON an element whose information is a number (value), a text (title) and a color in CSS format (color name or hex) (color). The new element is at the end of the list.",
+            "url": "https://winsa24.github.io/courses/inf203/webapplab/"
+        }
+    ]
+}
+</script><meta property="og:title" content="IGR203: Human-Computer Interaction | Xiang WEI" />
+<meta property="og:type" content="website" />
+
+
+<meta property="og:image" content="https://winsa24.github.io/images/icon.png">
+
+
+<meta property="og:url" content="https://winsa24.github.io/courses/inf203/" />
+
+
+
+
+
+<meta property="og:description" content="Eureka is a elegant and powerful theme for Hugo." />
+
+
+
+
+
+<meta property="og:locale" content="en" />
+
+
+
+
+<meta property="og:site_name" content="Xiang WEI" />
+
+
+
+
+
+
+<meta property="og:updated_time" content="2021-02-18T00:00:00&#43;00:00" />
+
+
+
+<meta property="article:section" content="courses" />
+
+
+<link rel="alternate" type="application/rss+xml" href="https://winsa24.github.io/courses/inf203/index.xml" title="Xiang WEI" />
+
+<body class="flex flex-col min-h-screen">
+    <header class="fixed flex items-center w-full min-h-16 pl-scrollbar z-50 bg-secondary-bg shadow-sm">
+        <div class="w-full max-w-screen-xl mx-auto"><script>
+    let storageColorScheme = localStorage.getItem("lightDarkMode")
+    if (((storageColorScheme == 'Auto' || storageColorScheme == null) && window.matchMedia("(prefers-color-scheme: dark)").matches) || storageColorScheme == "Dark") {
+        document.getElementsByTagName('html')[0].classList.add('dark')
+    }
+</script>
+<nav class="flex items-center justify-between flex-wrap p-4">
+    <a href="/" class="mr-6 text-primary-text text-xl font-bold">Xiang WEI</a>
+    <button id="navbar-btn" class="md:hidden flex items-center px-3 py-2" aria-label="Open Navbar">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <div id="target"
+        class="hidden block md:flex md:flex-grow md:justify-between md:items-center w-full md:w-auto text-primary-text z-20">
+        <div class="text-sm md:flex-grow pb-4 md:pb-0 border-b md:border-b-0">
+            <a href="/#about"
+                class="block mt-4 md:inline-block md:mt-0  hover:text-eureka mr-4">About</a>
+            <a href="/projects/"
+                class="block mt-4 md:inline-block md:mt-0  hover:text-eureka mr-4">Projects</a>
+            <a href="/courses/"
+                class="block mt-4 md:inline-block md:mt-0  text-eureka  hover:text-eureka mr-4">Courses</a>
+        </div>
+
+        <div class="flex">
+            <div class="relative pt-4 md:pt-0">
+                <div class="cursor-pointer hover:text-eureka" id="lightDarkMode">
+                    <i class="fas fa-adjust"></i>
+                </div>
+                <div class="fixed hidden inset-0 opacity-0 h-full w-full cursor-default z-30" id="is-open">
+                </div>
+                <div class="absolute flex flex-col left-0 md:left-auto right-auto md:right-0 hidden bg-secondary-bg w-48 rounded py-2 border border-tertiary-bg cursor-pointer z-40"
+                    id='lightDarkOptions'>
+                    <span class="px-4 py-1 hover:text-eureka">Light</span>
+                    <span class="px-4 py-1 hover:text-eureka">Dark</span>
+                    <span class="px-4 py-1 hover:text-eureka">Auto</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fixed hidden inset-0 opacity-0 h-full w-full cursor-default z-0" id="is-open-mobile">
+    </div>
+
+</nav>
+<script>
+    let element = document.getElementById('lightDarkMode')
+    if (storageColorScheme == null || storageColorScheme == 'Auto') {
+        document.addEventListener('DOMContentLoaded', () => {
+            switchMode('Auto')
+        })
+    } else if (storageColorScheme == "Light") {
+        element.firstElementChild.classList.remove('fa-adjust')
+        element.firstElementChild.setAttribute("data-icon", 'sun')
+        element.firstElementChild.classList.add('fa-sun')
+    } else if (storageColorScheme == "Dark") {
+        element.firstElementChild.classList.remove('fa-adjust')
+        element.firstElementChild.setAttribute("data-icon", 'moon')
+        element.firstElementChild.classList.add('fa-moon')
+    }
+    
+    document.addEventListener('DOMContentLoaded', () => {
+        getcolorscheme();
+        switchBurger();
+    });
+</script></div>
+    </header>
+    <main class="flex-grow pt-16">
+        <div class="pl-scrollbar">
+            <div class="w-full max-w-screen-xl lg:px-4 xl:px-8 mx-auto">
+<article class="mx-6 my-8">
+    <h1 class="font-bold text-3xl text-primary-text">IGR203: Human-Computer Interaction</h1>
+    
+    <div class="content">
+        <blockquote>
+<p>This course presents methods and techniques for designing efficient, user-friendly user interfaces. Focuses on software development (GUI toolkits, Web interfaces, Statecharts, MVC, multi-threading) and on human factors (user-centered design, evaluation, ergonomics, empirical laws and models). Also presents novel emerging techniques</p>
+</blockquote>
+
+    </div>
+    
+</article>
+<div class="bg-secondary-bg rounded px-6">
+    <div class="overflow-hidden divide-y">
+  
+  <div class="py-6">
+    <div class="flex flex-col-reverse lg:flex-row justify-between">
+  
+  <div class="w-full ">
+    <div class="mb-4">
+  <a href="https://winsa24.github.io/courses/inf203/js2lab/" class="font-bold text-xl hover:text-eureka">JavaScript AJAX (js2Lab)</a>
+</div>
+<div class="content">
+  Lab: Javascript in the browser Exercise 1 - Get a file with AJAX and add its contents in the current HTML page  Question 1a: Write a function named loadDoc that loads the file text.txt and includes it in the page when you click a button.
+ function loadDoc(){ var texta = document.getElementById(&#39;texta&#39;); var xmlHttp = new XMLHttpRequest(); if(xmlHttp != null){ xmlHttp.open(&amp;quot;get&amp;quot;,&amp;quot;text.txt&amp;quot;, true);// 3 parameters (method, url, async) xmlHttp.send(); xmlHttp.onreadystatechange = function () { if (xmlHttp.
+</div>
+
+<div class="flex flex-wrap flex-row items-center mt-2 text-tertiary-text">
+    <div class="mr-6 my-2">
+        <i class="fas fa-calendar mr-1"></i>
+        <span>2021-04-11</span>
+    </div>
+    <div class="mr-6 my-2">
+        <i class="fas fa-clock mr-1"></i>
+        <span>5 min read</span>
+    </div>
+    
+    
+
+    
+</div>
+
+  </div>
+
+  
+</div>
+  </div>
+  
+  <div class="py-6">
+    <div class="flex flex-col-reverse lg:flex-row justify-between">
+  
+  <div class="w-full ">
+    <div class="mb-4">
+  <a href="https://winsa24.github.io/courses/inf203/serverlab/" class="font-bold text-xl hover:text-eureka">Simple Server (ServerLab)</a>
+</div>
+<div class="content">
+  Lab: Server Question 1: Using only the http module, in a file called server.js, write a JavaScript program that implements a web server on port 8000. The server shall return an HTML string confirming that the server works when you access the root of the server, that is, “http://localhost:8000/”.
+var http = require(&amp;quot;http&amp;quot;); http.createServer(function(req, res){ if(req.url == &amp;quot;/&amp;quot;){ res.writeHead(200,{ &amp;quot;content-type&amp;quot;:&amp;quot;text/html&amp;quot; }); res.write(&amp;quot;hello world123&amp;quot;); res.end(); } }).listen(process.argv[2])  Type &amp;laquo; node server.js 8000 &amp;raquo; in the console.
+</div>
+
+<div class="flex flex-wrap flex-row items-center mt-2 text-tertiary-text">
+    <div class="mr-6 my-2">
+        <i class="fas fa-calendar mr-1"></i>
+        <span>2021-04-11</span>
+    </div>
+    <div class="mr-6 my-2">
+        <i class="fas fa-clock mr-1"></i>
+        <span>3 min read</span>
+    </div>
+    
+    
+
+    
+</div>
+
+  </div>
+
+  
+</div>
+  </div>
+  
+  <div class="py-6">
+    <div class="flex flex-col-reverse lg:flex-row justify-between">
+  
+  <div class="w-full ">
+    <div class="mb-4">
+  <a href="https://winsa24.github.io/courses/inf203/webapplab/" class="font-bold text-xl hover:text-eureka">Web Application (webappLab)</a>
+</div>
+<div class="content">
+  Lab: Web Application Questions 1 to 5:  Client-side: create a button bar with “show txt”, “add element”, “remove element”, “clear” and ”restore”. The actions of these buttons are:
+  show txt: shows the text of the current JSON add element: adds in the current JSON an element whose information is a number (value), a text (title) and a color in CSS format (color name or hex) (color). The new element is at the end of the list.
+</div>
+
+<div class="flex flex-wrap flex-row items-center mt-2 text-tertiary-text">
+    <div class="mr-6 my-2">
+        <i class="fas fa-calendar mr-1"></i>
+        <span>2021-04-11</span>
+    </div>
+    <div class="mr-6 my-2">
+        <i class="fas fa-clock mr-1"></i>
+        <span>10 min read</span>
+    </div>
+    
+    
+
+    
+</div>
+
+  </div>
+
+  
+</div>
+  </div>
+  
+</div>
+
+
+</div>
+
+
+
+
+            </div>
+        </div>
+        
+    </main>
+    <footer class="pl-scrollbar">
+        <div class="w-full max-w-screen-xl mx-auto"><div class="text-center p-6 pin-b">
+    <p class="text-sm text-tertiary-text">&copy; 2020 <a href="https://www.wangchucheng.com/">C. Wang</a> and <a href="https://www.ruiqima.com/">R. Ma</a> &middot;  Powered by the <a href="https://github.com/wangchucheng/hugo-eureka" class="hover:text-eureka">Eureka</a> theme for <a href="https://gohugo.io" class="hover:text-eureka">Hugo</a></p>
+</div></div>
+    </footer>
+</body>
+
+</html>

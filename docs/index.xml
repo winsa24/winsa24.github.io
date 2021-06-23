@@ -7,7 +7,98 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2020 &lt;a href=&#34;https://www.wangchucheng.com/&#34;&gt;C. Wang&lt;/a&gt; and &lt;a href=&#34;https://www.ruiqima.com/&#34;&gt;R. Ma&lt;/a&gt;</copyright>
-    <lastBuildDate>Sat, 27 Mar 2021 02:01:58 +0530</lastBuildDate><atom:link href="https://winsa24.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 11 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://winsa24.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gestural Interfaces</title>
+      <link>https://winsa24.github.io/courses/igr203/gesture/</link>
+      <pubDate>Sun, 11 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/courses/igr203/gesture/</guid>
+      <description>To design a gestural interfaces Creating a gesture set and defining a gesture-command mapping Laban feature Laban Movement Analysis (LMA)
+ The LMA system provides models for the interpretation of movement, its function and its expression through 4 components: − Body (what) − Effort (how) − Space (where) − Shape (relation with the environment) Effort has 4 Factors thought as a continuum with 2 opposite ends: − Weight : strong, light − Time : quick, substained − Space : flexible, direct − Flow : bound , free</description>
+    </item>
+    
+    <item>
+      <title>JavaScript AJAX (js2Lab)</title>
+      <link>https://winsa24.github.io/courses/inf203/js2lab/</link>
+      <pubDate>Sun, 11 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/courses/inf203/js2lab/</guid>
+      <description>Lab: Javascript in the browser Exercise 1 - Get a file with AJAX and add its contents in the current HTML page  Question 1a: Write a function named loadDoc that loads the file text.txt and includes it in the page when you click a button.
+ function loadDoc(){ var texta = document.getElementById(&#39;texta&#39;); var xmlHttp = new XMLHttpRequest(); if(xmlHttp != null){ xmlHttp.open(&amp;quot;get&amp;quot;,&amp;quot;text.txt&amp;quot;, true);// 3 parameters (method, url, async) xmlHttp.send(); xmlHttp.onreadystatechange = function () { if (xmlHttp.</description>
+    </item>
+    
+    <item>
+      <title>Perception - Color - Ergonomic</title>
+      <link>https://winsa24.github.io/courses/igr203/perception/</link>
+      <pubDate>Sun, 11 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/courses/igr203/perception/</guid>
+      <description>Perception / Action Estimate interaction time : Fitt&amp;rsquo;s law : Pointing time relies on D/W ( Distance to target / Width of target)  Solutions:
+  Reduce D : Popup menus / Attract applications or target Increase W : The Mac bar (border is infinite) / Marking menus (rely on angle) Mouse gain : mouse moving speed Semantic pointing : Common actions easy to reach while dangerous hard Avoid Pointing : Hotkeys / Gesture  Hick law : Selecting time relies on n (number of the options) Colors Color models: RGB : Additive model Light emission (screens)</description>
+    </item>
+    
+    <item>
+      <title>Qt - Microwave</title>
+      <link>https://winsa24.github.io/courses/igr203/software-dev/</link>
+      <pubDate>Sun, 11 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/courses/igr203/software-dev/</guid>
+      <description> 2 Ways to solve The specification of the interaction of a complex interface Statecharts/state machine Specification languages
+ StateMachine &amp;amp; StateCharts  Statecharts is hierarchical state machines
+ </description>
+    </item>
+    
+    <item>
+      <title>Simple Server (ServerLab)</title>
+      <link>https://winsa24.github.io/courses/inf203/serverlab/</link>
+      <pubDate>Sun, 11 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/courses/inf203/serverlab/</guid>
+      <description>Lab: Server Question 1: Using only the http module, in a file called server.js, write a JavaScript program that implements a web server on port 8000. The server shall return an HTML string confirming that the server works when you access the root of the server, that is, “http://localhost:8000/”.
+var http = require(&amp;quot;http&amp;quot;); http.createServer(function(req, res){ if(req.url == &amp;quot;/&amp;quot;){ res.writeHead(200,{ &amp;quot;content-type&amp;quot;:&amp;quot;text/html&amp;quot; }); res.write(&amp;quot;hello world123&amp;quot;); res.end(); } }).listen(process.argv[2])  Type &amp;laquo; node server.js 8000 &amp;raquo; in the console.</description>
+    </item>
+    
+    <item>
+      <title>User Center Design (UCD)</title>
+      <link>https://winsa24.github.io/courses/igr203/ucd/</link>
+      <pubDate>Sun, 11 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/courses/igr203/ucd/</guid>
+      <description>User Center Design (UCD)  3 Constraints to Design : Task - Human - Technology Usability Criteria  Ease of learning: learning cost / use of advanced functionalities Recall: Remember how from one session to the next Productivity: speed of execution Fatigue (cf. repetitive actions) Risk of errors: should be minimized, good feebcak needed otherwise User satisfaction
+Accessibility, functionality, time, effort, learnability, satisfaction, …  Ideation Brainstorm, Sketches&amp;hellip;.
+Prototype  Methods: • Storyboards — good for user flow • Paper prototypes — good for layout, flow • Video prototypes — good for overall experience • Powerpoint/Photoshop — Look ’n’ feel • Software — functionality</description>
+    </item>
+    
+    <item>
+      <title>Web Application (webappLab)</title>
+      <link>https://winsa24.github.io/courses/inf203/webapplab/</link>
+      <pubDate>Sun, 11 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/courses/inf203/webapplab/</guid>
+      <description>Lab: Web Application Questions 1 to 5:  Client-side: create a button bar with “show txt”, “add element”, “remove element”, “clear” and ”restore”. The actions of these buttons are:
+  show txt: shows the text of the current JSON add element: adds in the current JSON an element whose information is a number (value), a text (title) and a color in CSS format (color name or hex) (color). The new element is at the end of the list.</description>
+    </item>
+    
+    <item>
+      <title>React Start</title>
+      <link>https://winsa24.github.io/blogs/reactstart/</link>
+      <pubDate>Mon, 29 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/blogs/reactstart/</guid>
+      <description>React Start  Vue过了一个非常简单的todo list小例子，再试一下React
+  本机环境：macOS 11.2
+ 安装React 控制台
+ 新建项目 cd 进项目存储目录
+ 然后会出一堆输入或者选项，比如Project name, description&amp;hellip;看着随便填吧，我是一路Yes了
+创建好后，用VS打开
+cd (项目名称) npm start  显示：Your application is running here: http://localhost:3000 ===&amp;gt; 成功
+ Ref: https://www.jianshu.com/p/7343578ad5e9 (没装路由(Router)）
+ 先研究下Components  直接新建一个.js文件。然后在App.js中import、调用即可
+ import React from &#39;react&#39; class Test extends React.Component { render() { return ( &amp;lt;h1&amp;gt;weixiang&amp;lt;/h1&amp;gt; ) } } export default Test;  Todo List  列举Task
+ &amp;lt;ul&amp;gt; &amp;lt;li v-for=&amp;quot;item in items&amp;quot;&amp;gt; {{item.label}} &amp;lt;/li&amp;gt; &amp;lt;/ul&amp;gt;  报错：</description>
+    </item>
+    
     <item>
       <title>前端面经</title>
       <link>https://winsa24.github.io/blogs/job/</link>

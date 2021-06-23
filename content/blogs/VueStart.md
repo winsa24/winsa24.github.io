@@ -315,3 +315,8 @@ export default {
 <https://segmentfault.com/a/1190000012826671> 
 
 
+## 优化 & 思考。。。
+> 实时修改内容 : 用<input>显示任务名称，点击按钮设置可编辑状态，回车确认。   
+> 实时搜索高亮 ： ？
+> 可参考demo : <https://medium.com/ivycodefive/vue-to-do-list-%E6%8B%86%E8%A7%A3%E7%B7%B4%E7%BF%92-8c6f079919e2>  //功能完善，界面好看
+<https://www.jianshu.com/p/8856c4634a51>   //代码实现简单

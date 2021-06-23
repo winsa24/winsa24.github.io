@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang='en' ><meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+
+<title>Web Application (webappLab) | Xiang WEI</title>
+<link rel="stylesheet" href="https://winsa24.github.io/css/eureka.min.css">
+<script defer src="https://winsa24.github.io/js/eureka.min.js"></script>
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload"
+  href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Noto+Serif+SC:wght@400;600;700&display=swap"
+  as="style" onload="this.onload=null;this.rel='stylesheet'">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.0/build/styles/solarized-light.min.css"
+   media="print"
+  onload="this.media='all';this.onload=null" crossorigin>
+<script defer src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.0/build/highlight.min.js"
+   crossorigin></script>
+<script defer src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.14.0/js/all.min.js"
+   integrity="sha256-uNYoXefWRqv&#43;PsIF/OflNmwtKM4lStn9yrz2gVl6ymo="  crossorigin></script>
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+   integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3&#43;Aro6EYUG4&#43;cU&#43;KJWu/X"  media="print"
+  onload="this.media='all';this.onload=null" crossorigin>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js" 
+  integrity="sha384-g7c&#43;Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI&#43;sEnkvrMWph2EDg4"  crossorigin></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js"
+   integrity="sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC&#43;Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa"  crossorigin></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    renderMathInElement(document.body, {
+      delimiters: [
+        { left: "$$", right: "$$", display: true },
+        { left: "$", right: "$", display: false },
+        { left: "\\(", right: "\\)", display: false },
+        { left: "\\[", right: "\\]", display: true }
+      ],
+    });
+  });
+</script>
+
+
+<link rel="icon" type="image/png" sizes="32x32" href="https://winsa24.github.io/images/icon_hu64421c6c7700f606f0ad45d807017b09_5843_32x32_fill_box_center_2.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://winsa24.github.io/images/icon_hu64421c6c7700f606f0ad45d807017b09_5843_180x180_fill_box_center_2.png">
+
+<meta name="description"
+  content="Lab: Web Application Questions 1 to 5:  Client-side: create a button bar with “show txt”, “add element”, “remove element”, “clear” and ”restore”. The actions of these buttons are:
+  show txt: shows the text of the current JSON add element: adds in the current JSON an element whose information is a number (value), a text (title) and a color in CSS format (color name or hex) (color). The new element is at the end of the list.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+      "@type": "ListItem",
+      "position": 1 ,
+      "name":"Courses",
+      "item":"https://winsa24.github.io/courses/"},{
+      "@type": "ListItem",
+      "position": 2 ,
+      "name":"IGR203: Human-Computer Interaction",
+      "item":"https://winsa24.github.io/courses/inf203/"},{
+      "@type": "ListItem",
+      "position": 3 ,
+      "name":"Web Application (webappLab)",
+      "item":"https://winsa24.github.io/courses/inf203/webapplab/"}]
+}
+</script>
+
+
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://winsa24.github.io/courses/inf203/webapplab/"
+    },
+    "headline": "Web Application (webappLab) | Xiang WEI","datePublished": "2021-04-11T00:00:00+00:00",
+    "dateModified": "2021-04-11T00:00:00+00:00",
+    "wordCount":  1959 ,
+    "publisher": {
+        "@type": "Person",
+        "name": "C. Wang",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://winsa24.github.io/images/icon.png"
+        }
+        },
+    "description": "Lab: Web Application Questions 1 to 5:  Client-side: create a button bar with “show txt”, “add element”, “remove element”, “clear” and ”restore”. The actions of these buttons are:\n  show txt: shows the text of the current JSON add element: adds in the current JSON an element whose information is a number (value), a text (title) and a color in CSS format (color name or hex) (color). The new element is at the end of the list."
+}
+</script><meta property="og:title" content="Web Application (webappLab) | Xiang WEI" />
+<meta property="og:type" content="article" />
+
+
+<meta property="og:image" content="https://winsa24.github.io/images/icon.png">
+
+
+<meta property="og:url" content="https://winsa24.github.io/courses/inf203/webapplab/" />
+
+
+
+
+<meta property="og:description" content="Lab: Web Application Questions 1 to 5:  Client-side: create a button bar with “show txt”, “add element”, “remove element”, “clear” and ”restore”. The actions of these buttons are:
+  show txt: shows the text of the current JSON add element: adds in the current JSON an element whose information is a number (value), a text (title) and a color in CSS format (color name or hex) (color). The new element is at the end of the list." />
+
+
+
+
+<meta property="og:locale" content="en" />
+
+
+
+
+<meta property="og:site_name" content="Xiang WEI" />
+
+
+
+
+
+
+<meta property="article:published_time" content="2021-04-11T00:00:00&#43;00:00" />
+
+
+<meta property="article:modified_time" content="2021-04-11T00:00:00&#43;00:00" />
+
+
+
+<meta property="article:section" content="courses" />
+
+
+<meta property="article:tag" content="Lecture" />
+
+<meta property="article:tag" content="HCI" />
+
+
+
+
+
+<meta property="og:see_also" content="https://winsa24.github.io/courses/igr203/gesture/" />
+
+<meta property="og:see_also" content="https://winsa24.github.io/courses/inf203/js2lab/" />
+
+<meta property="og:see_also" content="https://winsa24.github.io/courses/igr203/perception/" />
+
+<meta property="og:see_also" content="https://winsa24.github.io/courses/inf203/serverlab/" />
+
+<meta property="og:see_also" content="https://winsa24.github.io/courses/igr203/ucd/" />
+
+<meta property="og:see_also" content="https://winsa24.github.io/courses/igd301/l8/" />
+
+
+
+<body class="flex flex-col min-h-screen">
+    <header class="fixed flex items-center w-full min-h-16 pl-scrollbar z-50 bg-secondary-bg shadow-sm">
+        <div class="w-full max-w-screen-xl mx-auto"><script>
+    let storageColorScheme = localStorage.getItem("lightDarkMode")
+    if (((storageColorScheme == 'Auto' || storageColorScheme == null) && window.matchMedia("(prefers-color-scheme: dark)").matches) || storageColorScheme == "Dark") {
+        document.getElementsByTagName('html')[0].classList.add('dark')
+    }
+</script>
+<nav class="flex items-center justify-between flex-wrap p-4">
+    <a href="/" class="mr-6 text-primary-text text-xl font-bold">Xiang WEI</a>
+    <button id="navbar-btn" class="md:hidden flex items-center px-3 py-2" aria-label="Open Navbar">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <div id="target"
+        class="hidden block md:flex md:flex-grow md:justify-between md:items-center w-full md:w-auto text-primary-text z-20">
+        <div class="text-sm md:flex-grow pb-4 md:pb-0 border-b md:border-b-0">
+            <a href="/#about"
+                class="block mt-4 md:inline-block md:mt-0  hover:text-eureka mr-4">About</a>
+            <a href="/projects/"
+                class="block mt-4 md:inline-block md:mt-0  hover:text-eureka mr-4">Projects</a>
+            <a href="/courses/"
+                class="block mt-4 md:inline-block md:mt-0  text-eureka  hover:text-eureka mr-4">Courses</a>
+        </div>
+
+        <div class="flex">
+            <div class="relative pt-4 md:pt-0">
+                <div class="cursor-pointer hover:text-eureka" id="lightDarkMode">
+                    <i class="fas fa-adjust"></i>
+                </div>
+                <div class="fixed hidden inset-0 opacity-0 h-full w-full cursor-default z-30" id="is-open">
+                </div>
+                <div class="absolute flex flex-col left-0 md:left-auto right-auto md:right-0 hidden bg-secondary-bg w-48 rounded py-2 border border-tertiary-bg cursor-pointer z-40"
+                    id='lightDarkOptions'>
+                    <span class="px-4 py-1 hover:text-eureka">Light</span>
+                    <span class="px-4 py-1 hover:text-eureka">Dark</span>
+                    <span class="px-4 py-1 hover:text-eureka">Auto</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fixed hidden inset-0 opacity-0 h-full w-full cursor-default z-0" id="is-open-mobile">
+    </div>
+
+</nav>
+<script>
+    let element = document.getElementById('lightDarkMode')
+    if (storageColorScheme == null || storageColorScheme == 'Auto') {
+        document.addEventListener('DOMContentLoaded', () => {
+            switchMode('Auto')
+        })
+    } else if (storageColorScheme == "Light") {
+        element.firstElementChild.classList.remove('fa-adjust')
+        element.firstElementChild.setAttribute("data-icon", 'sun')
+        element.firstElementChild.classList.add('fa-sun')
+    } else if (storageColorScheme == "Dark") {
+        element.firstElementChild.classList.remove('fa-adjust')
+        element.firstElementChild.setAttribute("data-icon", 'moon')
+        element.firstElementChild.classList.add('fa-moon')
+    }
+    
+    document.addEventListener('DOMContentLoaded', () => {
+        getcolorscheme();
+        switchBurger();
+    });
+</script></div>
+    </header>
+    <main class="flex-grow pt-16">
+        <div class="pl-scrollbar">
+            <div class="w-full max-w-screen-xl lg:px-4 xl:px-8 mx-auto">
+
+
+<div class="grid grid-cols-2 lg:grid-cols-8 gap-4 lg:pt-12">
+    <div
+        class="col-span-2 lg:col-start-2 lg:col-span-6 bg-secondary-bg rounded px-6 py-8">
+        <h1 class="font-bold text-3xl text-primary-text">Web Application (webappLab)</h1>
+        <div class="flex flex-wrap flex-row items-center mt-2 text-tertiary-text">
+    <div class="mr-6 my-2">
+        <i class="fas fa-calendar mr-1"></i>
+        <span>2021-04-11</span>
+    </div>
+    <div class="mr-6 my-2">
+        <i class="fas fa-clock mr-1"></i>
+        <span>10 min read</span>
+    </div>
+    
+    
+
+    
+</div>
+        
+        
+        
+
+        <div class="content">
+            <h1 id="lab-web-application">Lab: Web Application</h1>
+<h2 id="questions-1-to-5">Questions 1 to 5:</h2>
+<blockquote>
+<p>Client-side: create a button bar with “show txt”, “add element”, “remove element”, “clear” and ”restore”. The actions of these buttons are:</p>
+</blockquote>
+<ol>
+<li>show txt: shows the text of the current JSON</li>
+<li>add element: adds in the current JSON an element whose information is a number (value), a text (title) and a color in CSS format (color name or hex) (color). The new element is at the end of the list.</li>
+<li>remove element: deletes an element in the running with his index finger</li>
+<li>clear: deletes all elements in the current JSON, and replaces the whole storage.json content with [{&ldquo;title&rdquo;: &ldquo;empty&rdquo;, &ldquo;color&rdquo;: &ldquo;red&rdquo;, &ldquo;value&rdquo;: 1}]</li>
+<li>restore: restores a storage.json file with 3 slices, this last action is intended to simplify the automatic grading.
+Put the buttons at the top of the space as a menu bar and the display space below. Each button clears the display space and shows what is necessary. For each button, there is something to do in the editing page and something to do in the server.</li>
+</ol>
+<p>In order to allow auto-grading, please put ids on the buttons in the toolbar:</p>
+<p>“SHOW” for the button to show the text of the current JSON below the menu bar,
+“ADDBUTTON” for the button to show the form to add a new element to the JSON,
+“REMOVE” for the button to show the form to remove an existing element from the JSON,
+“CLEAR” for the button to clear the existing JSON,</p>
+<blockquote>
+<blockquote>
+<p>html:</p>
+</blockquote>
+</blockquote>
+<pre><code>&lt;div id=&quot;buttonbar&quot;&gt;
+            &lt;button id=&quot;SHOW&quot; onclick=&quot;show()&quot; &gt;show text&lt;/button&gt;
+            &lt;button id=&quot;ADDBUTTON&quot; onclick=&quot;add()&quot;&gt;add element&lt;/button&gt;
+            &lt;button id=&quot;REMOVE&quot; onclick=&quot;remove()&quot;&gt;remove element&lt;/button&gt;
+            &lt;button id=&quot;CLEAR&quot; onclick=&quot;clearf()&quot;&gt;clear&lt;/button&gt;
+            &lt;button id=&quot;RESTORE&quot; onclick=&quot;restore()&quot;&gt;restore&lt;/button&gt;
+&lt;/div&gt;
+&lt;div id=&quot;MAINSHOW&quot;&gt;&lt;/div&gt;
+</code></pre>
+<blockquote>
+<blockquote>
+<p>js:</p>
+</blockquote>
+</blockquote>
+<pre><code>let mainshow = document.getElementById(&quot;MAINSHOW&quot;);
+
+//Question1: “SHOW” for the button to show the text of the current JSON below the menu bar,
+function show(){
+    mainshow.innerHTML = ''; //clear
+    //read json file
+    var url = &quot;../../show&quot;;
+    readurl(url); //a function use AJAX to connect to the server
+}
+
+//Question2: “ADDBUTTON” for the button to show the form to add a new element to the JSON,
+function add(){
+    mainshow.innerHTML = ''; //clear
+    let addform = document.getElementById(&quot;addform&quot;);
+    addform.style.display = 'block';
+}
+
+//Question3: “REMOVE” for the button to show the form to remove an existing element from the JSON,
+function remove(){
+    mainshow.innerHTML = ''; //clear
+    let delform = document.getElementById(&quot;delform&quot;);
+    delform.style.display = 'block';
+}
+
+//Question4: “CLEAR” for the button to clear the existing JSON,
+function clearf(){
+    // console.log(&quot;enter clear&quot;);// can't set name as clear()
+    mainshow.innerHTML = ''; //clear
+    //read json file
+    var url = &quot;../../clear&quot;;
+    readurl(url);
+}
+
+function restore(){
+    mainshow.innerHTML = ''; //clear
+    //read json file
+    var url = &quot;../../restore&quot;;
+    readurl(url);
+}
+</code></pre>
+<p>You also need textfields for the index to remove and the title, color and value to add, use “indexTF”, “titleTF”, “colorTF” and “valueTF” for them. The buttons to validate addition and removal shall have “VALIDADD” and “SENDREM” as ids. The element in which you insert the result of show shall have the id “MAINSHOW”.</p>
+<blockquote>
+<blockquote>
+<p>html:</p>
+</blockquote>
+</blockquote>
+<pre><code>&lt;div id=&quot;delform&quot; style=&quot;display: none;&quot;&gt;
+    &lt;input id=&quot;indexTF&quot; placeholder=&quot;index&quot; type=&quot;number&quot; name=&quot;index&quot; /&gt;
+    &lt;button id=&quot;VALIDADD&quot; onclick=&quot;validdel()&quot;&gt;valid delete&lt;/button&gt;
+&lt;/div&gt;
+        
+&lt;div id=&quot;addform&quot; style=&quot;display: none;&quot;&gt;
+    &lt;input id=&quot;titleTF&quot; placeholder=&quot;title&quot; type=&quot;text&quot; name=&quot;title&quot; /&gt;
+    &lt;input id=&quot;colorTF&quot; placeholder=&quot;color&quot; type=&quot;text&quot; name=&quot;color&quot; /&gt;
+    &lt;input id=&quot;valueTF&quot; placeholder=&quot;value&quot; type=&quot;number&quot; name=&quot;value&quot; /&gt;
+    &lt;button id=&quot;VALIDADD&quot; onclick=&quot;validadd()&quot;&gt;valid add&lt;/button&gt;
+&lt;/div&gt;
+</code></pre>
+<blockquote>
+<blockquote>
+<p>js:</p>
+</blockquote>
+</blockquote>
+<pre><code>function validadd(){
+    mainshow.innerHTML = ''; //clear
+
+    var Ftitle = document.getElementById(&quot;titleTF&quot;).value;
+    var Fcolor = document.getElementById(&quot;colorTF&quot;).value
+    var Fvalue = document.getElementById(&quot;valueTF&quot;).value;
+    console.log(&quot;Fcolor:&quot; + Fcolor);
+    console.log(typeof Fcolor);
+    Fcolor = Fcolor.replace(&quot;#&quot;, &quot;%23&quot;);
+    console.log(&quot;Fcolor2:&quot; + Fcolor);
+    var url = &quot;../../add?title=&quot; + Ftitle + &quot;&amp;value=&quot; + Fvalue + &quot;&amp;color=&quot; + encodeURI(Fcolor); //encodeURI doesn't work
+    console.log(url);
+    readurl(url);
+}
+
+function validdel(){
+    mainshow.innerHTML = ''; //clear
+
+    var Findex = document.getElementById(&quot;indexTF&quot;).value;
+
+    var url = &quot;../../remove?index=&quot; + Findex;
+    readurl(url);
+}
+</code></pre>
+<blockquote>
+<p>Server: Make sure that the JSON on the server is changed. URLs querying the server will be:</p>
+</blockquote>
+<ol>
+<li>http://localhost:8000/show, called by the button show txt</li>
+<li>http://localhost:8000/add?title=<em>&amp;value=<strong>&amp;color=</strong></em> where * is a string, ** a number and *** a CSS color, called by the button add element</li>
+<li>http://localhost:8000/remove?index=* where * is a number, called by the button remove element</li>
+<li>http://localhost:8000/clear, called by the button clear</li>
+<li>http://localhost:8000/restore, called by the button restore</li>
+</ol>
+<pre><code>http.createServer(function(req, res){
+    
+    // console.log(req.url);
+    if(req.url == &quot;/&quot;){
+        res.writeHead(200,{
+            &quot;content-type&quot;:&quot;text/html&quot;
+        });
+        res.write(&quot;hello world123&quot;);
+        res.end();
+    }
+    else if(req.url == &quot;/kill&quot;){
+        res.writeHead(200,{
+            &quot;content-type&quot;:&quot;text/html&quot;
+        });
+        res.write(&quot;The server will stop now.&quot;);
+        res.end();
+        process.exit(0)
+    }
+    else if(req.url == &quot;/show&quot;){
+        let json = fs.readFileSync(&quot;./client/storage.json&quot;, 'utf-8');
+        // json  = JSON.parse(json);
+        res.writeHeader(200,{
+            'Content-Type' : 'application/json'
+        });
+        res.end(json);
+        // return
+    }
+    else if(req.url == &quot;/clear&quot;){
+        let tmp = [{&quot;title&quot;: &quot;empty&quot;, &quot;color&quot;: &quot;red&quot;, &quot;value&quot;: 1}];
+        // let cleardata = JSON.stringify(tmp);
+        fs.writeFileSync(&quot;./client/storage.json&quot;, JSON.stringify(tmp));
+
+        res.writeHeader(200,{
+            'Content-Type' : 'application/json'
+        });
+        res.end(JSON.stringify(tmp));
+    }
+    else if(req.url == &quot;/restore&quot;){
+        let tmp = [{&quot;title&quot;: &quot;foo&quot;, &quot;color&quot;: &quot;red&quot;, &quot;value&quot;: 20}, {&quot;title&quot;: &quot;bar&quot;, &quot;color&quot;: &quot;ivory&quot;, &quot;value&quot;: 50}, {&quot;title&quot;: &quot;test&quot;, &quot;color&quot;: &quot;yellow&quot;, &quot;value&quot;: 30}];
+        // let cleardata = JSON.stringify(tmp);
+        fs.writeFileSync(&quot;./client/storage.json&quot;, JSON.stringify(tmp));
+
+        res.writeHeader(200,{
+            'Content-Type' : 'application/json'
+        });
+        res.end(JSON.stringify(tmp));
+    }
+    else if(req.url.includes(&quot;?&quot;)){
+        //get json to modify
+        let data = JSON.parse(fs.readFileSync(&quot;./client/storage.json&quot;, 'utf-8'));
+        let arr = [];
+        //get info from url
+        console.log(&quot;req.url: &quot;+ req.url);
+        var url = qs.unescape(req.url);
+        console.log(&quot;url unescape: &quot;+ url);
+        url = url.split(&quot;?&quot;);
+        var getinfo = qs.parse(url[1]);
+        console.log(getinfo);
+
+        if(getinfo.index){    // delete
+            for(var i = 0; i &lt; data.length ; i++){
+                if(i != getinfo.index){
+                    let tmp = new Object();
+                    tmp.title = data[i].title;
+                    tmp.color = data[i].color;
+                    tmp.value = data[i].value; 
+                    arr.push(tmp);
+                }               
+            }
+            fs.writeFileSync(&quot;./client/storage.json&quot;, JSON.stringify(arr));
+        }else{ // add
+            let newObj = new Object();
+            newObj.title =  getinfo.title;
+            newObj.color = getinfo.color;
+            newObj.value =  parseInt(getinfo.value);        
+          
+            for(var i = 0; i &lt; data.length ; i++){
+                let tmp = new Object();
+                tmp.title = data[i].title;
+                tmp.color = data[i].color;
+                tmp.value = data[i].value; 
+                arr.push(tmp);
+            }
+            arr.push(newObj);
+            fs.writeFileSync(&quot;./client/storage.json&quot;, JSON.stringify(arr));
+        }
+
+        let json = fs.readFileSync(&quot;./client/storage.json&quot;, 'utf-8');
+        res.writeHeader(200,{
+            'Content-Type' : 'application/json'
+        });
+        res.end(json);
+    }
+    ...
+ 
+</code></pre>
+<h2 id="question-6">Question 6:</h2>
+<blockquote>
+<p>Client-side: add the show piechart button in test2.html. In this exercise you will create the SVG on the server and then display it in an image in the HTML on the client. The media type of SVG is “image/svg+xml”. The SVG namespace is “http://www.w3.org/2000/svg”. To make pie wedges, use path objects, the fill attribute for the color, the d field for the plot, and in the plot use M to move, L to make a line, A to create an arc and Z to close the path.
+Per wedge, an SVG text displays the field “title”. The text appears on the colorful area of ​​the wedge.</p>
+</blockquote>
+<pre><code>function draw(){
+    var t = [], c = [], v = [];
+    var url = &quot;storage.json&quot;/*json文件url，本地的就写本地的位置，如果是服务器的就写服务器的路径*/
+    var request = new XMLHttpRequest();
+    request.open(&quot;GET&quot;, url);/*设置请求方法与路径*/
+    request.send(null);/*不发送数据到服务器*/
+    request.onload = function () {/*XHR对象获取到返回信息后执行*/
+        if (request.status == 200) {/*返回状态为200，即为数据获取成功*/
+            var json = JSON.parse(request.responseText);
+            for(var i = 0; i &lt; json.length; i ++){
+                v.push(json[i].value);
+                t.push(json[i].title);
+                c.push(json[i].color);
+            }
+        }
+        console.log(&quot;v:&quot; + v);
+        console.log(&quot;t:&quot; + t);
+        console.log(&quot;c:&quot; + c);
+        // let data = [140, 100, 110, 90, 170,125];//要画出扇形的数据
+        // drawPie(v);
+        drawPie(v, t, c);
+    }
+    
+}
+function drawPie(data, text, color) {
+    let oSvg = document.getElementById('s1');
+    oSvg.style.display = 'block';
+    while (oSvg.lastChild) {
+        oSvg.removeChild(oSvg.lastChild);
+    }//clear svg
+
+    let cx = 400, cy = 300, r = 200,  sum = 0;//初始圆心半径
+    data.forEach(item =&gt; {//求数据总和
+        sum += item; 
+    })
+    let now = 0;
+    let i = 0;
+    data.forEach(item =&gt; {//画圆
+        let ang = 360 * item / sum;
+        if(ang == 360){
+            let oPath = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+            oPath.setAttribute('cx', cx);
+            oPath.setAttribute('cy', cy);
+            oPath.setAttribute('r', r);
+            oPath.setAttribute('fill', color[i]);
+            oSvg.appendChild(oPath);
+            var oText = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+            oText.innerHTML = text[i];
+            oText.setAttribute('font-size', 30);
+            oText.setAttribute('fill', invertColor(color[i]));
+            oText.setAttribute('x', cx);
+            oText.setAttribute('y', cy);
+            oSvg.appendChild(oText);
+        }else{
+            pie(now, now + ang, text[i], color[i]);
+        }
+        now += ang;
+        i ++;
+    })
+    function pie(ang1, ang2, text, color) {
+        let oPath = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+        // oPath.setAttribute('stroke', 'white');
+        //oPath.setAttribute('fill', `rgb(${Math.floor(Math.random() * 256)},${Math.floor(Math.random() * 256)},${Math.floor(Math.random() * 256)})`);
+        oPath.setAttribute('fill', color);
+        // oPath.setAttribute('stroke-width', 2);
+            function d2a(ang) {//角度转弧度
+                return ang * Math.PI / 180;
+            }
+            function point(ang) {//根据角度求坐标
+                return {
+                    x: cx + r * Math.sin(d2a(ang)),
+                    y: cy - r * Math.cos(d2a(ang))
+                }
+            }
+            //画扇形的三个步骤                   
+            let arr = [];
+            //第一步
+            let { x: x1, y: y1 } = point(ang1);
+            arr.push(`M ${cx} ${cy} L ${x1} ${y1}`);//画第一条线
+            //第二步
+            let { x: x2, y: y2 } = point(ang2);
+            arr.push(`A ${r} ${r} 0 ${ang2 - ang1 &gt; 180 ? 1 : 0} 1 ${x2} ${y2}`);//画弧
+            //第三步
+            arr.push('Z');//闭合
+    
+            oPath.setAttribute('d', arr.join(' '));//拼接字符串，执行绘画命令
+            oSvg.appendChild(oPath);//添加到svg中
+    
+            //Add text
+            let { x: textx, y: texty } = point(ang1 + (ang2 - ang1)/2);
+            textx = (textx - cx) * 0.7 + cx;
+            texty = (texty - cy) * 0.7 + cy;
+            // var textx = ang2 - ang1 &gt; 180 ? cx - Math.abs(x1 - x2)/2 : cx + Math.abs(x1 - x2)/2;
+            // var texty = ang2 - ang1 &gt; 180 ? cy - Math.abs(y1 - y2)/2 : Math.abs(y1 - y2)/2;
+            var oText = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+            oText.innerHTML = text;
+            oText.setAttribute('font-size', 30);
+            oText.setAttribute('fill', invertColor(color));
+            oText.setAttribute('x', textx);
+            oText.setAttribute('y', texty);
+    
+            oSvg.appendChild(oText);
+    }
+}
+
+</code></pre>
+<blockquote>
+<p>Find a way to adjust the color of the text so that the text is always visible, regardless of the color choice of the wedges.  Main idea:</p>
+</blockquote>
+<pre><code>function invertChar(c) {
+    switch (c.toLowerCase()) {
+      case '0': return 'f';
+      case '1': return 'e';
+      case '2': return 'd';
+      case '3': return 'c';
+      case '4': return 'b';
+      case '5': return 'a';
+      case '6': return '9';
+      case '7': return '8';
+      case '8': return '7';
+      case '9': return '6';
+      case 'a': return '5';
+      case 'b': return '4';
+      case 'c': return '3';
+      case 'd': return '2';
+      case 'e': return '1';
+      case 'f': return '0';
+      case &quot;#&quot;: return '#';
+    }
+}
+</code></pre>
+<h2 id="question-7">Question 7:</h2>
+<p>In this question, you will see one of the choices of any web developer: do the work on the server as you have done in question 2b or do the work in the browser. Add a show local piechart button that will use the relative URL ../../show to get the JSON, then create the SVG directly into the local browser and then insert it into the HTML to display it.</p>
+<blockquote>
+<blockquote>
+<p>js</p>
+</blockquote>
+</blockquote>
+<pre><code>function piech(){  
+    var url = &quot;../../piech&quot;;
+    // self.location.href= url;
+    let oSvg = document.getElementById('s1');
+    oSvg.parentNode.removeChild(oSvg);
+
+    var request = new XMLHttpRequest();
+    request.open(&quot;GET&quot;, url);/*设置请求方法与路径*/
+    request.send(null);/*不发送数据到服务器*/
+    request.onload = function () {/*XHR对象获取到返回信息后执行*/
+        if (request.status == 200) {/*返回状态为200，即为数据获取成功*/            
+            let tmp = new DOMParser().parseFromString(request.responseText,'text/html').body.childNodes[0];
+            document.body.appendChild(tmp);
+        }
+    }
+}
+</code></pre>
+<blockquote>
+<blockquote>
+<p>server</p>
+</blockquote>
+</blockquote>
+<pre><code>function drawPie(data, text, color) {
+    let htmlstr = &quot;&lt;svg xmlns='http://www.w3.org/2000/svg' id='s1' width=800 height=600&gt;&quot;;
+    let cx = 400, cy = 300, r = 200,  sum = 0;//初始圆心半径
+    data.forEach(item =&gt; {//求数据总和
+        sum += item; 
+    })
+    let now = 0;
+    let i = 0;
+    data.forEach(item =&gt; {//画圆
+        let ang = 360 * item / sum;
+        if(ang == 360){
+            htmlstr += &quot;&lt;circle cx='&quot; + cx + &quot;' cy='&quot; + cy + &quot;' r = '&quot; + r + &quot;' fill = '&quot; + color[i] + &quot;'/&gt;&quot;;
+            htmlstr += &quot;&lt;text x='&quot; + cx + &quot;' y='&quot; + cy + &quot;' fill='&quot; + invertColor(color[i]) + &quot;' font-size='30'&gt;&quot; + text[i] + &quot;&lt;/text&gt;&quot;;
+        }else{
+            htmlstr += pie(now, now + ang, text[i], color[i]);
+        }
+        now += ang;
+        i ++;
+    })
+    function pie(ang1, ang2, text, color) {
+        let oPath = &quot;&quot;;
+        let oText = &quot;&quot;;
+            function d2a(ang) {//角度转弧度
+                return ang * Math.PI / 180;
+            }
+            function point(ang) {//根据角度求坐标
+                return {
+                    x: cx + r * Math.sin(d2a(ang)),
+                    y: cy - r * Math.cos(d2a(ang))
+                }
+            }
+            let { x: x1, y: y1 } = point(ang1);
+            let { x: x2, y: y2 } = point(ang2);
+            let path = `M ${cx} ${cy} L ${x1} ${y1} A ${r} ${r} 0 ${ang2 - ang1 &gt; 180 ? 1 : 0} 1 ${x2} ${y2} Z`
+
+            oPath = &quot;&lt;path d='&quot; + path + &quot;' fill='&quot; + color + &quot;'&gt;&lt;/path&gt;&quot;;
+
+            //Add text
+            let { x: textx, y: texty } = point(ang1 + (ang2 - ang1)/2);
+            textx = (textx - cx) * 0.7 + cx;
+            texty = (texty - cy) * 0.7 + cy;
+            oText = &quot;&lt;text x='&quot; + textx + &quot;' y='&quot; + texty + &quot;' fill='&quot; + invertColor(color) + &quot;' font-size='30'&gt;&quot; + text + &quot;&lt;/text&gt;&quot;;            
+        
+        return oPath+oText;
+    }
+    htmlstr += &quot;&lt;/svg&gt;&quot;
+    return htmlstr;
+}
+
+</code></pre>
+<pre><code>...
+    else if(req.url == &quot;/piech&quot;){
+        //get data 
+        let json = fs.readFileSync(&quot;./client/storage.json&quot;, 'utf-8');
+        json  = JSON.parse(json);
+        let t = [], c = [], v =[];
+        for(var i = 0; i &lt; json.length ; i++){
+            t.push(json[i].title);
+            c.push(json[i].color);
+            v.push(json[i].value);            
+        }
+        let htmlstr = &quot;&quot;;
+        htmlstr = drawPie(v, t, c);
+        
+        res.writeHeader(200,{
+            'content-type' : 'image/svg+xml'
+        });
+        res.write(htmlstr);
+        res.end();
+    }
+...
+
+</code></pre>
+
+        </div>
+        
+        <div class="my-4">
+    
+    <a href="https://winsa24.github.io/tags/lecture/" class="inline-block bg-tertiary-bg text-sm rounded px-3 py-1 my-1 mr-2 hover:text-eureka">#Lecture</a>
+    
+    <a href="https://winsa24.github.io/tags/hci/" class="inline-block bg-tertiary-bg text-sm rounded px-3 py-1 my-1 mr-2 hover:text-eureka">#HCI</a>
+    
+</div>
+        
+        
+        
+        
+        
+        
+        
+<div class="flex flex-col md:flex-row md:justify-between -mx-2 mt-4 px-2 pt-4 border-t">
+    <div>
+        
+        <span class="block font-bold">Previous</span>
+        <a href="https://winsa24.github.io/courses/inf203/serverlab/" class="block">Simple Server (ServerLab)</a>
+        
+    </div>
+    <div class="md:text-right mt-4 md:mt-0">
+        
+    </div>
+</div>
+
+        
+    </div>
+    
+
+    
+    
+    <div
+        class="col-span-2 lg:col-start-2 lg:col-span-6 bg-secondary-bg rounded p-6">
+        <h2 class="text-lg font-semibold mb-4">See Also</h2>
+        <div class="content">
+            
+            <a href="https://winsa24.github.io/courses/igr203/gesture/">Gestural Interfaces</a>
+            <br />
+            
+            <a href="https://winsa24.github.io/courses/inf203/js2lab/">JavaScript AJAX (js2Lab)</a>
+            <br />
+            
+            <a href="https://winsa24.github.io/courses/igr203/perception/">Perception - Color - Ergonomic</a>
+            <br />
+            
+            <a href="https://winsa24.github.io/courses/inf203/serverlab/">Simple Server (ServerLab)</a>
+            <br />
+            
+            <a href="https://winsa24.github.io/courses/igr203/ucd/">User Center Design (UCD)</a>
+            <br />
+            
+            <a href="https://winsa24.github.io/courses/igd301/l8/">Lecture 8: Current Research Topics</a>
+            <br />
+            
+        </div>
+    </div>
+    
+</div>
+<script>
+    document.addEventListener('DOMContentLoaded', ()=>{
+        hljs.initHighlightingOnLoad();
+    })
+</script>
+
+            </div>
+        </div>
+        
+    </main>
+    <footer class="pl-scrollbar">
+        <div class="w-full max-w-screen-xl mx-auto"><div class="text-center p-6 pin-b">
+    <p class="text-sm text-tertiary-text">&copy; 2020 <a href="https://www.wangchucheng.com/">C. Wang</a> and <a href="https://www.ruiqima.com/">R. Ma</a> &middot;  Powered by the <a href="https://github.com/wangchucheng/hugo-eureka" class="hover:text-eureka">Eureka</a> theme for <a href="https://gohugo.io" class="hover:text-eureka">Hugo</a></p>
+</div></div>
+    </footer>
+</body>
+
+</html>

@@ -7,7 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2020 &lt;a href=&#34;https://www.wangchucheng.com/&#34;&gt;C. Wang&lt;/a&gt; and &lt;a href=&#34;https://www.ruiqima.com/&#34;&gt;R. Ma&lt;/a&gt;</copyright>
-    <lastBuildDate>Sun, 14 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://winsa24.github.io/tags/lab/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 11 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://winsa24.github.io/tags/lab/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Qt - Microwave</title>
+      <link>https://winsa24.github.io/courses/igr203/software-dev/</link>
+      <pubDate>Sun, 11 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/courses/igr203/software-dev/</guid>
+      <description> 2 Ways to solve The specification of the interaction of a complex interface Statecharts/state machine Specification languages
+ StateMachine &amp;amp; StateCharts  Statecharts is hierarchical state machines
+ </description>
+    </item>
+    
     <item>
       <title>Qt - Microwave</title>
       <link>https://winsa24.github.io/courses/igr203/lab3/</link>
