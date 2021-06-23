@@ -1,0 +1,36 @@
+name: CI
+on: 
+  push:
+    branches: [ master ]
+
+  pull_request:
+    branches: [ master ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - name: Git checkout
+        uses: actions/checkout@v2
+
+      - name: Setup hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: "0.64.0"
+
+      - name: Build
+        run: hugo
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          personal_token: ${{ secrets.TOKEN }}
+          external_repository: winsa24/winsa24.github.io
+          user_name: winsa24
+          user_email: winsaaa24@gmail.com
+          publish_branch: gh-pages
+          publish_dir: ./docs
