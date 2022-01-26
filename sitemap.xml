@@ -3,6 +3,51 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://winsa24.github.io/categories/</loc>
+    <lastmod>2022-01-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://winsa24.github.io/tags/ip-paris/</loc>
+    <lastmod>2022-01-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://winsa24.github.io/projects/</loc>
+    <lastmod>2022-01-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://winsa24.github.io/projects/reversedvrmove/</loc>
+    <lastmod>2022-01-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://winsa24.github.io/tags/</loc>
+    <lastmod>2022-01-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://winsa24.github.io/tags/unity/</loc>
+    <lastmod>2022-01-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://winsa24.github.io/tags/vr/</loc>
+    <lastmod>2022-01-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://winsa24.github.io/categories/vr-develop/</loc>
+    <lastmod>2022-01-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://winsa24.github.io/</loc>
+    <lastmod>2022-01-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://winsa24.github.io/courses/igr203/gesture/</loc>
     <lastmod>2021-04-11T00:00:00+00:00</lastmod>
   </url>
@@ -48,11 +93,6 @@
   </url>
   
   <url>
-    <loc>https://winsa24.github.io/tags/</loc>
-    <lastmod>2021-04-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://winsa24.github.io/courses/igr203/ucd/</loc>
     <lastmod>2021-04-11T00:00:00+00:00</lastmod>
   </url>
@@ -63,17 +103,7 @@
   </url>
   
   <url>
-    <loc>https://winsa24.github.io/</loc>
-    <lastmod>2021-04-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://winsa24.github.io/blogs/</loc>
-    <lastmod>2021-03-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://winsa24.github.io/categories/</loc>
     <lastmod>2021-03-29T00:00:00+00:00</lastmod>
   </url>
   
@@ -143,21 +173,6 @@
   </url>
   
   <url>
-    <loc>https://winsa24.github.io/tags/ip-paris/</loc>
-    <lastmod>2021-02-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://winsa24.github.io/projects/</loc>
-    <lastmod>2021-02-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://winsa24.github.io/tags/unity/</loc>
-    <lastmod>2021-02-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://winsa24.github.io/projects/archer/</loc>
     <lastmod>2021-02-16T00:00:00+00:00</lastmod>
   </url>
@@ -174,16 +189,6 @@
   
   <url>
     <loc>https://winsa24.github.io/courses/igd301/p5/</loc>
-    <lastmod>2021-01-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://winsa24.github.io/tags/vr/</loc>
-    <lastmod>2021-01-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://winsa24.github.io/categories/vr-develop/</loc>
     <lastmod>2021-01-26T00:00:00+00:00</lastmod>
   </url>
   

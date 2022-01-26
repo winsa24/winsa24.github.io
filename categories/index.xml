@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2020 &lt;a href=&#34;https://www.wangchucheng.com/&#34;&gt;C. Wang&lt;/a&gt; and &lt;a href=&#34;https://www.ruiqima.com/&#34;&gt;R. Ma&lt;/a&gt;</copyright>
-    <lastBuildDate>Mon, 29 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Jan 2022 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://winsa24.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>VR Develop</title>
+      <link>https://winsa24.github.io/categories/vr-develop/</link>
+      <pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/categories/vr-develop/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Front-end Develop</title>
@@ -27,15 +36,6 @@
       <pubDate>Thu, 18 Feb 2021 00:00:00 +0000</pubDate>
       
       <guid>https://winsa24.github.io/categories/ar-develop/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>VR Develop</title>
-      <link>https://winsa24.github.io/categories/vr-develop/</link>
-      <pubDate>Tue, 26 Jan 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://winsa24.github.io/categories/vr-develop/</guid>
       <description></description>
     </item>
     
