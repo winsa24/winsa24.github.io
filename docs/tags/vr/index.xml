@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2020 &lt;a href=&#34;https://www.wangchucheng.com/&#34;&gt;C. Wang&lt;/a&gt; and &lt;a href=&#34;https://www.ruiqima.com/&#34;&gt;R. Ma&lt;/a&gt;</copyright>
-    <lastBuildDate>Tue, 26 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://winsa24.github.io/tags/vr/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 26 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://winsa24.github.io/tags/vr/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ReversedVRMove</title>
+      <link>https://winsa24.github.io/projects/reversedvrmove/</link>
+      <pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://winsa24.github.io/projects/reversedvrmove/</guid>
+      <description>Reversed VR Move What will happpen if you are moving in a reversed world ? Want to go left but actually go right ? Going backward to move forward ! Some experience you will NEVER gain in a physical world ! How will it impact on us ? Let&amp;rsquo;s figure it out !
+Download from github Play instruction Video</description>
+    </item>
+    
     <item>
       <title>DriveKour (VR Locomotion Develop)</title>
       <link>https://winsa24.github.io/projects/drivekour/</link>
