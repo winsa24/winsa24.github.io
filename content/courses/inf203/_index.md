@@ -1,5 +1,5 @@
 +++
-title = "IGR203: Human-Computer Interaction"
+title = "INF203: Web Development"
 description = ""
 summary = ""
 toc = true
@@ -12,5 +12,5 @@ date =  "2021-02-18"
 draft = false
 +++
 
->This course presents methods and techniques for designing efficient, user-friendly user interfaces. Focuses on software development (GUI toolkits, Web interfaces, Statecharts, MVC, multi-threading) and on human factors (user-centered design, evaluation, ergonomics, empirical laws and models). Also presents novel emerging techniques
+>This course presents methods and techniques for developing dynamic, modern, robust, safe websites. Topics: Internet and the Web, basic Web languages (HTML, CSS, JavaScript), rich dynamic content, server-side programming and frameworks, client-side and AJAX frameworks, website security.
 
