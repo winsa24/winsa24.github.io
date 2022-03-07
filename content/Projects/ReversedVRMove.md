@@ -42,11 +42,12 @@ The application that I created is presented this way : there is a virtual room w
 ## VR potential impact to physical world
 Evaluate VR impact on physical world is not a new topic. Many studies have run on this topic.  
 
-[Stanford has run an experiments](https://brgcommunications.com/virtual-reality-impact-behavior-change/) that creating situations such as putting participants, who are not colorblind, through colorblindness VR color-matching exercises.  The scientists measure the likelihood of understanding the perspective of others before and after the exercise, noting positive change from participants after the exercise. That empathy is also being applied by the participants into future, separate scenarios, demonstrating the opportunity for behavior change learned in a scenario to have long-term impacts on an individual. 
+Stanford has run an experiments [1](https://brgcommunications.com/virtual-reality-impact-behavior-change/) that creating situations such as putting participants, who are not colorblind, through colorblindness VR color-matching exercises.  The scientists measure the likelihood of understanding the perspective of others before and after the exercise, noting positive change from participants after the exercise. That empathy is also being applied by the participants into future, separate scenarios, demonstrating the opportunity for behavior change learned in a scenario to have long-term impacts on an individual. 
 ![colorblindnessEXP](/images/projects/ReverseVR/colorblindness.jpg)
 
+Many people also experience different degrees of cybersickness when using VR. Cybersickness is a form of motion sickness that occurs as a result of exposure to immersive eXtended Reality (XR) environments. Depending on the immersive content and virtual movement required, 20%-95% of users typically experience some form of cybersickness, ranging from a slight headache to an emetic response. The most common symptoms include general discomfort, headache, eyestrain, stomach awareness, nausea, sweating, sopite syndrome (a.k.a. drowsiness), and disorientation. Only on rare occasions (~1%), an emetic response is experienced. [2](https://www.frontiersin.org/research-topics/30494/cybersickness-in-vr-applications)
 
-
+Either it's possitive or negative effect, we can see that VR does bring impact to human in physical world. So we are curious about how those impacts are and how do people react to adjust to these impacts.
 
 ## Implementation
 #### Reverse Movement
