@@ -26,9 +26,9 @@ How will it impact on us ?
 Please check inside the game ^ ^
 <!-- ![ins](/images/projects/ReverseVR/instruction.png)   -->
 #### Video
-![demo](/https://youtu.be/9q9WuNcCT7I)  
-#### Presentation  
-https://docs.google.com/presentation/d/1TV_MF5ZaYTl9RdQCPSqY2aA-RQWA4oex2c2gDJIY_eo/edit?usp=sharing
+[![Watch the video](http://img.youtube.com/vi/9q9WuNcCT7I/0.jpg)](https://www.youtube.com/watch?v=9q9WuNcCT7I)
+<!-- #### Presentation  
+https://docs.google.com/presentation/d/1TV_MF5ZaYTl9RdQCPSqY2aA-RQWA4oex2c2gDJIY_eo/edit?usp=sharing -->
 
 
 
@@ -41,10 +41,10 @@ The application that I created is presented in this way : there is a virtual roo
 ## VR potential impact to physical world
 Evaluate VR impact on physical world is not a new topic. Many studies have run on this topic.  
 
-Stanford has run an experiments [1](https://brgcommunications.com/virtual-reality-impact-behavior-change/) that creating situations such as putting participants, who are not colorblind, through colorblindness VR color-matching exercises.  The scientists measure the likelihood of understanding the perspective of others before and after the exercise, noting positive change from participants after the exercise. That empathy is also being applied by the participants into future, separate scenarios, demonstrating the opportunity for behavior change learned in a scenario to have long-term impacts on an individual. 
+Stanford has run an experiments [[1]](https://brgcommunications.com/virtual-reality-impact-behavior-change/) that creating situations such as putting participants, who are not colorblind, through colorblindness VR color-matching exercises.  The scientists measure the likelihood of understanding the perspective of others before and after the exercise, noting positive change from participants after the exercise. That empathy is also being applied by the participants into future, separate scenarios, demonstrating the opportunity for behavior change learned in a scenario to have long-term impacts on an individual. 
 ![colorblindnessEXP](/images/projects/ReverseVR/colorblindness.jpg)
 
-Many people also experience different degrees of cybersickness when using VR. Cybersickness is a form of motion sickness that occurs as a result of exposure to immersive eXtended Reality (XR) environments. Depending on the immersive content and virtual movement required, 20%-95% of users typically experience some form of cybersickness, ranging from a slight headache to an emetic response. The most common symptoms include general discomfort, headache, eyestrain, stomach awareness, nausea, sweating, sopite syndrome (a.k.a. drowsiness), and disorientation. Only on rare occasions (~1%), an emetic response is experienced. [2](https://www.frontiersin.org/research-topics/30494/cybersickness-in-vr-applications)
+Many people also experience different degrees of cybersickness when using VR. Cybersickness is a form of motion sickness that occurs as a result of exposure to immersive eXtended Reality (XR) environments. Depending on the immersive content and virtual movement required, 20%-95% of users typically experience some form of cybersickness, ranging from a slight headache to an emetic response. The most common symptoms include general discomfort, headache, eyestrain, stomach awareness, nausea, sweating, sopite syndrome (a.k.a. drowsiness), and disorientation. Only on rare occasions (~1%), an emetic response is experienced. [[2]](https://www.frontiersin.org/research-topics/30494/cybersickness-in-vr-applications)
 
 Either it's possitive or negative effect, we can see that VR does bring impact to human in physical world. So we are curious about how those impacts are and how do people react to adjust to these impacts.
 
@@ -89,7 +89,9 @@ After several attempts by myself, I became kind of an expert in the reverse worl
 So I challenged myself into other mode --- reverse front and back for example. And it does took me longer time to adjust and achieve the goal. 
 ![drawPath](/images/projects/ReverseVR/moveDP.gif)
 
-I also invited a friend to test, but only the reverse all mode. He really struggled, but he managed to complete the task. His path review is like :  
+I also invited a friend to test, but only the reverse all mode. He really struggled, but he managed to complete the task. 
+![demoF](/images/projects/ReverseVR/userTest.gif)
+His path review is like :  
 ![drawPath](/images/projects/ReverseVR/worldDP.gif)
 
 
