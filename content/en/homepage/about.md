@@ -4,7 +4,7 @@ weight = 1
 draft = false
 
 role = "Master Student"
-bio = "2nd year master student major in Interaction, Graphic and Design (M1-IGD)."
+bio = "2nd year master student major in Interaction, Graphic and Design (M2-IGD)."
 avatar = "images/about.jpeg"
 
 [organization]
@@ -61,10 +61,10 @@ avatar = "images/about.jpeg"
 
 ### EXTRACURRICULAR ACTIVITIES
 
-- Vice minister of the Department of Social Practice in the Communist Youth League in Beijing University of Technology. 
-Organized and managed volunteer activities, recruitment and other activities; communicated and collaborated with different departments; applied for activity funds and held social practice results report meeting
-- Assistant English teacher volunteer at Association Carcajada De Villena, Spain.
-Introduced Chinese culture and helped the teachers to organize activities and communicated with other volunteers from different countries.
+- Vice minister of the Social Practice Department in the Communist Youth League of Beijing University of Technology.   
+> Organized and managed volunteer activities, recruitment and other activities; communicated and collaborated with different departments; applied for activity funds and held social practice results report meeting
+- Assistant English teacher volunteer at Association Carcajada De Villena, Spain.   
+> Introduced Chinese culture and helped the teachers to organize activities and communicated with other volunteers from different countries.
 
 ### RESEARCH INTERESTS
 

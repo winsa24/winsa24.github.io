@@ -3,18 +3,18 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://winsa24.github.io/zh/travel/france/</loc>
-    <lastmod>2020-01-14T00:00:00+00:00</lastmod>
+    <loc>https://winsa24.github.io/zh/travel/</loc>
+    <lastmod>2022-04-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://winsa24.github.io/zh/travel/</loc>
-    <lastmod>2020-01-14T00:00:00+00:00</lastmod>
+    <loc>https://winsa24.github.io/zh/travel/south-west-france/</loc>
+    <lastmod>2022-04-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://winsa24.github.io/zh/</loc>
-    <lastmod>2020-01-14T00:00:00+00:00</lastmod>
+    <lastmod>2022-04-15T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -25,6 +25,11 @@
                 hreflang="zh"
                 href="https://winsa24.github.io/zh/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://winsa24.github.io/zh/travel/france/</loc>
+    <lastmod>2020-01-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>

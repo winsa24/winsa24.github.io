@@ -3,8 +3,8 @@ title = "魏想"
 weight = 1
 draft = false
 
-role = "ESFP人格，人机交互在读硕士生"
-bio = "正在维护，coming soon"
+role = "法国留学生一枚"
+bio = "ESFP表演型人格，梦想周游世界，看遍各地美景，吃遍各地美食，认识各个地方的小伙伴。目前正在努力周游欧洲！"
 avatar = "images/about.jpeg"
 
 [organization]
@@ -51,3 +51,4 @@ avatar = "images/about.jpeg"
     attachment = ""
 +++
 
+# 正在维护，coming soon
