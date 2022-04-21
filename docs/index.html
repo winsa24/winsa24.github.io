@@ -72,6 +72,10 @@
 
 
 
+<meta property="og:locale:alternate" content="zh" />
+
+
+
 
 <meta property="og:site_name" content="Xiang WEI" />
 
@@ -128,6 +132,19 @@
                     <span class="px-4 py-1 hover:text-eureka">Auto</span>
                 </div>
             </div>
+            <div class="relative pt-4 pl-4 md:pt-0">
+                <div class="cursor-pointer hover:text-eureka" id="languageMode">
+                    <i class="fas fa-globe"></i>
+                    <span class="pl-1">English</span>
+                </div>
+                <div class="fixed hidden inset-0 opacity-0 h-full w-full cursor-default z-30" id="is-open-lang">
+                </div>
+                <div class="absolute flex flex-col left-0 md:left-auto right-auto md:right-0 hidden bg-secondary-bg w-48 rounded py-2 border border-tertiary-bg cursor-pointer z-40"
+                    id='languageOptions'>
+                    <a class="px-4 py-1 hover:text-eureka" href="https://winsa24.github.io/">English</a>
+                    <a class="px-4 py-1 hover:text-eureka" href="https://winsa24.github.io/zh/">简体中文</a>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -154,6 +171,7 @@
     document.addEventListener('DOMContentLoaded', () => {
         getcolorscheme();
         switchBurger();
+        switchLanguage()
     });
 </script></div>
     </header>
@@ -461,87 +479,6 @@ Motivation The goal of this project is to explore the impact of VR on people&amp
     <div class="mr-6 my-2">
         <i class="fas fa-calendar mr-1"></i>
         <span>2021-02-16</span>
-    </div>
-    <div class="mr-6 my-2">
-        <i class="fas fa-clock mr-1"></i>
-        <span>1 min read</span>
-    </div>
-    
-    
-    <div class="mr-6 my-2">
-        <i class="fas fa-folder mr-1"></i>
-        
-        <a href="https://winsa24.github.io/categories/ar-develop/" class="hover:text-eureka">AR Develop</a>
-        
-    </div>
-    
-
-    
-</div>
-
-  </div>
-
-  
-</div>
-  </div>
-  
-  <div class="py-6">
-    <div class="flex flex-col-reverse lg:flex-row justify-between">
-  
-  <div class="w-full ">
-    <div class="mb-4">
-  <a href="https://winsa24.github.io/projects/drivekour/" class="font-bold text-xl hover:text-eureka">DriveKour (VR Locomotion Develop)</a>
-</div>
-<div class="content">
-  Drivekour Game Based on the Parkour Game developed by Wenjie, we implement our locomotion technique and also add some IP Paris feature. Download from github Play instruction Video
-</div>
-
-<div class="flex flex-wrap flex-row items-center mt-2 text-tertiary-text">
-    <div class="mr-6 my-2">
-        <i class="fas fa-calendar mr-1"></i>
-        <span>2021-01-26</span>
-    </div>
-    <div class="mr-6 my-2">
-        <i class="fas fa-clock mr-1"></i>
-        <span>1 min read</span>
-    </div>
-    
-    
-    <div class="mr-6 my-2">
-        <i class="fas fa-folder mr-1"></i>
-        
-        <a href="https://winsa24.github.io/categories/vr-develop/" class="hover:text-eureka">VR Develop</a>
-        
-    </div>
-    
-
-    
-</div>
-
-  </div>
-
-  
-</div>
-  </div>
-  
-  <div class="py-6">
-    <div class="flex flex-col-reverse lg:flex-row justify-between">
-  
-  <div class="w-full ">
-    <div class="mb-4">
-  <a href="https://winsa24.github.io/projects/xvp/" class="font-bold text-xl hover:text-eureka">Xperience of Virtual Plants (XVP)</a>
-</div>
-<div class="content">
-  Xperience of Virtual Plants (XVP) An application to help users learn rare plants. The system will generate 3D models based on different image targets. By clicking on the virtual buttons and screen buttons, users can interact with 3D models.
-Target Device An Android equipment with API Level above 19 (4.4 ‘KitKat’)
-Development Platform MacOs Mojave (10.14.6) &#43; Unity (2019.2.13f1) &#43; Vuforia (9.4.6)
-Final video Check the video to better learn our project.
-</div>
-
-<div class="flex flex-wrap flex-row items-center mt-2 text-tertiary-text">
-    <div class="mr-6 my-2">
-        <i class="fas fa-calendar mr-1"></i>
-        <span>2020-11-15</span>
     </div>
     <div class="mr-6 my-2">
         <i class="fas fa-clock mr-1"></i>

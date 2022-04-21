@@ -14,17 +14,7 @@
       <pubDate>Mon, 29 Mar 2021 00:00:00 +0000</pubDate>
       
       <guid>https://winsa24.github.io/blogs/reactstart/</guid>
-      <description>React Start  Vue过了一个非常简单的todo list小例子，再试一下React
-  本机环境：macOS 11.2
- 安装React 控制台
- 新建项目 cd 进项目存储目录
- 然后会出一堆输入或者选项，比如Project name, description&amp;hellip;看着随便填吧，我是一路Yes了
-创建好后，用VS打开
-cd (项目名称) npm start  显示：Your application is running here: http://localhost:3000 ===&amp;gt; 成功
- Ref: https://www.jianshu.com/p/7343578ad5e9 (没装路由(Router)）
- 先研究下Components  直接新建一个.js文件。然后在App.js中import、调用即可
- import React from &#39;react&#39; class Test extends React.Component { render() { return ( &amp;lt;h1&amp;gt;weixiang&amp;lt;/h1&amp;gt; ) } } export default Test;  Todo List  列举Task
- &amp;lt;ul&amp;gt; &amp;lt;li v-for=&amp;quot;item in items&amp;quot;&amp;gt; {{item.label}} &amp;lt;/li&amp;gt; &amp;lt;/ul&amp;gt;  报错：</description>
+      <description>React Start Vue过了一个非常简单的todo list小例子，再试一下React 本机环境：macOS 11.2 安装React 控制台 新建项目 cd 进项目存储目录 然后会出一堆输</description>
     </item>
     
   </channel>

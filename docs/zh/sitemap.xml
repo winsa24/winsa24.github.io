@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://winsa24.github.io/zh/travel/france/</loc>
+    <lastmod>2020-01-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://winsa24.github.io/zh/travel/</loc>
+    <lastmod>2020-01-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://winsa24.github.io/zh/</loc>
+    <lastmod>2020-01-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://winsa24.github.io/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://winsa24.github.io/zh/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://winsa24.github.io/zh/travel/china/</loc>
+    <lastmod>1998-05-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://winsa24.github.io/zh/authors/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://winsa24.github.io/authors/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://winsa24.github.io/zh/authors/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://winsa24.github.io/zh/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://winsa24.github.io/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://winsa24.github.io/zh/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://winsa24.github.io/zh/series/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://winsa24.github.io/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://winsa24.github.io/zh/series/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://winsa24.github.io/zh/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://winsa24.github.io/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://winsa24.github.io/zh/tags/"
+                />
+  </url>
+  
+</urlset>

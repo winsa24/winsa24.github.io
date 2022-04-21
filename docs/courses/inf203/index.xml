@@ -24,8 +24,7 @@
       <pubDate>Sun, 11 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>https://winsa24.github.io/courses/inf203/serverlab/</guid>
-      <description>Lab: Server Question 1: Using only the http module, in a file called server.js, write a JavaScript program that implements a web server on port 8000. The server shall return an HTML string confirming that the server works when you access the root of the server, that is, “http://localhost:8000/”.
-var http = require(&amp;quot;http&amp;quot;); http.createServer(function(req, res){ if(req.url == &amp;quot;/&amp;quot;){ res.writeHead(200,{ &amp;quot;content-type&amp;quot;:&amp;quot;text/html&amp;quot; }); res.write(&amp;quot;hello world123&amp;quot;); res.end(); } }).listen(process.argv[2])  Type &amp;laquo; node server.js 8000 &amp;raquo; in the console.</description>
+      <description>Lab: Server Question 1: Using only the http module, in a file called server.js, write a JavaScript program that implements a web server on port 8000. The server shall return an HTML string confirming that the server works when you access the root of the server, that is, “http://localhost:8000/”. var http</description>
     </item>
     
     <item>
@@ -34,8 +33,7 @@ var http = require(&amp;quot;http&amp;quot;); http.createServer(function(req, re
       <pubDate>Sun, 11 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>https://winsa24.github.io/courses/inf203/webapplab/</guid>
-      <description>Lab: Web Application Questions 1 to 5:  Client-side: create a button bar with “show txt”, “add element”, “remove element”, “clear” and ”restore”. The actions of these buttons are:
-  show txt: shows the text of the current JSON add element: adds in the current JSON an element whose information is a number (value), a text (title) and a color in CSS format (color name or hex) (color). The new element is at the end of the list.</description>
+      <description>Lab: Web Application Questions 1 to 5: Client-side: create a button bar with “show txt”, “add element”, “remove element”, “clear” and ”restore”. The actions of these buttons</description>
     </item>
     
   </channel>

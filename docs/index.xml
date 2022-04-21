@@ -28,8 +28,7 @@ Motivation The goal of this project is to explore the impact of VR on people&amp
       <pubDate>Sun, 11 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>https://winsa24.github.io/courses/igr203/gesture/</guid>
-      <description>To design a gestural interfaces Creating a gesture set and defining a gesture-command mapping Laban feature Laban Movement Analysis (LMA)
- The LMA system provides models for the interpretation of movement, its function and its expression through 4 components: − Body (what) − Effort (how) − Space (where) − Shape (relation with the environment) Effort has 4 Factors thought as a continuum with 2 opposite ends: − Weight : strong, light − Time : quick, substained − Space : flexible, direct − Flow : bound , free</description>
+      <description>To design a gestural interfaces Creating a gesture set and defining a gesture-command mapping Laban feature Laban Movement Analysis (LMA) The LMA system provides models for the interpretation of movement, its function and its expression through 4 components: − Body (what) − Effort (how) − Space (where) − Shape (relation with the environment) Effort has 4 Factors thought as a continuum with 2 opposite ends: − Weight : strong, light − Time : quick, substained</description>
     </item>
     
     <item>
@@ -48,8 +47,7 @@ Motivation The goal of this project is to explore the impact of VR on people&amp
       <pubDate>Sun, 11 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>https://winsa24.github.io/courses/igr203/perception/</guid>
-      <description>Perception / Action Estimate interaction time : Fitt&amp;rsquo;s law : Pointing time relies on D/W ( Distance to target / Width of target)  Solutions:
-  Reduce D : Popup menus / Attract applications or target Increase W : The Mac bar (border is infinite) / Marking menus (rely on angle) Mouse gain : mouse moving speed Semantic pointing : Common actions easy to reach while dangerous hard Avoid Pointing : Hotkeys / Gesture  Hick law : Selecting time relies on n (number of the options) Colors Color models: RGB : Additive model Light emission (screens)</description>
+      <description>Perception / Action Estimate interaction time : Fitt&amp;rsquo;s law : Pointing time relies on D/W ( Distance to target / Width of target) Solutions: Reduce D : Popup menus / Attract applications or target Increase W : The Mac bar (border is infinite) / Marking menus (rely on angle) Mouse gain : mouse moving speed Semantic pointing : Common actions easy to reach while dangerous hard Avoid Pointing : Hotkeys / Gesture Hick law :</description>
     </item>
     
     <item>
@@ -69,8 +67,7 @@ Motivation The goal of this project is to explore the impact of VR on people&amp
       <pubDate>Sun, 11 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>https://winsa24.github.io/courses/inf203/serverlab/</guid>
-      <description>Lab: Server Question 1: Using only the http module, in a file called server.js, write a JavaScript program that implements a web server on port 8000. The server shall return an HTML string confirming that the server works when you access the root of the server, that is, “http://localhost:8000/”.
-var http = require(&amp;quot;http&amp;quot;); http.createServer(function(req, res){ if(req.url == &amp;quot;/&amp;quot;){ res.writeHead(200,{ &amp;quot;content-type&amp;quot;:&amp;quot;text/html&amp;quot; }); res.write(&amp;quot;hello world123&amp;quot;); res.end(); } }).listen(process.argv[2])  Type &amp;laquo; node server.js 8000 &amp;raquo; in the console.</description>
+      <description>Lab: Server Question 1: Using only the http module, in a file called server.js, write a JavaScript program that implements a web server on port 8000. The server shall return an HTML string confirming that the server works when you access the root of the server, that is, “http://localhost:8000/”. var http</description>
     </item>
     
     <item>
@@ -90,8 +87,7 @@ Prototype  Methods: • Storyboards — good for user flow • Paper prototypes 
       <pubDate>Sun, 11 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>https://winsa24.github.io/courses/inf203/webapplab/</guid>
-      <description>Lab: Web Application Questions 1 to 5:  Client-side: create a button bar with “show txt”, “add element”, “remove element”, “clear” and ”restore”. The actions of these buttons are:
-  show txt: shows the text of the current JSON add element: adds in the current JSON an element whose information is a number (value), a text (title) and a color in CSS format (color name or hex) (color). The new element is at the end of the list.</description>
+      <description>Lab: Web Application Questions 1 to 5: Client-side: create a button bar with “show txt”, “add element”, “remove element”, “clear” and ”restore”. The actions of these buttons</description>
     </item>
     
     <item>
@@ -100,17 +96,7 @@ Prototype  Methods: • Storyboards — good for user flow • Paper prototypes 
       <pubDate>Mon, 29 Mar 2021 00:00:00 +0000</pubDate>
       
       <guid>https://winsa24.github.io/blogs/reactstart/</guid>
-      <description>React Start  Vue过了一个非常简单的todo list小例子，再试一下React
-  本机环境：macOS 11.2
- 安装React 控制台
- 新建项目 cd 进项目存储目录
- 然后会出一堆输入或者选项，比如Project name, description&amp;hellip;看着随便填吧，我是一路Yes了
-创建好后，用VS打开
-cd (项目名称) npm start  显示：Your application is running here: http://localhost:3000 ===&amp;gt; 成功
- Ref: https://www.jianshu.com/p/7343578ad5e9 (没装路由(Router)）
- 先研究下Components  直接新建一个.js文件。然后在App.js中import、调用即可
- import React from &#39;react&#39; class Test extends React.Component { render() { return ( &amp;lt;h1&amp;gt;weixiang&amp;lt;/h1&amp;gt; ) } } export default Test;  Todo List  列举Task
- &amp;lt;ul&amp;gt; &amp;lt;li v-for=&amp;quot;item in items&amp;quot;&amp;gt; {{item.label}} &amp;lt;/li&amp;gt; &amp;lt;/ul&amp;gt;  报错：</description>
+      <description>React Start Vue过了一个非常简单的todo list小例子，再试一下React 本机环境：macOS 11.2 安装React 控制台 新建项目 cd 进项目存储目录 然后会出一堆输</description>
     </item>
     
     <item>
@@ -119,8 +105,7 @@ cd (项目名称) npm start  显示：Your application is running here: http://l
       <pubDate>Sat, 27 Mar 2021 02:01:58 +0530</pubDate>
       
       <guid>https://winsa24.github.io/blogs/job/</guid>
-      <description>前端知识点总结 HTML CSS 数据库  索引的创建和原理？
- </description>
+      <description>前端知识点总结 HTML CSS 数据库 索引的创建和原理？</description>
     </item>
     
     <item>
@@ -129,20 +114,7 @@ cd (项目名称) npm start  显示：Your application is running here: http://l
       <pubDate>Fri, 26 Mar 2021 00:00:00 +0000</pubDate>
       
       <guid>https://winsa24.github.io/blogs/vuestart/</guid>
-      <description>Vue Start  要开始认真学习前端了。。听说复盘很重要，随手记录下。。
-  本机环境：macOS 11.2
- 安装Vue 控制台
- 报错&amp;ndash;&amp;gt;
-Error: EACCES: permission denied, access &#39;/usr/local/lib/node_modules&#39;  解决&amp;ndash;&amp;gt;
-sudo chown -R &amp;lt;username&amp;gt;: /usr/local/lib/node_modules  (username需替换，查询控制台输入id -un)
-新建项目 cd 进项目存储目录
-Vue init webpack &amp;lt;my-project&amp;gt;(项目名称)  然后会出一堆输入或者选项，比如Project name, description&amp;hellip;看着随便填吧，我是一路Yes了
-创建好后
-cd (项目名称) npm run dev  显示：Your application is running here: http://localhost:8080 ===&amp;gt; 成功
- Ref: https://www.jianshu.com/p/58920175e93d
- TodoList  列举Task
- &amp;lt;ul&amp;gt; &amp;lt;li v-for=&amp;quot;item in items&amp;quot;&amp;gt; {{item.label}} &amp;lt;/li&amp;gt; &amp;lt;/ul&amp;gt;  报错：
-[vue/require-v-for-key] Elements in iteration expect to have &#39;v-bind:key&#39; directives.</description>
+      <description>Vue Start 要开始认真学习前端了。。听说复盘很重要，随手记录下。。 本机环境：macOS 11.2 安装Vue 控制台 报错&amp;ndash;&amp;gt; Error: EACCES: permission denied, access &#39;/usr/local/lib/node_modules&#39; 解决&amp;ndash</description>
     </item>
     
     <item>
@@ -307,10 +279,7 @@ Local test - hugo server -D  See http://localhost:1313/ in the browser.</descrip
       <pubDate>Thu, 26 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>https://winsa24.github.io/courses/igd301/l2/</guid>
-      <description>Presence VS Immersive → Presence is about PERCEPTION
-→ Immersion is about SENSATION
-Immersion can produce a sensation of Presence
-Vergence-Accomodation Conflict (Click to check the video)  Some ideas&amp;hellip;  From VR fly simulation I can create a VR history tour? Ex. Based on 清明上河图?</description>
+      <description>Presence VS Immersive → Presence is about PERCEPTION → Immersion is about SENSATION Immersion can produce a sensation of Presence Vergence-Accomodation Conflict (Click to check the video) Some ideas&amp;hellip; From VR fly simulation I can create a VR history tour? Ex. Based on 清明上河图?</description>
     </item>
     
     <item>
