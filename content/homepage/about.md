@@ -4,7 +4,7 @@ weight = 1
 draft = false
 
 role = "Master Student"
-bio = "1st year master student major in Interaction, Graphic and Design (M1-IGD)."
+bio = "2nd year master student major in Interaction, Graphic and Design (M1-IGD)."
 avatar = "images/about.jpeg"
 
 [organization]
@@ -54,9 +54,9 @@ avatar = "images/about.jpeg"
 
 ### EDUCATION
 
-- On going: MSc Computer Science (Interaction, Graphic and Design) at [Institut Polytechnique de Paris (IP Paris)](https://www.ip-paris.fr/). (Expected 2020-2022)  
+- On going: Master of Computer Science (Interaction, Graphic and Design) at [Institut Polytechnique de Paris (IP Paris)](https://www.ip-paris.fr/). (Expected 2020-2022)  
 - Exchange at [EFREI Paris](https://www.efrei.fr/) (2020)  
-- BSc Computer Science from [Beijing University of Technology (BJUT)](http://english.bjut.edu.cn/). (2016-2020)
+- Bachelor of Computer Science at [Beijing University of Technology (BJUT)](http://english.bjut.edu.cn/). (2016-2020)
 
 
 ### EXTRACURRICULAR ACTIVITIES
@@ -68,7 +68,8 @@ Introduced Chinese culture and helped the teachers to organize activities and co
 
 ### RESEARCH INTERESTS
 
-- Game Develop
+- Data visualization
+- Web develop
 - VR & AR Develop
 - Software Develop
 
